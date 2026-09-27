@@ -1,0 +1,7 @@
+{
+  "d11.tabfact_entailed": {
+    "template": "Is the statement entailed by the table?",
+    "state_kind": "a Wikipedia table rendered as a markdown pipe table (a 'Table Title:' line, then a header row and data rows), followed by a 'Statement' block holding one published TabFact claim about that table, written in TabFact's lemmatised English (e.g. 'haroldo be mention as a brazil scorer for 2 different game')",
+    "answer_meaning": "yes if the statement is ENTAILED by the table (true given only the table's cells, possibly after counting, comparing, ranking, summing or averaging across rows); no if it is REFUTED by the table. Every TabFact statement is one or the other -- there is no 'not enough information' case -- so no means 'the table shows it is false', not 'the table does not mention it'. Asks about the one statement shown, not about any other claim, and about the table as given, not about the real world"
+  }
+}

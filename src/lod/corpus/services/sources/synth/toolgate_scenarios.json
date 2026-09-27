@@ -1,0 +1,719 @@
+{
+ "stats": {
+  "asked": 128,
+  "returned": 128,
+  "dropped": 4,
+  "failed": 0,
+  "kept": 124
+ },
+ "scenarios": {
+  "filesystem": [
+   {
+    "system": "Lattice File Works",
+    "task": "Audit the shared project folders for duplicate documents.",
+    "note": "Priya is on call this week while the metrics dashboard keeps flapping."
+   },
+   {
+    "system": "Harbor Cache Depot",
+    "task": "Tidy the release notes collection in the team area.",
+    "note": "Last week the billing service shipped its summer update."
+   },
+   {
+    "system": "Quartz Ledger Store",
+    "task": "List the largest media files in the design share.",
+    "note": "Marcus covers the pager until Friday afternoon."
+   },
+   {
+    "system": "Meadow Archive Node",
+    "task": "Merge two directory trees for the research group.",
+    "note": "The nightly sync dashboard is noisy again."
+   },
+   {
+    "system": "Copper Kite Vault",
+    "task": "Find orphaned configuration files across the build hosts.",
+    "note": "The new search index rolled out on Tuesday."
+   },
+   {
+    "system": "Pinecone Mirror Grid",
+    "task": "Reorganize the customer uploads by month.",
+    "note": "The office Wi-Fi is dropping packets near the lab."
+   },
+   {
+    "system": "Umber Object Shelf",
+    "task": "Check the naming consistency of report files.",
+    "note": "A vendor outage made the status page red for an hour."
+   },
+   {
+    "system": "Tidal Namespace Service",
+    "task": "Move completed job outputs into the central collection.",
+    "note": "The support queue is quieter after the holiday."
+   },
+   {
+    "system": "Quartzbrook Ledger Store",
+    "task": "Tidy the shared research directory so monthly reports are easier to find.",
+    "note": "The overnight build finished early, but the storage dashboard is noisy again."
+   },
+   {
+    "system": "Pinewood Media Vault",
+    "task": "Move older camera footage into a clearly labeled folder for the editorial team.",
+    "note": "Ravi is on call this week and the coffee machine is broken."
+   },
+   {
+    "system": "Cloverpatch Code Cache",
+    "task": "Collect stray build artifacts from developer home directories into one place.",
+    "note": "The quarterly planning meeting ran long and nobody updated the wiki."
+   },
+   {
+    "system": "Driftwood Dataset Hub",
+    "task": "Rename the sample datasets to match the new cataloging scheme.",
+    "note": "A new analytics dashboard shipped yesterday and the alert channel is quiet."
+   },
+   {
+    "system": "Fernwood Log Repository",
+    "task": "Split the giant application log into smaller daily files for the support team.",
+    "note": "The on-call engineer is swapping shifts with someone from networking."
+   },
+   {
+    "system": "Filbert Config Library",
+    "task": "Gather duplicate configuration files from various service folders into a single collection.",
+    "note": "The printer on the third floor jammed again during the morning stand-up."
+   },
+   {
+    "system": "Gravel Archive Index",
+    "task": "Update the archive index so recent project files appear in search results.",
+    "note": "Marta is covering the on-call rotation while the monitoring board flickers."
+   },
+   {
+    "system": "Haven Asset Shelf",
+    "task": "Sort downloaded design assets by project name and remove empty folders.",
+    "note": "The weekly release train left on time and the incident channel is calm."
+   }
+  ],
+  "vcs": [
+   {
+    "system": "Aurora Forge",
+    "task": "Reconcile the local history with the team repository before the quarterly release.",
+    "note": "Priya is on call this week; the metrics dashboard has been noisy since Tuesday."
+   },
+   {
+    "system": "Lattice Grove",
+    "task": "Get the documentation updates onto the shared code host for review.",
+    "note": "The billing pipeline shipped a minor update last Thursday."
+   },
+   {
+    "system": "Nimbus Relay",
+    "task": "Tidy the sequence of changes in the working tree.",
+    "note": "The nightly build dashboard is flapping again."
+   },
+   {
+    "system": "Quartz Harbor",
+    "task": "Compare local modifications against the upstream copy and summarize differences.",
+    "note": "Support queue is quiet after the holiday."
+   },
+   {
+    "system": "Cinder Loop",
+    "task": "Investigate unexpected file changes that appeared after the latest synchronization.",
+    "note": "A new hire starts on the platform team Monday."
+   },
+   {
+    "system": "Verdant Stack",
+    "task": "Integrate the long-running experimental line into the main development line.",
+    "note": "The office coffee machine is broken again."
+   },
+   {
+    "system": "Onyx Meridian",
+    "task": "Audit the remote references and remove obsolete entries.",
+    "note": "The incident channel is unusually quiet today."
+   },
+   {
+    "system": "Pine Circuit",
+    "task": "Align the local copy with the canonical repository after the migration.",
+    "note": "Last week's release went out two hours late."
+   },
+   {
+    "system": "Nebula Forge",
+    "task": "Combine the weekend contributions into the main project line.",
+    "note": "The on-call rotation moved to the platform team this morning."
+   },
+   {
+    "system": "Quill Creek Docs",
+    "task": "Bring the documentation updates from the writers into the shared repository.",
+    "note": "A new search feature shipped last Thursday to all users."
+   },
+   {
+    "system": "Ironwood Atlas",
+    "task": "Synchronize the mapping data changes from the field team.",
+    "note": "The build dashboard is noisy with flaky test warnings."
+   },
+   {
+    "system": "Pebble Stack Mobile",
+    "task": "Gather the latest mobile interface tweaks from the design branch.",
+    "note": "The on-call engineer is handling a support ticket backlog."
+   },
+   {
+    "system": "Lumen Grove Firmware",
+    "task": "Pull together the sensor calibration patches from the hardware group.",
+    "note": "Last week's firmware update added a new power saving mode."
+   },
+   {
+    "system": "Cinder Peak Analytics",
+    "task": "Integrate the new data pipeline scripts from the research team.",
+    "note": "The analytics dashboard shows a spike in query latency."
+   },
+   {
+    "system": "Mossy Ledger Finance",
+    "task": "Merge the quarterly report templates into the central repository.",
+    "note": "The on-call person is training a new team member today."
+   },
+   {
+    "system": "Violet Circuit Games",
+    "task": "Combine the level design assets from the art team.",
+    "note": "A new character skin shipped last Friday to positive reviews."
+   }
+  ],
+  "package": [
+   {
+    "system": "Harborlight Package Hub",
+    "task": "Refresh the package index across the build fleet before the morning release train.",
+    "note": "The Tuesday on-call is shadowing the platform team during lunch."
+   },
+   {
+    "system": "Aster Repository Node",
+    "task": "Resolve dependency conflicts that appeared after the new compiler landed on workstations.",
+    "note": "The metrics dashboard is noisy near the top of every hour."
+   },
+   {
+    "system": "Cobalt Mirror Service",
+    "task": "Sync the internal package mirror with upstream sources overnight for the design cluster.",
+    "note": "A new hire in operations is learning the ticket queue this week."
+   },
+   {
+    "system": "Quarry Package Index",
+    "task": "Audit installed package versions across the research compute rack.",
+    "note": "The coffee machine on floor three is out again."
+   },
+   {
+    "system": "Ironwood Package Depot",
+    "task": "Publish newly built internal packages for the analytics toolchain.",
+    "note": "The storage dashboard has been blinking amber since Friday."
+   },
+   {
+    "system": "Lumen Fleet Registry",
+    "task": "Clean stale package entries from the fleet inventory records.",
+    "note": "The night shift lead is covering two zones tonight."
+   },
+   {
+    "system": "Driftwood Software Vault",
+    "task": "Track version drift for packages installed on the edge kiosk network.",
+    "note": "Last week's network split shipped without much fanfare."
+   },
+   {
+    "system": "Pinefield Package Relay",
+    "task": "Stage package updates for the rendering farm ahead of the weekend batch.",
+    "note": "The alerting channel is quiet except for a recurring ping test."
+   },
+   {
+    "system": "Quill Package Junction",
+    "task": "Check outdated packages across the graphics workstations before the afternoon design review.",
+    "note": "Marta is on call, and the rendering dashboard has been noisy all morning."
+   },
+   {
+    "system": "Mossy Byte Repository",
+    "task": "Reconcile the package list on the warehouse handheld terminals with the central inventory.",
+    "note": "A new timezone patch shipped last week; the support queue dashboard is quiet."
+   },
+   {
+    "system": "Copper Kettle Depot",
+    "task": "Install the newest monitoring agent package on the database host cluster.",
+    "note": "Devon is on call tonight while the ingest dashboard flickers after the storage switch update."
+   },
+   {
+    "system": "Amber Latch Archive",
+    "task": "Survey installed library versions on the simulation nodes for the physics team.",
+    "note": "The observability dashboard is noisy because a logging service shipped a new parser yesterday."
+   },
+   {
+    "system": "Violet Spool Service",
+    "task": "Upgrade the web server package set on the public documentation hosts.",
+    "note": "Ravi is primary on call; the certificate expiry dashboard has been sending extra alerts."
+   },
+   {
+    "system": "Thistle Node Index",
+    "task": "Gather package changelogs from the mail relay hosts for the weekly report.",
+    "note": "Last week the mobile team shipped a release, and the crash-rate dashboard is noisy."
+   },
+   {
+    "system": "Basalt Crate Hub",
+    "task": "Remove unused development packages from the lab workstations in room four.",
+    "note": "The batch scheduler dashboard is chatty; Kofi is on call through the weekend."
+   },
+   {
+    "system": "Fjord Packet Vault",
+    "task": "Compare package versions on the edge kiosk hosts with the published manifest.",
+    "note": "Nadia is on call, and the checkout latency dashboard has been noisy since the morning sync."
+   }
+  ],
+  "archive": [
+   {
+    "system": "Archive Anvil",
+    "task": "Gather the month's log exports into a single compressed bundle for the analytics group.",
+    "note": "Marta is on call tonight, and the queue dashboard has been twitchy since noon."
+   },
+   {
+    "system": "Bundle Harbor",
+    "task": "Package the firmware image set into one archive for the field support team.",
+    "note": "The morning deploy finished early; the latency dashboard is unusually quiet."
+   },
+   {
+    "system": "Compressed Cairn",
+    "task": "Create a compressed bundle of the simulation outputs from last quarter.",
+    "note": "Devon is covering the pager, and the storage graph has a flat spot."
+   },
+   {
+    "system": "Packrat Depot",
+    "task": "Assemble the documentation snapshots into an archived bundle for the training coordinators.",
+    "note": "The build farm is idle, and the alert dashboard keeps flickering amber."
+   },
+   {
+    "system": "Bale Warehouse",
+    "task": "Combine the sensor readings from three sites into one archived file.",
+    "note": "Ravi is on call, and the ingest dashboard is reporting delayed counts."
+   },
+   {
+    "system": "Crate Meadow",
+    "task": "Wrap the weekly source exports into a compressed package for the research desk.",
+    "note": "The office coffee machine broke, and the error dashboard is quiet today."
+   },
+   {
+    "system": "Parcel Nook",
+    "task": "Collect the legacy config samples into a single archived bundle for the audit team.",
+    "note": "Casey is on call this weekend; the throughput dashboard has a minor spike."
+   },
+   {
+    "system": "Stack Hollow",
+    "task": "Put the image assets from the campaign into one compressed archive.",
+    "note": "The support queue is calm, and the uptime dashboard shows a small dip."
+   },
+   {
+    "system": "Cinder Archive Works",
+    "task": "Gather this quarter's compressed bundles into one collection for the research team.",
+    "note": "Mira is on call tonight; the ingest dashboard has been noisy since lunch."
+   },
+   {
+    "system": "Quarry Bundle Service",
+    "task": "Inventory the tarball shelf and label each bundle by project.",
+    "note": "The new billing page shipped last week; support tickets are trending upward."
+   },
+   {
+    "system": "Mossy Pack Depot",
+    "task": "Consolidate older release archives into yearly themed packages.",
+    "note": "Devon is covering the pager; the storage graph keeps dipping at odd hours."
+   },
+   {
+    "system": "Pine Press Archive",
+    "task": "Extract summary metadata from the bundled log collections for reporting.",
+    "note": "A release train left the station yesterday; the latency board is unusually quiet."
+   },
+   {
+    "system": "Orbit Parcel Registry",
+    "task": "Sort incoming compressed datasets by source project before cataloging them.",
+    "note": "Ravi is on call for the weekend; the error dashboard has a false alarm pattern."
+   },
+   {
+    "system": "Basalt Bundle Store",
+    "task": "Rebuild the archive index for the field recordings from last autumn.",
+    "note": "The mobile app shipped a minor update; the build dashboard remains noisy."
+   },
+   {
+    "system": "Lattice Tarball Hub",
+    "task": "Prepare a handoff collection of recent compressed reports for the analytics group.",
+    "note": "Jo is on call this morning; the batch dashboard sent three pages before dawn."
+   },
+   {
+    "system": "Verdant Pack Repository",
+    "task": "Organize the museum's bundled image sets into decade-based archives.",
+    "note": "The public site shipped its seasonal banner; the traffic dashboard is spiking irregularly."
+   }
+  ],
+  "process": [
+   {
+    "system": "Aurora Batch Runner",
+    "task": "Check why the overnight data processing pipeline is taking longer than usual.",
+    "note": "The on-call rotation just changed; the queue depth dashboard is spiking every hour."
+   },
+   {
+    "system": "Lumen Service Mesh",
+    "task": "Ensure the request routing between microservices is functioning as expected.",
+    "note": "A new version shipped last week; the error rate panel on the main board is flickering."
+   },
+   {
+    "system": "Nimbus Container Host",
+    "task": "Restart the stalled background workers on the compute cluster.",
+    "note": "The platform team is on call; the CPU usage graph has been noisy since the morning."
+   },
+   {
+    "system": "Echo Queue Consumer",
+    "task": "Investigate the growing lag in the message processing queue.",
+    "note": "A deployment finished an hour ago; the consumer lag dashboard is showing a flat line."
+   },
+   {
+    "system": "Pulse Daemon Manager",
+    "task": "Check the health of the long-running synchronization daemon.",
+    "note": "The night shift operator noted a flickering alert light on the server rack."
+   },
+   {
+    "system": "Cedar Job Scheduler",
+    "task": "Verify that the nightly report generation finished without hanging.",
+    "note": "The analytics team shipped a new feature yesterday; the job timeline view is cluttered."
+   },
+   {
+    "system": "Violet Log Aggregator",
+    "task": "Trace why log ingestion from the edge devices has slowed down.",
+    "note": "The on-call engineer is remote today; the ingestion rate dashboard is jumpy."
+   },
+   {
+    "system": "Orion Service Supervisor",
+    "task": "Monitor the web service for unexpected process exits.",
+    "note": "A new version rolled out last week; the uptime chart has been twitchy."
+   },
+   {
+    "system": "Harborlight Relay",
+    "task": "Bring the stalled event relay service back to steady operation.",
+    "note": "Priya is on call tonight and the queue depth dashboard is noisy."
+   },
+   {
+    "system": "Cobalt Batch Runner",
+    "task": "Restart the nightly settlement job that has not finished since yesterday.",
+    "note": "The platform team shipped a new audit exporter last Thursday."
+   },
+   {
+    "system": "Mistral Scheduler",
+    "task": "Investigate why scheduled report generation is missing its regular windows.",
+    "note": "The alerting dashboard keeps chirping about cold cache misses."
+   },
+   {
+    "system": "Peregrine Workers",
+    "task": "Get the image thumbnail workers processing jobs at their usual pace.",
+    "note": "Mateo swapped the on-call rotation with Lena for this week."
+   },
+   {
+    "system": "Ironwood Gateway",
+    "task": "Look into the long-running connection pool that stopped handing out sessions.",
+    "note": "Last week's release added a new tracing header to every request."
+   },
+   {
+    "system": "Lumen Stream Processor",
+    "task": "Check why the real-time metrics stream is lagging behind the source feed.",
+    "note": "The latency dashboard has been flickering between green and amber."
+   },
+   {
+    "system": "Quartz Daemon Fleet",
+    "task": "Keep the background cleanup daemons running across the compute cluster.",
+    "note": "The storage team is migrating a noisy log bucket this afternoon."
+   },
+   {
+    "system": "Nimbus Container Service",
+    "task": "Stabilize the web frontend containers that keep cycling through restarts.",
+    "note": "On-call handoff is at 6pm and the pager has been quiet."
+   }
+  ],
+  "text": [
+   {
+    "system": "Glintmoor Signal Metrics",
+    "task": "Update the service logging configuration to record request durations and upstream names.",
+    "note": "Priya is on call tonight; the latency dashboard has been noisy since Tuesday's release."
+   },
+   {
+    "system": "Brindlepost Ledger Sync",
+    "task": "Adjust the sync daemon log format so timestamps include milliseconds.",
+    "note": "A new billing export shipped last week and the queue view now refreshes slowly."
+   },
+   {
+    "system": "Quarrystone Fleet Config",
+    "task": "Consolidate duplicate entries in the node configuration files for edge collectors.",
+    "note": "The storage dashboard is quiet, though Mara swapped on-call shifts with Dev."
+   },
+   {
+    "system": "Thistledown Route Registry",
+    "task": "Reorganize route definitions in the registry configuration so related entries sit together.",
+    "note": "Sanjay is covering the weekend; the deploy graph had a brief spike yesterday."
+   },
+   {
+    "system": "Ambergate Audit Stream",
+    "task": "Correct malformed log lines in the audit stream with the latest field mapping.",
+    "note": "The alert dashboard for payments is noisy after the quarterly data migration."
+   },
+   {
+    "system": "Cinderloom Cache Layer",
+    "task": "Trim obsolete settings from the cache configuration and annotate remaining values.",
+    "note": "Rowan is on call; the profiling UI shipped a dark theme last Thursday."
+   },
+   {
+    "system": "Duskmere Ingest Pipeline",
+    "task": "Merge the ingest log configuration into a single tidy file.",
+    "note": "The throughput dashboard is noisy because a partner sends bursts every hour."
+   },
+   {
+    "system": "Ivorybrook Config Console",
+    "task": "Refine comments in the application configuration files for the new feature set.",
+    "note": "Nia is on call this week; the error budget chart calmed after Friday's patch."
+   },
+   {
+    "system": "Harborlight Metrics Relay",
+    "task": "Edit log rotation settings and clean up duplicated configuration entries for the metrics relay.",
+    "note": "Priya is covering the pager while the Tuesday release settles."
+   },
+   {
+    "system": "Copperline Auth Gateway",
+    "task": "Adjust authentication log filters and reconcile mismatched configuration keys across the gateway files.",
+    "note": "The latency dashboard has been flickering since the new ingest job landed."
+   },
+   {
+    "system": "Blue Kestrel Billing",
+    "task": "Tidy billing worker logs and update stale configuration values for invoice retries.",
+    "note": "Marco is on call tonight, and the support queue is unusually quiet."
+   },
+   {
+    "system": "Quiet Anvil Scheduler",
+    "task": "Merge duplicate scheduler log entries and correct outdated configuration fields in place.",
+    "note": "The overnight batch took longer than usual, so the morning report is late."
+   },
+   {
+    "system": "Ivory Peak Notifications",
+    "task": "Trim verbose notification logs and refresh template configuration entries for delivery handling.",
+    "note": "The on-call rotation changed yesterday, and nobody has updated the handoff sheet."
+   },
+   {
+    "system": "Rookery Data Sync",
+    "task": "Edit sync error logs and consolidate scattered configuration parameters for the data mover.",
+    "note": "A new analytics tile shipped last week and already draws steady traffic."
+   }
+  ],
+  "sysadmin": [
+   {
+    "system": "Bramble Job Scheduler",
+    "task": "Review the weekly maintenance jobs that run on the edge nodes.",
+    "note": "A new hire joined the platform team and the alerting channel is unusually quiet."
+   },
+   {
+    "system": "Cobalt Power Controller",
+    "task": "Bring the idle render farm machines to a low-power state for the weekend.",
+    "note": "The quarterly report shipped last week and the monitoring dashboard still shows stale data."
+   },
+   {
+    "system": "Dune Attach Service",
+    "task": "Verify that the archival storage shares are reachable from the analysis workstations.",
+    "note": "The on-call engineer is covering two regions and the pager has been silent all night."
+   },
+   {
+    "system": "Ember Wake Orchestrator",
+    "task": "Schedule the early morning startup for the batch processing servers.",
+    "note": "A vendor demo went well yesterday and the load balancer metrics are spiking oddly."
+   },
+   {
+    "system": "Frost Mount Manager",
+    "task": "Check the mount points on the database replicas after the kernel update.",
+    "note": "The security team rotated credentials this morning and the chat bot is offline."
+   },
+   {
+    "system": "Gale Job Runner",
+    "task": "Adjust the nightly report generation jobs to finish before the morning standup.",
+    "note": "The office plants were watered today and the CI pipeline has a flaky test."
+   },
+   {
+    "system": "Harbor Power Grid",
+    "task": "Cycle the lab machines through a restart to pick up the new firmware.",
+    "note": "A team offsite is happening next week and the storage array is reporting high latency."
+   },
+   {
+    "system": "Orbital Ledger Cluster",
+    "task": "Check why the shared storage mount is missing on two application hosts.",
+    "note": "Priya is on call this week while the billing dashboard keeps flapping."
+   },
+   {
+    "system": "Cinder Patch Queue",
+    "task": "Review the overnight batch schedule and adjust the timing for the reporting sweep.",
+    "note": "The new inventory service shipped last Thursday and support tickets are quiet."
+   },
+   {
+    "system": "Harbor Light Nodes",
+    "task": "Bring the idle compute rack back to a powered state after the maintenance window.",
+    "note": "Marcus from network engineering is covering on-call until Friday afternoon."
+   },
+   {
+    "system": "Ironwood Mount Registry",
+    "task": "Map which file systems are attached to the analytics cluster today.",
+    "note": "A vendor audit is scheduled for next month and nobody wants it."
+   },
+   {
+    "system": "Falcon Ridge Power Board",
+    "task": "Set the lab workstations to wake at a fixed hour each weekday.",
+    "note": "The on-call rotation changed and Sam is now primary for the weekend."
+   },
+   {
+    "system": "Copper Kettle Cron",
+    "task": "Tidy the list of repeating system tasks that have accumulated over the quarter.",
+    "note": "The storage dashboard is showing a spike every hour around ten past."
+   },
+   {
+    "system": "Blue Harbor Fleet",
+    "task": "Check the power draw on the edge devices after their recent relocation.",
+    "note": "Lena shipped the new alerting rules and the pager has been calm."
+   }
+  ],
+  "http": [
+   {
+    "system": "Parcel Beacon API",
+    "task": "Collect current shipment milestones for the regional partner summary.",
+    "note": "Priya is on call; the latency dashboard has been noisy since Tuesday."
+   },
+   {
+    "system": "Ledger Finch Service",
+    "task": "Pull recent invoice totals for the quarterly finance review.",
+    "note": "The nightly batch finished early, and the coffee machine is broken again."
+   },
+   {
+    "system": "Skylark Metrics Gateway",
+    "task": "Gather service health summaries for the platform reliability meeting.",
+    "note": "Marek swapped the on-call pager; the error budget chart looks jagged."
+   },
+   {
+    "system": "Quarry Queue Hub",
+    "task": "List pending job counts across the processing regions.",
+    "note": "A new dashboard shipped last week, and it still shows stale labels."
+   },
+   {
+    "system": "Harbor Signals API",
+    "task": "Retrieve tide sensor readings for the coastal research team.",
+    "note": "The Tuesday deploy went out; nobody has claimed the pager since noon."
+   },
+   {
+    "system": "Atlas Tickets Bridge",
+    "task": "Summarize open ticket volumes for the support operations sync.",
+    "note": "The support floor is short-staffed, and the queue dashboard is blinking."
+   },
+   {
+    "system": "Nimbus Catalog Service",
+    "task": "Fetch product availability counts for the merchandising weekly update.",
+    "note": "The inventory dashboard is quiet, but the alerts channel keeps buzzing."
+   },
+   {
+    "system": "Orchard Claims API",
+    "task": "Collect claim status changes for the partner reconciliation report.",
+    "note": "Dana is covering on-call while the usual lead is at a conference."
+   },
+   {
+    "system": "Harbor Ledger Service",
+    "task": "Gather today's invoice totals for the finance stand-up summary.",
+    "note": "Maya is on call; the settlement dashboard has been noisy since lunch."
+   },
+   {
+    "system": "Skyline Weather Feed",
+    "task": "Retrieve current wind readings for the coastal pilot briefing.",
+    "note": "A new satellite batch arrived last week; the ingest chart is jumpy."
+   },
+   {
+    "system": "Nimbus Inventory Hub",
+    "task": "List low-stock items for the warehouse planning meeting.",
+    "note": "Devon is on call tonight; the pick-rate dashboard flashes often."
+   },
+   {
+    "system": "Beacon Ticket Bridge",
+    "task": "Summarize open support conversations for the weekly service review.",
+    "note": "The mobile build shipped last Friday; the queue chart spikes each morning."
+   },
+   {
+    "system": "Orchard Payment API",
+    "task": "Collect pending payout amounts for the partner reconciliation sheet.",
+    "note": "Rafa is on call; the payment dashboard is unusually chatty today."
+   },
+   {
+    "system": "Atlas Shipping Rates",
+    "task": "Fetch carrier quote counts for the logistics forecast update.",
+    "note": "A pricing change went out last week; the rate dashboard is noisy."
+   },
+   {
+    "system": "Pixel Media Catalog",
+    "task": "Pull the newest asset metadata for the editorial calendar.",
+    "note": "Sam is on call; the upload dashboard has been blinking all afternoon."
+   },
+   {
+    "system": "Quartz Metrics Relay",
+    "task": "Gather service latency summaries for the platform health digest.",
+    "note": "Two feature flags shipped last week; the alert dashboard is humming."
+   }
+  ],
+  "accounts": [
+   {
+    "system": "Heron Directory Service",
+    "task": "Set up service accounts for the new reporting workers on the shared hosts.",
+    "note": "The design review moved to Thursday and the build dashboard is flickering again."
+   },
+   {
+    "system": "Quill Staff Portal",
+    "task": "Tidy the local user list on the office file server after the team move.",
+    "note": "Two interns started on Monday and the coffee machine is out of order."
+   },
+   {
+    "system": "Marlin Build Farm",
+    "task": "Give the nightly build agents their own group so their files are easy to find.",
+    "note": "The release notes went out late and the chat channel is busy with questions."
+   },
+   {
+    "system": "Sable Lab Cluster",
+    "task": "Close out the accounts of students who finished the summer programme.",
+    "note": "The cluster newsletter shipped yesterday and the queue graphs look unusually flat."
+   },
+   {
+    "system": "Otter Kiosk Fleet",
+    "task": "Sort out the login entries on the lobby kiosks before the open day.",
+    "note": "Facilities repainted the lobby and the badge printer keeps jamming."
+   },
+   {
+    "system": "Juniper Payroll Hosts",
+    "task": "Lock the contractor logins whose engagements ended last Friday.",
+    "note": "Finance moved offices and the phone extensions are still being reassigned."
+   },
+   {
+    "system": "Wren Media Archive",
+    "task": "Create a group for the new digitisation team on the ingest machines.",
+    "note": "A film festival request came in and the scanner room is booked all week."
+   },
+   {
+    "system": "Basalt Edge Nodes",
+    "task": "End the lingering sessions left open by the migration scripts overnight.",
+    "note": "The network team is at an offsite and the status page is showing old data."
+   },
+   {
+    "system": "Coral Research Desk",
+    "task": "Load the batch of new analyst logins sent over by the hiring team.",
+    "note": "The quarterly review deck is due Friday and the projector bulb just failed."
+   },
+   {
+    "system": "Tamarack Mail Relay",
+    "task": "Check which local users still exist on the relay hosts.",
+    "note": "Spam volume dipped this week and the relay graphs look calmer than usual."
+   },
+   {
+    "system": "Pike Ticket Desk",
+    "task": "Set expiry on the temporary helpdesk logins made for the product launch.",
+    "note": "The launch party is tonight and the support queue is quieter than expected."
+   },
+   {
+    "system": "Aspen Training Rooms",
+    "task": "Clear out the classroom group left over from last term's course.",
+    "note": "The new course catalogue was printed and the room booking system is slow."
+   },
+   {
+    "system": "Garnet Render Nodes",
+    "task": "Tidy the order of entries in the account files on the render hosts.",
+    "note": "A new artist joined the lighting team and the render queue is long today."
+   },
+   {
+    "system": "Lynx Field Laptops",
+    "task": "Look up the local accounts on the returned field laptops.",
+    "note": "The survey crew is back from the coast and the van needs new tyres."
+   }
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+  "d10.spdx_licence": {
+    "template": "Which licence is this text from?",
+    "state_kind": "a window of about 130 consecutive words cut from the full text of one open-source licence on the SPDX licence list (usually from past its opening title block), with the licence's own name, SPDX identifier, identifier abbreviations, brand words, version number and any URL naming it replaced by [REDACTED]",
+    "answer_meaning": "the SPDX identifier of the one licence whose published text this window was cut from, among 60 OSI-approved licences whose texts are pairwise distinct; the window is guaranteed not to occur verbatim in any other listed licence. Asks which licence's TEXT this is, not which licence a project using it has chosen or which licence the text mentions in passing"
+  },
+  "d10.unfair_tos_type": {
+    "template": "Annotators flagged this sentence from an online service's terms of service as potentially unfair to consumers under EU consumer law. Which type of unfair term is it?",
+    "state_kind": "one sentence from a consumer terms-of-service document of an online platform, lower-cased and tokenised as the UNFAIR-ToS corpus ships it (spaces around punctuation)",
+    "answer_meaning": "the single UNFAIR-ToS category (Lippi et al. 2019) that legal annotators assigned to this sentence as a potentially or clearly unfair term: limitation of liability, unilateral termination, unilateral change, content removal, contract by using, choice of law, jurisdiction or arbitration. The sentence is known to be flagged with exactly one category; the question asks which kind of unfairness, not whether the sentence is unfair and not merely what topic it mentions"
+  }
+}

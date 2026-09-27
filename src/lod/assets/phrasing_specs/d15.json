@@ -1,0 +1,7 @@
+{
+  "d15.sensor_action": {
+    "template": "Which action should the controller take on this loop now?",
+    "state_kind": "a time series of readings from one control loop (device, site, measured quantity and unit, sample interval, 8-15 timestamped readings, and any alarm raised/cleared events), rendered as a JSON reading object, a prose operator log, or a series table",
+    "answer_meaning": "the single action the controller should take at the moment of the LATEST reading, chosen by applying the five numbered option rules in order and taking the first that matches; the band, critical limit, horizon and run length are stated per example and must be read from the instructions/rules, not assumed. Asks for one action now, not a forecast, not a count, not whether any reading was ever out of band"
+  }
+}

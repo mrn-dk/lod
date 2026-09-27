@@ -1,0 +1,105 @@
+{
+  "d05.gefs_share": {
+    "template": "Will this location see at least {mm} of precipitation in the {hours} hours ending {day} after the forecast was issued?",
+    "state_kind": "one GEFS v12 reforecast gridpoint as a JSON record: issue time, lead in days, latitude/longitude, the accumulation window ('6 h ending <valid time>'), and the five ensemble members' precipitation totals in mm for that window",
+    "answer_meaning": "options depend on {mm}: at '1 mm' no / yes; at '0.2 mm' below_0p2mm / at_least_0p2mm; at '5 mm' below_5mm / at_least_5mm; the first option means the location stays below {mm} in the window, the second that it reaches at least {mm}, and the answer is the probability on the second option. {mm} is the threshold with its unit, one of '0.2 mm', '1 mm', '5 mm'; {hours} is always '6' (the accumulation window length); {day} is the lead time such as '1 day' or '5 days' (1, 3, 5, 7 or 10) and belongs with 'after the forecast was issued': the window is the 6 hours ENDING that long after issue, so '{hours} hours ending {day} after the forecast was issued' must stay together (never 'the 6 hours ending 5 days'). Target: a PROBABILITY: the SHARE of the five ensemble member values that are AT LEAST {mm} (count of members >= threshold, divided by five), for the 6-hour window only, not a daily total. Not 'does any member reach it', not 'do all members reach it', not the realised outcome",
+    "slot_examples": [
+      {
+        "mm": "0.2 mm",
+        "hours": "6",
+        "day": "1 day"
+      },
+      {
+        "mm": "1 mm",
+        "hours": "6",
+        "day": "5 days"
+      },
+      {
+        "mm": "5 mm",
+        "hours": "6",
+        "day": "10 days"
+      }
+    ],
+    "filled_example": "Will this location see at least 0.2 mm of precipitation in the 6 hours ending 1 day after the forecast was issued?"
+  },
+  "d05.gefs_any": {
+    "template": "Does at least one ensemble member forecast at least {mm} of precipitation at this location in the {hours} hours ending {day} after the forecast was issued?",
+    "state_kind": "one GEFS v12 reforecast gridpoint as a JSON record: issue time, lead in days, latitude/longitude, the accumulation window ('6 h ending <valid time>'), and the five ensemble members' precipitation totals in mm for that window",
+    "answer_meaning": "options: no_member_reaches_it / at_least_one_member_reaches_it; at_least_one_member_reaches_it means at least one of the five ensemble members forecasts {mm} or more, no_member_reaches_it means every member is below it. The generator only asks this at '5 mm'. {mm} is the threshold with its unit, one of '0.2 mm', '1 mm', '5 mm'; {hours} is always '6' (the accumulation window length); {day} is the lead time such as '1 day' or '5 days' (1, 3, 5, 7 or 10) and belongs with 'after the forecast was issued': the window is the 6 hours ENDING that long after issue, so '{hours} hours ending {day} after the forecast was issued' must stay together (never 'the 6 hours ending 5 days'). Target: deterministic yes/no: yes if AT LEAST ONE of the five member values is >= {mm}, no if every member is below it. Not a probability, not a majority, not all members",
+    "slot_examples": [
+      {
+        "mm": "5 mm",
+        "hours": "6",
+        "day": "3 days"
+      },
+      {
+        "mm": "5 mm",
+        "hours": "6",
+        "day": "1 day"
+      },
+      {
+        "mm": "5 mm",
+        "hours": "6",
+        "day": "10 days"
+      }
+    ],
+    "filled_example": "Does at least one ensemble member forecast at least 5 mm of precipitation at this location in the 6 hours ending 3 days after the forecast was issued?"
+  },
+  "d05.gefs_all": {
+    "template": "Do all five ensemble members forecast at least {mm} of precipitation at this location in the {hours} hours ending {day} after the forecast was issued?",
+    "state_kind": "one GEFS v12 reforecast gridpoint as a JSON record: issue time, lead in days, latitude/longitude, the accumulation window ('6 h ending <valid time>'), and the five ensemble members' precipitation totals in mm for that window",
+    "answer_meaning": "options: a no-side / yes-side pair (the generator currently builds no 'all' question, see gefs.variants(), so no literal option strings are emitted; a no / yes pair is the natural reading); yes means all five ensemble members forecast {mm} or more, no means at least one member is below it. {mm} is the threshold with its unit, one of '0.2 mm', '1 mm', '5 mm'; {hours} is always '6' (the accumulation window length); {day} is the lead time such as '1 day' or '5 days' (1, 3, 5, 7 or 10) and belongs with 'after the forecast was issued': the window is the 6 hours ENDING that long after issue, so '{hours} hours ending {day} after the forecast was issued' must stay together (never 'the 6 hours ending 5 days'). Target: deterministic yes/no: yes only if EVERY ONE of the five member values is >= {mm}; a single member below it makes the answer no. Not 'any member', not a share",
+    "slot_examples": [
+      {
+        "mm": "1 mm",
+        "hours": "6",
+        "day": "3 days"
+      },
+      {
+        "mm": "0.2 mm",
+        "hours": "6",
+        "day": "1 day"
+      },
+      {
+        "mm": "5 mm",
+        "hours": "6",
+        "day": "7 days"
+      }
+    ],
+    "filled_example": "Do all five ensemble members forecast at least 1 mm of precipitation at this location in the 6 hours ending 3 days after the forecast was issued?"
+  },
+  "d05.spf_decline": {
+    "template": "Will real GDP decline in {target_quarter}?",
+    "state_kind": "one Survey of Professional Forecasters response as a JSON record: survey quarter, target quarter, quarters ahead, the forecaster's panel id, and the four quarters of real GDP growth (pct, quarter over quarter) in the real-time data vintage the panel had at the survey",
+    "answer_meaning": "options: no / yes; yes means real GDP falls quarter over quarter in {target_quarter}, and the answer is the probability on yes. {target_quarter} is a quarter code 'YYYYQn' such as '2020Q4' (the target quarter of the survey record). Target: a PROBABILITY: the probability THIS forecaster (the panel id in the record) stated in that survey that real GDP falls quarter over quarter in {target_quarter}; the forecaster's own number, not the realised outcome and not the panel average",
+    "slot_examples": [
+      {
+        "target_quarter": "2005Q2"
+      },
+      {
+        "target_quarter": "1977Q4"
+      },
+      {
+        "target_quarter": "2021Q3"
+      }
+    ],
+    "filled_example": "Will real GDP decline in 2005Q2?"
+  },
+  "d05.manifold_resolves": {
+    "template": "Does this {topic} market resolve YES?",
+    "state_kind": "a resolved Manifold Markets binary question: the market's title and its creator's description/resolution criteria as written before trading closed",
+    "answer_meaning": "options: no / yes; yes means the market resolves YES, and the answer is the probability on yes. {topic} is the market's Manifold group slug with hyphens turned into spaces, lower case and sometimes odd as English: 'baseball', 'ai', 'general', 'us politics', 'politics default', 'technology default', 'destinygg', or 'prediction' for markets from small groups; it labels the kind of market and says nothing about the answer. Target: a PROBABILITY: the market's own pool price on YES at the moment trading closed (before the outcome was known). Not the resolution, not a yes/no judgement of what happened",
+    "slot_examples": [
+      {
+        "topic": "baseball"
+      },
+      {
+        "topic": "us politics"
+      },
+      {
+        "topic": "technology default"
+      }
+    ],
+    "filled_example": "Does this baseball market resolve YES?"
+  }
+}

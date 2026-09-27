@@ -1,0 +1,52 @@
+{
+  "d03.hatespeech_hatespeech": {
+    "template": "Does this comment contain hate speech?",
+    "state_kind": "one social-media comment (Reddit, Twitter or YouTube) from the Measuring Hate Speech corpus, as plain text; each comment was annotated with respect to the identity group(s) it targets",
+    "answer_meaning": "the share of annotators who answered YES to 'does this comment contain hate speech' (bias-motivated, hostile and malicious language targeted at a person or group because of their actual or perceived innate characteristics); an annotator who answered 'unclear' counts as half. Not whether the comment mentions a group, and not an intensity score"
+  },
+  "d03.hatespeech_sentiment": {
+    "template": "Is the overall sentiment of this comment negative?",
+    "state_kind": "one social-media comment (Reddit, Twitter or YouTube) from the Measuring Hate Speech corpus, as plain text; each comment was annotated with respect to the identity group(s) it targets",
+    "answer_meaning": "the share of annotators who rated the comment's overall sentiment 'somewhat negative' or 'strongly negative'; 'neutral' and either positive rating count as no. Negative in tone, not merely about a negative topic"
+  },
+  "d03.hatespeech_respect": {
+    "template": "Is this comment disrespectful toward the group it targets?",
+    "state_kind": "one social-media comment (Reddit, Twitter or YouTube) from the Measuring Hate Speech corpus, as plain text; each comment was annotated with respect to the identity group(s) it targets",
+    "answer_meaning": "the share of annotators who rated the comment 'disrespectful' or 'strongly disrespectful' toward the group(s) it targets; 'neutral', 'respectful' and 'strongly respectful' count as no. Asks about DISrespect -- yes means disrespectful"
+  },
+  "d03.hatespeech_insult": {
+    "template": "Is this comment insulting toward the group it targets?",
+    "state_kind": "one social-media comment (Reddit, Twitter or YouTube) from the Measuring Hate Speech corpus, as plain text; each comment was annotated with respect to the identity group(s) it targets",
+    "answer_meaning": "the share of annotators who agreed or strongly agreed that the comment is insulting toward the group(s) it targets; 'neither disagree nor agree' counts as half, disagree as no"
+  },
+  "d03.hatespeech_humiliate": {
+    "template": "Is this comment humiliating toward the group it targets?",
+    "state_kind": "one social-media comment (Reddit, Twitter or YouTube) from the Measuring Hate Speech corpus, as plain text; each comment was annotated with respect to the identity group(s) it targets",
+    "answer_meaning": "the share of annotators who agreed or strongly agreed that the comment is humiliating toward the group(s) it targets; 'neither disagree nor agree' counts as half, disagree as no"
+  },
+  "d03.hatespeech_status": {
+    "template": "Does this comment state that the group it targets is inferior?",
+    "state_kind": "one social-media comment (Reddit, Twitter or YouTube) from the Measuring Hate Speech corpus, as plain text; each comment was annotated with respect to the identity group(s) it targets",
+    "answer_meaning": "the share of annotators who said the comment states that the targeted group(s) are 'inferior' or 'strongly inferior'; 'neither superior nor inferior' and either 'superior' rating count as no. Yes only for inferiority, not for superiority or for no status claim"
+  },
+  "d03.hatespeech_dehumanize": {
+    "template": "Does this comment dehumanize the group it targets, for example by comparing its members to animals?",
+    "state_kind": "one social-media comment (Reddit, Twitter or YouTube) from the Measuring Hate Speech corpus, as plain text; each comment was annotated with respect to the identity group(s) it targets",
+    "answer_meaning": "the share of annotators who agreed or strongly agreed that the comment dehumanizes the group(s) it targets (e.g. by comparing them to an animal); 'neither disagree nor agree' counts as half, disagree as no"
+  },
+  "d03.hatespeech_violence": {
+    "template": "Does this comment call for using violence against the group it targets?",
+    "state_kind": "one social-media comment (Reddit, Twitter or YouTube) from the Measuring Hate Speech corpus, as plain text; each comment was annotated with respect to the identity group(s) it targets",
+    "answer_meaning": "the share of annotators who agreed or strongly agreed that the comment calls for using violence against the group(s) it targets; 'neither disagree nor agree' counts as half, disagree as no. A call for violence, not a mere mention or description of violence"
+  },
+  "d03.hatespeech_genocide": {
+    "template": "Does this comment call for the deliberate killing of a large number of people from the group it targets?",
+    "state_kind": "one social-media comment (Reddit, Twitter or YouTube) from the Measuring Hate Speech corpus, as plain text; each comment was annotated with respect to the identity group(s) it targets",
+    "answer_meaning": "the share of annotators who agreed or strongly agreed that the comment calls for the deliberate killing of a large group of people from the group(s) it targets; 'neither disagree nor agree' counts as half, disagree as no"
+  },
+  "d03.hatespeech_attack_defend": {
+    "template": "Does this comment attack the group it targets, rather than defend it or do neither?",
+    "state_kind": "one social-media comment (Reddit, Twitter or YouTube) from the Measuring Hate Speech corpus, as plain text; each comment was annotated with respect to the identity group(s) it targets",
+    "answer_meaning": "the share of annotators who rated the comment 'attacking' or 'strongly attacking' the group(s) it targets; 'neither defending nor attacking', 'defending' and 'strongly defending' count as no. One-sided: yes means attacking, NOT 'attacking or defending'"
+  }
+}

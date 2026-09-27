@@ -1,0 +1,32 @@
+{
+  "d18.semver": {
+    "template": "Which semantic-versioning level does this diff call for?",
+    "state_kind": "one commit to a small public library module (python, typescript or go): a commit line, an area-only subject that never states impact, and the unified diff (6 lines of context) of one or two typed edits",
+    "answer_meaning": "the release level the WHOLE commit requires under the option criteria, taken as the worst of its edits: major if any edit makes an existing correct call stop compiling/resolving or return something different for the same call (removed/renamed public symbol, incompatible return type, required or removed parameter, removed/renamed record attribute or enum member, a default changed, validation tightened OR loosened, a miss now raised instead of returned); minor if the worst edit only adds public surface (new function, deprecation shim that keeps the old name working, optional parameter, wider parameter type, optional record attribute, new enum member); patch if every edit is invisible to callers (private helper, logging, local rename, doc clarification). Not the level of the last edit and not what the subject line suggests"
+  },
+  "d18.breaking": {
+    "template": "Does this diff break any existing correct caller of the module?",
+    "state_kind": "one commit to a small public library module: a commit line, an area-only subject, and the unified diff of one or two typed edits",
+    "answer_meaning": "yes iff at least one call that is correct today either stops compiling/resolving or still runs but returns or does something different after the commit (a moved default, a tightened or loosened check, a miss now raised) -- i.e. the question asks whether something BREAKS; no iff every existing correct call behaves exactly as before. yes means broken. A rewording must keep this polarity (asking whether callers break), never ask whether compatibility is preserved"
+  },
+  "d18.breaking_preserve": {
+    "template": "Does this update leave every existing correct call functioning as it does now?",
+    "state_kind": "one commit to a small public library module: a commit line, an area-only subject, and the unified diff of one or two typed edits",
+    "answer_meaning": "yes iff EVERY call that is correct today keeps compiling/resolving and behaves exactly as before after the commit -- the question asks whether compatibility is PRESERVED, so yes means nothing breaks; no iff at least one existing correct call stops compiling/resolving or returns/does something different (moved default, tightened or loosened check, miss now raised). A rewording must keep this polarity (asking whether everything still works), never ask whether something breaks"
+  },
+  "d18.compat": {
+    "template": "What effect does this diff have on existing callers?",
+    "state_kind": "one commit to a small public library module: a commit line, an area-only subject, and the unified diff of one or two typed edits",
+    "answer_meaning": "the worst effect over the commit's edits on call sites that exist today: callers_must_change if any existing call stops compiling or resolving as written; else same_call_different_behaviour if any existing call compiles untouched but can now return or do something different (moved default, tightened or loosened check, miss now raised); else no_change_needed. About existing call sites, not about new capability"
+  },
+  "d18.bump": {
+    "template": "What is the verdict on the proposed tag's increment, judged against the level this diff requires under semantic versioning?",
+    "state_kind": "one commit to a small public library module (commit line, a 'Proposed release: X.Y.Z -> X'.Y'.Z'' line, an area-only subject, the unified diff of one or two typed edits)",
+    "answer_meaning": "the proposed increment (read from which version component the tag bumps) compared with the level the diff requires (same rule as d18.semver): correct if equal, too_small if the proposal is a smaller increment than required, larger_than_necessary if it is a larger one. About the size of the proposed bump, not whether the version numbers are well-formed"
+  },
+  "d18.risk": {
+    "template": "Which candidate change poses the greatest risk to existing callers?",
+    "state_kind": "three to six independent candidate commits to one library in one language, each introduced by an opaque id line '=== change C-NNNN ===' and holding its own commit line, subject and unified diff",
+    "answer_meaning": "the id of the ONE candidate in the highest risk tier stated in the instructions: a change that makes existing callers fail to compile/resolve outranks one that keeps them compiling but changes what they do, which outranks a purely additive change, which outranks a private-only change; a commit's tier is its worst edit's. Exactly one candidate is in the top tier by construction. The options are the change ids shown in the state"
+  }
+}

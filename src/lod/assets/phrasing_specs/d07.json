@@ -1,0 +1,47 @@
+{
+  "d07.attackVector": {
+    "template": "What is the CVSS v3 Attack Vector of this vulnerability, i.e. the context from which an attacker can exploit it?",
+    "state_kind": "the English description NVD publishes for one CVE (advisory prose: affected product and versions, weakness, how it is reached, what an attacker gains), with any CVSS vector string, CVSS score and vendor severity rating removed",
+    "answer_meaning": "options: PHYSICAL / LOCAL / ADJACENT_NETWORK / NETWORK; NVD's CVSS v3.x Attack Vector (AV) for this CVE: NETWORK = remotely exploitable across a network (OSI layer 3+); ADJACENT_NETWORK = only from the same shared physical/logical network (subnet, Bluetooth); LOCAL = needs local access or a user to run something; PHYSICAL = needs physical touch of the component. Read from NVD's Primary v3 vectorString."
+  },
+  "d07.attackComplexity": {
+    "template": "What is the CVSS v3 Attack Complexity of this vulnerability, i.e. whether exploiting it depends on conditions beyond the attacker's control?",
+    "state_kind": "the English description NVD publishes for one CVE (advisory prose: affected product and versions, weakness, how it is reached, what an attacker gains), with any CVSS vector string, CVSS score and vendor severity rating removed",
+    "answer_meaning": "options: LOW / HIGH; NVD's CVSS v3.x Attack Complexity (AC): LOW = no special conditions, repeatable success; HIGH = success depends on conditions outside the attacker's control (race, MITM, reconnaissance). Task is rebalanced: majority label capped at 2x the minority."
+  },
+  "d07.privilegesRequired": {
+    "template": "What is the CVSS v3 Privileges Required value of this vulnerability, i.e. the level of privileges an attacker must hold before exploiting it?",
+    "state_kind": "the English description NVD publishes for one CVE (advisory prose: affected product and versions, weakness, how it is reached, what an attacker gains), with any CVSS vector string, CVSS score and vendor severity rating removed",
+    "answer_meaning": "options: NONE / LOW / HIGH; NVD's CVSS v3.x Privileges Required (PR) before the attack: NONE = unauthenticated; LOW = ordinary user privileges; HIGH = administrative/significant control. Task is rebalanced: majority label capped at 2x the runner-up label."
+  },
+  "d07.userInteraction": {
+    "template": "What is the CVSS v3 User Interaction value of this vulnerability, i.e. whether a user other than the attacker must take part for an exploit to succeed?",
+    "state_kind": "the English description NVD publishes for one CVE (advisory prose: affected product and versions, weakness, how it is reached, what an attacker gains), with any CVSS vector string, CVSS score and vendor severity rating removed",
+    "answer_meaning": "options: NONE / REQUIRED; the question asks for the metric's value, not a yes/no; NVD's CVSS v3.x User Interaction (UI): NONE = exploitable with no participation by any user; REQUIRED = a user other than the attacker must act (open a file, click a link, visit a page)."
+  },
+  "d07.confidentialityImpact": {
+    "template": "What is the CVSS v3 Confidentiality Impact of this vulnerability, i.e. how much information an attacker can read when it is exploited?",
+    "state_kind": "the English description NVD publishes for one CVE (advisory prose: affected product and versions, weakness, how it is reached, what an attacker gains), with any CVSS vector string, CVSS score and vendor severity rating removed",
+    "answer_meaning": "options: NONE / LOW / HIGH; NVD's CVSS v3.x Confidentiality Impact (C) on the impacted component: NONE = no disclosure; LOW = some disclosure, attacker does not control what; HIGH = total loss / directly serious disclosure."
+  },
+  "d07.integrityImpact": {
+    "template": "What is the CVSS v3 Integrity Impact of this vulnerability, i.e. how much an attacker can modify when it is exploited?",
+    "state_kind": "the English description NVD publishes for one CVE (advisory prose: affected product and versions, weakness, how it is reached, what an attacker gains), with any CVSS vector string, CVSS score and vendor severity rating removed",
+    "answer_meaning": "options: NONE / LOW / HIGH; NVD's CVSS v3.x Integrity Impact (I): NONE = nothing modifiable; LOW = limited modification without serious consequence; HIGH = total loss of integrity / serious modification."
+  },
+  "d07.availabilityImpact": {
+    "template": "What is the CVSS v3 Availability Impact of this vulnerability, i.e. how much it degrades the availability of the affected component when exploited?",
+    "state_kind": "the English description NVD publishes for one CVE (advisory prose: affected product and versions, weakness, how it is reached, what an attacker gains), with any CVSS vector string, CVSS score and vendor severity rating removed",
+    "answer_meaning": "options: NONE / LOW / HIGH; NVD's CVSS v3.x Availability Impact (A): NONE = unaffected; LOW = reduced performance or intermittent interruption; HIGH = total or sustained loss of availability."
+  },
+  "d07.baseSeverity": {
+    "template": "What is the CVSS v3 base severity rating of this vulnerability, i.e. the qualitative band its CVSS v3 base score falls in?",
+    "state_kind": "the English description NVD publishes for one CVE (advisory prose: affected product and versions, weakness, how it is reached, what an attacker gains), with any CVSS vector string, CVSS score and vendor severity rating removed",
+    "answer_meaning": "options: LOW / MEDIUM / HIGH / CRITICAL; NVD's CVSS v3.x qualitative base severity: the band of NVD's v3 base score (LOW 0.1-3.9, MEDIUM 4.0-6.9, HIGH 7.0-8.9, CRITICAL 9.0-10.0). Not a vendor's own severity rating."
+  },
+  "d07.cwe": {
+    "template": "Which CWE weakness class was this vulnerability assigned?",
+    "state_kind": "the English description NVD publishes for one CVE (advisory prose: affected product and versions, weakness, how it is reached, what an attacker gains), with any CVSS vector string, CVSS score and vendor severity rating removed",
+    "answer_meaning": "options: the same fixed list of 50 bare CWE ids for every record, e.g. CWE-79 / CWE-89 / CWE-119 / CWE-20 / CWE-787 / ... (ids only, no weakness names); the first CWE identifier NVD lists in the CVE's weaknesses (placeholders NVD-CWE-Other/noinfo excluded), as one of the 50 most frequent CWE ids in the cached pool; the answer is the weakness class NVD assigned, not the only defensible class."
+  }
+}

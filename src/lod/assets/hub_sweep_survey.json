@@ -1,0 +1,6082 @@
+[
+  {
+    "row": 1,
+    "name": "m-a-p/FineFineWeb",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.0,
+    "error": "Timeout"
+  },
+  {
+    "row": 1,
+    "name": "KakologArchives/KakologArchives",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.4544563293457031,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found KakologArchives.py)"
+  },
+  {
+    "row": 1,
+    "name": "nyu-mll/glue",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 5.549750328063965,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "aps/super_glue",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 5.808619976043701,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "jhu-clsp/ettin-pretraining-data",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 17.142012119293213,
+    "error": "RuntimeError: no loadable config/split (SplitsNotFoundError: The split names could not be parsed from the dataset config.)"
+  },
+  {
+    "row": 1,
+    "name": "google-research-datasets/paws",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 5.362651586532593,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "google/boolq",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.3495588302612305,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "stanfordnlp/imdb",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 5.8828911781311035,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "facebook/anli",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 5.510527610778809,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "ceval/ceval-exam",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 6.608180522918701,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "nyu-mll/blimp",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 5.413910388946533,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "allenai/swag",
+    "ok": true,
+    "n_schemas": 8,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 8
+    },
+    "seconds": 6.208484649658203,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "stanfordnlp/snli",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 6.278235673904419,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "laion/Scientific-Summaries",
+    "ok": true,
+    "n_schemas": 6,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 6
+    },
+    "seconds": 39.819138050079346,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "facebook/belebele",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 4.5395331382751465,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "fancyzhx/ag_news",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 7.607802629470825,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "zai-org/LongBench-v2",
+    "ok": true,
+    "n_schemas": 5,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 5
+    },
+    "seconds": 12.590088129043579,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "RevolutionCrossroads/loc_chronicling_america_1770-1810",
+    "ok": true,
+    "n_schemas": 8,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 8
+    },
+    "seconds": 6.4338696002960205,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "eddmpython/dartlab-data",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.0,
+    "error": "Timeout"
+  },
+  {
+    "row": 1,
+    "name": "tasksource/mmlu",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 100,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 4.96854305267334,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "zai-org/LongBench",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9503316879272461,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found LongBench.py)"
+  },
+  {
+    "row": 1,
+    "name": "cornell-movie-review-data/rotten_tomatoes",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 5.99076509475708,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "m-a-p/FineFineWeb-sample",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 37.042190074920654,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "NTU-NLP-sg/xCodeEval",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9017238616943359,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found xCodeEval.py)"
+  },
+  {
+    "row": 1,
+    "name": "ruggsea/infini-news-corpus",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.0,
+    "error": "Timeout"
+  },
+  {
+    "row": 1,
+    "name": "open-index/hacker-news",
+    "ok": true,
+    "n_schemas": 6,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 6
+    },
+    "seconds": 13.007749080657959,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "tensorshield/reddit_dataset_157",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 52.503843784332275,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "voilaj/swiss-caselaw",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 3
+    },
+    "seconds": 8.82202672958374,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "bastao/VeraCruz_PT-BR",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 34.6542489528656,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "nyu-mll/multi_nli",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 2
+    },
+    "seconds": 7.963969469070435,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "open-index/arctic",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.0,
+    "error": "Timeout"
+  },
+  {
+    "row": 1,
+    "name": "derek-thomas/ScienceQA",
+    "ok": true,
+    "n_schemas": 7,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 7
+    },
+    "seconds": 7.720670938491821,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "mteb/amazon_massive_intent",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 7.853578090667725,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "stanfordnlp/sst2",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 6.931284427642822,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "tasksource/bigbench",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 6.206009864807129,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "CohereLabs/aya_collection",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 7.067638158798218,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "m-a-p/COIG-CQIA",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 4.7595179080963135,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "echodict/KakologArchives_duplicate",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.0,
+    "error": "Timeout"
+  },
+  {
+    "row": 1,
+    "name": "xycoord/deception-probes-activations",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 5.399268865585327,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "coastalcph/lex_glue",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 6.2534096240997314,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Open-Orca/OpenOrca",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 26.748292207717896,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "fancyzhx/dbpedia_14",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 6.390885353088379,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "edwarddgao/open-apply-jobs",
+    "ok": true,
+    "n_schemas": 4,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 4
+    },
+    "seconds": 10.973352670669556,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "AI4Math/MathVista",
+    "ok": true,
+    "n_schemas": 4,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 4
+    },
+    "seconds": 6.970402479171753,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "dair-ai/emotion",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 5.200643062591553,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "jmhessel/newyorker_caption_contest",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 9.61077618598938,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Davlan/sib200",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 6.093197345733643,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "mteb/banking77",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 5.279054880142212,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "legacy-datasets/banking77",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 5.503839731216431,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "clinc/clinc_oos",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.6609947681427,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "RevolutionCrossroads/nara_revolutionary_war_pension_files_PDFs",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 12.530373096466064,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "withdev/dartlab-data",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.0,
+    "error": "Timeout"
+  },
+  {
+    "row": 1,
+    "name": "google/xtreme",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 7.261596918106079,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "mteb/twentynewsgroups-clustering",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 6.498654365539551,
+    "error": "RuntimeError: no string column"
+  },
+  {
+    "row": 1,
+    "name": "cardiffnlp/tweet_eval",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 5.468557596206665,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "allenai/art",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 2
+    },
+    "seconds": 8.148037672042847,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "TeraflopAI/SEC-EDGAR",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 75.3303153514862,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Yelp/yelp_review_full",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 6.385546922683716,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "nguha/legalbench",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 5,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 5.4454185962677,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "12ml/e-CARE",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 5.006232023239136,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "AlgorithmicResearchGroup/s2orc_full",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 49.328150033950806,
+    "error": "TypeError: Couldn't cast array of type struct<arxiv: string, mag: int64, acl: string, pubmed: string, pubmedcentral: int6"
+  },
+  {
+    "row": 1,
+    "name": "PKU-Alignment/BeaverTails",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.18252158164978,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "clue/clue",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 6.155802249908447,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "criteo/CriteoClickLogs",
+    "ok": true,
+    "n_schemas": 32,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 32
+    },
+    "seconds": 71.65702962875366,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "fancyzhx/amazon_polarity",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 13.51981496810913,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "cryptom/ceval-exam",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.0445263385772705,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found ceval-exam.py)"
+  },
+  {
+    "row": 1,
+    "name": "HaifaCLGroup/KnessetCorpus",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.0,
+    "error": "Timeout"
+  },
+  {
+    "row": 1,
+    "name": "PolyAI/banking77",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9711391925811768,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found banking77.py)"
+  },
+  {
+    "row": 1,
+    "name": "tegridydev/research-papers",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 8.172021389007568,
+    "error": "ImportError: To support decoding pdfs, please install 'pdfplumber'."
+  },
+  {
+    "row": 1,
+    "name": "CogComp/trec",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 2,
+      "relaxed": 2
+    },
+    "seconds": 2.4092931747436523,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "gtfintechlab/ipo-text",
+    "ok": true,
+    "n_schemas": 12,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 12
+    },
+    "seconds": 5.567578077316284,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "RevolutionCrossroads/loc_chronicling_america_1770-1810_issues",
+    "ok": true,
+    "n_schemas": 5,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 5
+    },
+    "seconds": 12.722286462783813,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "allenai/wildguardmix",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.1050670146942139,
+    "error": "RuntimeError: no loadable config/split (DatasetNotFoundError: Dataset 'allenai/wildguardmix' is a gated dataset on the Hub. "
+  },
+  {
+    "row": 1,
+    "name": "serda-dev/turkish-raw-text-cleaned",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 2.5644843578338623,
+    "error": "RuntimeError: no loadable config/split (DataFilesNotFoundError: No (supported) data files found in serda-dev/turkish-raw-tex"
+  },
+  {
+    "row": 1,
+    "name": "vaquill/open-india-law",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.2794508934020996,
+    "error": "RuntimeError: no loadable config/split (DatasetNotFoundError: Dataset 'vaquill/open-india-law' is a gated dataset on the Hub"
+  },
+  {
+    "row": 1,
+    "name": "AmazonScience/massive",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9843034744262695,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found massive.py)"
+  },
+  {
+    "row": 1,
+    "name": "zeroMN/hanlp_date-zh",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 6.12943959236145,
+    "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa5 in position 0: invalid start byte"
+  },
+  {
+    "row": 1,
+    "name": "google-research-datasets/go_emotions",
+    "ok": true,
+    "n_schemas": 25,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 25
+    },
+    "seconds": 6.2719807624816895,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "toxigen/toxigen-data",
+    "ok": true,
+    "n_schemas": 11,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 11
+    },
+    "seconds": 6.574311971664429,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "fancyzhx/yelp_polarity",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 7.733343601226807,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "google/frames-benchmark",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 5.1485512256622314,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "ai-hyz/MemoryAgentBench",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 22,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 6.018734931945801,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "proj-persona/PersonaHub",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 9.708945035934448,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "instruction-pretrain/general-instruction-augmented-corpora",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 1,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 9.055823564529419,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "DDSC/lcc",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.032374382019043,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "flytech/python-codes-25k",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 6.105191469192505,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "aisbergpublicorganization/telegram-news-ua-dataset",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 5.730403900146484,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "alisawuffles/WANLI",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 5.8880298137664795,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "zeio/batch",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9815282821655273,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found batch.py)"
+  },
+  {
+    "row": 1,
+    "name": "Fundmanager145/dartlab-data",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.0,
+    "error": "Timeout"
+  },
+  {
+    "row": 1,
+    "name": "google/civil_comments",
+    "ok": true,
+    "n_schemas": 7,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 7
+    },
+    "seconds": 7.135815858840942,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "tmquan/anle-toaan-gov-vn",
+    "ok": true,
+    "n_schemas": 13,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 13
+    },
+    "seconds": 6.189061880111694,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "lmsys/toxic-chat",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 4.703784942626953,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "refine-ai/subscene",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.0936403274536133,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found subscene.py)"
+  },
+  {
+    "row": 1,
+    "name": "dell-research-harvard/AmericanStories",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.0972685813903809,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found AmericanStories.py)"
+  },
+  {
+    "row": 1,
+    "name": "nvidia/Aegis-AI-Content-Safety-Dataset-2.0",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 3
+    },
+    "seconds": 6.01916766166687,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "ServiceNow/repliqa",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 3
+    },
+    "seconds": 5.714505195617676,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "community-datasets/yahoo_answers_topics",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 6.52275013923645,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "JanosAudran/financial-reports-sec",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.0621001720428467,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found financial-reports-s"
+  },
+  {
+    "row": 1,
+    "name": "mteb/BrazilianToxicTweetsClassification",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 5.666609764099121,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "futuremoon/x_dataset_39",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 37.72318124771118,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "mteb/sprintduplicatequestions-pairclassification",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 5.503295421600342,
+    "error": "RuntimeError: no string column"
+  },
+  {
+    "row": 1,
+    "name": "mteb/FarsTail",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.389155149459839,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "google-research-datasets/paws-x",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 5.510545253753662,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Hello-SimpleAI/HC3",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9204363822937012,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found HC3.py)"
+  },
+  {
+    "row": 1,
+    "name": "stanford-oval/ccnews",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 3
+    },
+    "seconds": 79.00568175315857,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "tasksource/folio",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 5.042374849319458,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "takala/financial_phrasebank",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9237575531005859,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found financial_phraseban"
+  },
+  {
+    "row": 1,
+    "name": "witfoo/precinct6-cybersecurity-100m",
+    "ok": true,
+    "n_schemas": 15,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 15
+    },
+    "seconds": 8.302694082260132,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "philippesaade/Wikidata_Vectors_0.2",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 9.106361150741577,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "idleengine/dartlab-data",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.0,
+    "error": "Timeout"
+  },
+  {
+    "row": 1,
+    "name": "biglam/AmericanStories-parquet",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 12,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.676923036575317,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "liamdugan/raid",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 6.651777744293213,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "vankey/RealText-V2",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.0,
+    "error": "Timeout"
+  },
+  {
+    "row": 1,
+    "name": "tasksource/babi_nli",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 2
+    },
+    "seconds": 5.052067756652832,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "gneubig/aime-1983-2024",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 4.903170824050903,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "yeray142/first-impressions-v2",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.0,
+    "error": "Timeout"
+  },
+  {
+    "row": 1,
+    "name": "Karavet/ILUR-news-text-classification-corpus",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.0,
+    "error": "Timeout"
+  },
+  {
+    "row": 1,
+    "name": "mteb/amazon_massive_scenario",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 10.367018461227417,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "kaysss/leetcode-problem-solutions",
+    "ok": true,
+    "n_schemas": 4,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 4
+    },
+    "seconds": 7.985368728637695,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "xingkunliuxtracta/nlu_evaluation_data",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9722392559051514,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found nlu_evaluation_data"
+  },
+  {
+    "row": 1,
+    "name": "ariew/ida-dataset",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 7.651540994644165,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "mteb/twittersemeval2015-pairclassification",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 5.635842561721802,
+    "error": "RuntimeError: no string column"
+  },
+  {
+    "row": 1,
+    "name": "ucirvine/sms_spam",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 5.68907618522644,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Unityinsight/Kairos_AFEI",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 6.910599231719971,
+    "error": "RuntimeError: no string column"
+  },
+  {
+    "row": 1,
+    "name": "khaihernlow/financial-reports-sec",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9421260356903076,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found financial-reports-s"
+  },
+  {
+    "row": 1,
+    "name": "librarian-bots/arxiv-metadata-snapshot",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 10.870672225952148,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "annahbanannah/synthetic-math-toolcall-deception",
+    "ok": true,
+    "n_schemas": 12,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 12
+    },
+    "seconds": 5.384919881820679,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "sc0v0ne/ElectronicTaxDocumentEuroDolar",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 5.950239181518555,
+    "error": "ImportError: To support decoding pdfs, please install 'pdfplumber'."
+  },
+  {
+    "row": 1,
+    "name": "ComposoAI/PrimeBench",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.735875129699707,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "mteb/stackexchange-clustering",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 7.519926309585571,
+    "error": "RuntimeError: no string column"
+  },
+  {
+    "row": 1,
+    "name": "HaoChen2/Gastric-X",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.1706249713897705,
+    "error": "RuntimeError: no loadable config/split (DatasetNotFoundError: Dataset 'HaoChen2/Gastric-X' is a gated dataset on the Hub. Vi"
+  },
+  {
+    "row": 1,
+    "name": "Skyrmion/DAAD-X",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 3
+    },
+    "seconds": 11.723790407180786,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "mteb/tweet_sentiment_extraction",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 5.400713682174683,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "li2017dailydialog/daily_dialog",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9521830081939697,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found daily_dialog.py)"
+  },
+  {
+    "row": 1,
+    "name": "mteb/emotion",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 5.375694274902344,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "kapilrao/SEC-EDGAR",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 56.38487911224365,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "conceptnet5/conceptnet5",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 6.872711181640625,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "ai4privacy/pii-masking-300k",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 5.331055164337158,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "HumanBehaviorAtlas/human_behavior_atlas",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.0,
+    "error": "Timeout"
+  },
+  {
+    "row": 1,
+    "name": "facebook/kilt_tasks",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 6.565816402435303,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "thebajajra/Ecom-niverse",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 62.46636724472046,
+    "error": "RuntimeError: no loadable config/split (SplitsNotFoundError: The split names could not be parsed from the dataset config.)"
+  },
+  {
+    "row": 1,
+    "name": "mikuhhn1239/novel-agent-sft-dataset",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 22.899404287338257,
+    "error": "RuntimeError: no string column"
+  },
+  {
+    "row": 1,
+    "name": "ai4bharat/indic_glue",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 5.650705099105835,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "klue/klue",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 5.540263652801514,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "mteb/amazon_counterfactual",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 5.970272064208984,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Open-Orca/SlimOrca",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 5.999418020248413,
+    "error": "RuntimeError: no string column"
+  },
+  {
+    "row": 1,
+    "name": "hicai-zju/SciKnowEval",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 4.915871858596802,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "mteb/twitterurlcorpus-pairclassification",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 6.022738695144653,
+    "error": "RuntimeError: no string column"
+  },
+  {
+    "row": 1,
+    "name": "AdaptLLM/finance-tasks",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 4.889656066894531,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "hezarai/sentiment-dksf",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 5.748029947280884,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "McGill-NLP/stereoset",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 6.545937776565552,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "thegauravgiri/nepali-news-dataset",
+    "ok": true,
+    "n_schemas": 4,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 4
+    },
+    "seconds": 8.676685571670532,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "cy0307/awesome-loop-engineering",
+    "ok": true,
+    "n_schemas": 30,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 30
+    },
+    "seconds": 6.0872111320495605,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "tasksource/prontoqa",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 3.4673349857330322,
+    "error": "RuntimeError: no loadable config/split (SplitsNotFoundError: The split names could not be parsed from the dataset config.)"
+  },
+  {
+    "row": 1,
+    "name": "strickvl/isafpressreleases",
+    "ok": true,
+    "n_schemas": 24,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 24
+    },
+    "seconds": 6.437791347503662,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "saghi776/detectai-dataset",
+    "ok": true,
+    "n_schemas": 4,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 4
+    },
+    "seconds": 7.353816032409668,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "data-is-better-together/fineweb-c",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 6.20206093788147,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "juletxara/pawsx_mt",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9817252159118652,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found pawsx_mt.py)"
+  },
+  {
+    "row": 1,
+    "name": "zeroshot/twitter-financial-news-sentiment",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 4.9714531898498535,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "adugeen/personal-facts-msc",
+    "ok": true,
+    "n_schemas": 7,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 7
+    },
+    "seconds": 7.38968825340271,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "LabHC/bias_in_bios",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 8.329548597335815,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "dell-research-harvard/newswire",
+    "ok": true,
+    "n_schemas": 10,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 10
+    },
+    "seconds": 10.365586757659912,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "AyoubChLin/CompanyDocuments",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 6.148832321166992,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "demelin/moral_stories",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9719810485839844,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found moral_stories.py)"
+  },
+  {
+    "row": 1,
+    "name": "FBK-MT/Speech-MASSIVE",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 10.616480350494385,
+    "error": "ImportError: To support decoding audio data, please install 'torchcodec'."
+  },
+  {
+    "row": 1,
+    "name": "cmwqfcmwqf/DeepReview-Bench",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.0,
+    "error": "Timeout"
+  },
+  {
+    "row": 1,
+    "name": "MoritzLaurer/multilingual-NLI-26lang-2mil7",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 7.3083720207214355,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "mteb/arxiv-clustering-p2p",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 39.725980043411255,
+    "error": "RuntimeError: no string column"
+  },
+  {
+    "row": 1,
+    "name": "phishdestroy/destroylist",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 5.099929571151733,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "nvidia/Aegis-AI-Content-Safety-Dataset-1.0",
+    "ok": true,
+    "n_schemas": 6,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 6
+    },
+    "seconds": 5.666533946990967,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "DWK-Partners/trading-data",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.0,
+    "error": "Timeout"
+  },
+  {
+    "row": 1,
+    "name": "mteb/arxiv-clustering-s2s",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 8.456421375274658,
+    "error": "RuntimeError: no string column"
+  },
+  {
+    "row": 1,
+    "name": "mteb/biorxiv-clustering-p2p",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.719408750534058,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "lainka0o0/chinese-novel-nonH-collect",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 21.17502737045288,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "qanastek/MASSIVE",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9444613456726074,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found MASSIVE.py)"
+  },
+  {
+    "row": 1,
+    "name": "sprinklr-huggingface/CXM_Arena",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 5.656862735748291,
+    "error": "RuntimeError: no string column"
+  },
+  {
+    "row": 1,
+    "name": "Larxel/PHAENIX-1",
+    "ok": true,
+    "n_schemas": 9,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 9
+    },
+    "seconds": 9.910974502563477,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "CraneAILabs/UCCB",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 6.314968585968018,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "memo-ozdincer/jepa-qwen3-32b-pure-baselines-2026-05-25",
+    "ok": true,
+    "n_schemas": 4,
+    "n_rows": 11,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 4
+    },
+    "seconds": 4.282912254333496,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Airtel4141/Sssdmdsff",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 2.602599620819092,
+    "error": "RuntimeError: no loadable config/split (DataFilesNotFoundError: No (supported) data files found in Airtel4141/Sssdmdsff)"
+  },
+  {
+    "row": 1,
+    "name": "Digital-Divide-Data/khmer-speech-dataset",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 62.6260507106781,
+    "error": "ImportError: To support decoding audio data, please install 'torchcodec'."
+  },
+  {
+    "row": 1,
+    "name": "deepghs/site_tags",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 3
+    },
+    "seconds": 10.134537696838379,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Jeremydh911/SEC-EDGAR",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 60.40549850463867,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "mteb/medrxiv-clustering-s2s",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.7044408321380615,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "saattrupdan/womens-clothing-ecommerce-reviews",
+    "ok": true,
+    "n_schemas": 7,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 7
+    },
+    "seconds": 5.560276508331299,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "2A2I/Arabic_Aya",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 6.79455828666687,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "wassname/genies_preferences",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 6.255049705505371,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "RobZamp/sick",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9625566005706787,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found sick.py)"
+  },
+  {
+    "row": 1,
+    "name": "mteb/sib200",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 7.184652805328369,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "tals/vitaminc",
+    "ok": true,
+    "n_schemas": 4,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 4
+    },
+    "seconds": 6.311951637268066,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Exorde/exorde-social-media-one-month-2024",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 3
+    },
+    "seconds": 14.19017767906189,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "mfromm/AMSR",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 7.049268960952759,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "mteb/imdb",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 6.774370908737183,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "benjaminvdb/dbrd",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 12.235132217407227,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "codefuse-ai/F2LLM-v2",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 8.349854707717896,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "fahadhafeezofficial/cissp-llmbench",
+    "ok": true,
+    "n_schemas": 5,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 5
+    },
+    "seconds": 5.724914789199829,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "medalpaca/medical_meadow_health_advice",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.2744855880737305,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "ai4privacy/pii-masking-200k",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 5.359604597091675,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "halykoss/CodeGraph",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 9.022689819335938,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "Abirate/english_quotes",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 5.688998460769653,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "LidaSafety/fragbench",
+    "ok": true,
+    "n_schemas": 6,
+    "n_rows": 41,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 6
+    },
+    "seconds": 5.87934136390686,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "einrafh/hnm-fashion-recommendations-data",
+    "ok": true,
+    "n_schemas": 23,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 23
+    },
+    "seconds": 6.268769264221191,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Coldog2333/JMedBench",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 7.518762588500977,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "allenai/scifact",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.1072962284088135,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found scifact.py)"
+  },
+  {
+    "row": 1,
+    "name": "ScaleAI/fortress_public",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.453393936157227,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "mteb/MTOPDomainClassification",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.713367938995361,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "quora-competitions/quora",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9828782081604004,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found quora.py)"
+  },
+  {
+    "row": 1,
+    "name": "mmathys/openai-moderation-api-evaluation",
+    "ok": true,
+    "n_schemas": 8,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 8
+    },
+    "seconds": 5.470585823059082,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "fever/fever",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.021104097366333,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found fever.py)"
+  },
+  {
+    "row": 1,
+    "name": "clarin-pl/polemo2-official",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.10475492477417,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found polemo2-official.py"
+  },
+  {
+    "row": 1,
+    "name": "shibing624/sharegpt_gpt4",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 6.094351291656494,
+    "error": "RuntimeError: no string column"
+  },
+  {
+    "row": 1,
+    "name": "DFKI-SLT/BioRel",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 7.7360451221466064,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "Dr3dre/Genius-song-lyrics-cleaned",
+    "ok": true,
+    "n_schemas": 4,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 4
+    },
+    "seconds": 7.684337139129639,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "maveriq/bigbenchhard",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.0022311210632324,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found bigbenchhard.py)"
+  },
+  {
+    "row": 1,
+    "name": "ddrg/super_eurlex",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9317953586578369,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found super_eurlex.py)"
+  },
+  {
+    "row": 1,
+    "name": "mteb/medrxiv-clustering-p2p",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.994232416152954,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "ishumilin/epstein-files-ocr-datasets-1-8-early-release",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 47.29821157455444,
+    "error": "RuntimeError: no loadable config/split (DataFilesNotFoundError: No (supported) data files found in ishumilin/epstein-files-o"
+  },
+  {
+    "row": 1,
+    "name": "abigailhaddad/usajobs-scraping",
+    "ok": true,
+    "n_schemas": 25,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 25
+    },
+    "seconds": 31.138736963272095,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "google/bigbench",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9380526542663574,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found bigbench.py)"
+  },
+  {
+    "row": 1,
+    "name": "facebook/md_gender_bias",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.0138630867004395,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found md_gender_bias.py)"
+  },
+  {
+    "row": 1,
+    "name": "GSMA/ot-lite",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 4.689894437789917,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "jackhhao/jailbreak-classification",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 4.671438455581665,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "tdavidson/hate_speech_offensive",
+    "ok": true,
+    "n_schemas": 5,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 5
+    },
+    "seconds": 5.294419050216675,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "claritystorm/cfpb-consumer-complaints",
+    "ok": true,
+    "n_schemas": 14,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 14
+    },
+    "seconds": 5.158525705337524,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "mteb/PawsXPairClassification",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 6.045490741729736,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "mteb/toxic_conversations_50k",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 5.670713901519775,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "J0nasW/science-datalake",
+    "ok": true,
+    "n_schemas": 14,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 14
+    },
+    "seconds": 9.865637302398682,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "ought/raft",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.940032958984375,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found raft.py)"
+  },
+  {
+    "row": 1,
+    "name": "HuggingFaceH4/orca_dpo_pairs",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 6.306515455245972,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "Noddybear/lies-v2",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 11.184203147888184,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "takschdube/moltbook-dataset",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 3
+    },
+    "seconds": 8.80401873588562,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "bezirganyan/LUMA",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.0,
+    "error": "Timeout"
+  },
+  {
+    "row": 1,
+    "name": "idleengine/financial-news-multisource",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 13.785550117492676,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "copenlu/fever_gold_evidence",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 5.9453160762786865,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Syghmon/blackboxmonitorsMATS",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.1159684658050537,
+    "error": "RuntimeError: no loadable config/split (DatasetNotFoundError: Dataset 'Syghmon/blackboxmonitorsMATS' is a gated dataset on t"
+  },
+  {
+    "row": 1,
+    "name": "neuralchemy/Prompt-injection-dataset",
+    "ok": true,
+    "n_schemas": 4,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 4
+    },
+    "seconds": 5.37424635887146,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "mteb/stackexchange-clustering-p2p",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 9.125367879867554,
+    "error": "RuntimeError: no string column"
+  },
+  {
+    "row": 1,
+    "name": "RevolutionCrossroads/nara_revolutionary_war_pension_files",
+    "ok": true,
+    "n_schemas": 5,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 5
+    },
+    "seconds": 13.088318824768066,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "phreshphish/phreshphish",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 3
+    },
+    "seconds": 7.454389333724976,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "coldmind/reddit_dataset_94",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 3
+    },
+    "seconds": 28.534454345703125,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "artefactory/BERTJudge-Dataset",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 6.986921072006226,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "HUPD/hupd",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9030888080596924,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found hupd.py)"
+  },
+  {
+    "row": 1,
+    "name": "emrecan/stsb-mt-turkish",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.2862327098846436,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "mteb/IndicSentiment",
+    "ok": true,
+    "n_schemas": 6,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 6
+    },
+    "seconds": 6.576597690582275,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "vihaannnn/Indian-Supreme-Court-Judgements-Chunked",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 7.607952833175659,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "reciTAL/mlsum",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.4728243350982666,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found mlsum.py)"
+  },
+  {
+    "row": 1,
+    "name": "tensorfeed/ai-ecosystem-daily",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 3
+    },
+    "seconds": 6.616918087005615,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Srijan-Upadhyay/Ocean",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.0,
+    "error": "Timeout"
+  },
+  {
+    "row": 1,
+    "name": "aisingapore/SEA-NLI",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.1597440242767334,
+    "error": "RuntimeError: no loadable config/split (DatasetNotFoundError: Dataset 'aisingapore/SEA-NLI' is a gated dataset on the Hub. V"
+  },
+  {
+    "row": 1,
+    "name": "hackerman700000/apt-cti-reports",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 6.018866539001465,
+    "error": "ImportError: To support decoding pdfs, please install 'pdfplumber'."
+  },
+  {
+    "row": 1,
+    "name": "aisingapore/NLU-Sentiment-Analysis",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.0905978679656982,
+    "error": "RuntimeError: no loadable config/split (DatasetNotFoundError: Dataset 'aisingapore/NLU-Sentiment-Analysis' is a gated datase"
+  },
+  {
+    "row": 1,
+    "name": "Tobi-Bueck/customer-support-tickets",
+    "ok": true,
+    "n_schemas": 10,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 10
+    },
+    "seconds": 5.9724884033203125,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "HackerNoon/tech-company-news-data-dump",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.1412549018859863,
+    "error": "RuntimeError: no loadable config/split (DatasetNotFoundError: Dataset 'HackerNoon/tech-company-news-data-dump' is a gated da"
+  },
+  {
+    "row": 1,
+    "name": "66aaa/CloudAnoBench",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 11.093443632125854,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "dutifuldev/openclaw-classification-dataset",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 5.777788877487183,
+    "error": "CastError: Couldn't cast\nexampleId: string\nscore: double\ndiagnostics: struct<expected: list<item: string>, actual: list<i"
+  },
+  {
+    "row": 1,
+    "name": "aisingapore/Safety-Toxicity-Detection",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.130122184753418,
+    "error": "RuntimeError: no loadable config/split (DatasetNotFoundError: Dataset 'aisingapore/Safety-Toxicity-Detection' is a gated dat"
+  },
+  {
+    "row": 1,
+    "name": "aisingapore/NLR-Causal-Reasoning",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.1308467388153076,
+    "error": "RuntimeError: no loadable config/split (DatasetNotFoundError: Dataset 'aisingapore/NLR-Causal-Reasoning' is a gated dataset "
+  },
+  {
+    "row": 1,
+    "name": "AI4Math/IneqMath",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.378040313720703,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "TIGER-Lab/MMEB-V2",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 10.252629041671753,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "community-datasets/tapaco",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.714233160018921,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "mnemoraorg/usgs-global-earthquake-catalog",
+    "ok": true,
+    "n_schemas": 8,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 8
+    },
+    "seconds": 6.244581937789917,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "joey234/nan-nli",
+    "ok": true,
+    "n_schemas": 26,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 26
+    },
+    "seconds": 5.341365098953247,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "maastrichtlawtech/bsard",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 6.076263666152954,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "LLM-Digital-Twin/Twin-2K-500",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 5.841822862625122,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "PhilipMay/stsb_multi_mt",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.6418585777282715,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "defunct-datasets/amazon_reviews_multi",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9524044990539551,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found amazon_reviews_mult"
+  },
+  {
+    "row": 1,
+    "name": "ncbi/pubmed",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9839518070220947,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found pubmed.py)"
+  },
+  {
+    "row": 1,
+    "name": "jingjietan/kaggle-mbti",
+    "ok": true,
+    "n_schemas": 5,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 5
+    },
+    "seconds": 6.773515939712524,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "EarthnDusk/XL_PDXL_Embeddings",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 66.73840141296387,
+    "error": "UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7fe7076c4450>"
+  },
+  {
+    "row": 1,
+    "name": "caskcsg/LongBench-Pro",
+    "ok": true,
+    "n_schemas": 6,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 6
+    },
+    "seconds": 50.3619327545166,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "nyu-dice-lab/wavepulse-radio-raw-transcripts",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 3
+    },
+    "seconds": 7.759220600128174,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "mteb/belebele",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 4.729036569595337,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "papluca/language-identification",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.308108806610107,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "gretelai/synthetic_pii_finance_multilingual",
+    "ok": true,
+    "n_schemas": 8,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 8
+    },
+    "seconds": 6.681222438812256,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "zeroshot/twitter-financial-news-topic",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 5.093564987182617,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "lmarena-ai/arena-human-preference-55k",
+    "ok": true,
+    "n_schemas": 5,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 5
+    },
+    "seconds": 7.765193223953247,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "nickh007/cve-proof-corpus",
+    "ok": true,
+    "n_schemas": 4,
+    "n_rows": 6,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 4
+    },
+    "seconds": 4.444477796554565,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "M-A-D/Mixed-Arabic-Datasets-Repo",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 3
+    },
+    "seconds": 7.462438583374023,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "tensorshield/reddit_dataset_171",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 10.084463596343994,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "google/code_x_glue_cc_defect_detection",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 6.798699378967285,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "musicdsl/reamixed-project-files",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 12.303008317947388,
+    "error": "RuntimeError: no loadable config/split (DataFilesNotFoundError: No (supported) data files found in musicdsl/reamixed-project"
+  },
+  {
+    "row": 1,
+    "name": "mteb/reddit-clustering",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 7.253302574157715,
+    "error": "RuntimeError: no string column"
+  },
+  {
+    "row": 1,
+    "name": "AlgorithmicResearchGroup/s2orc-cs-enriched",
+    "ok": true,
+    "n_schemas": 12,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 12
+    },
+    "seconds": 11.80754017829895,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "DDSC/angry-tweets",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.198507070541382,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "pacovaldez/stackoverflow-questions",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 7.344171047210693,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "whiskey1983/hacker-news",
+    "ok": true,
+    "n_schemas": 6,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 6
+    },
+    "seconds": 6.985419511795044,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "sentence-transformers/msmarco",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 8.310656309127808,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "RyokoAI/CNNovel125K",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 25.4212486743927,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "sbintuitions/JMTEB",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 6.156779766082764,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "jedibear/s2orc_full",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 41.26814794540405,
+    "error": "TypeError: Couldn't cast array of type struct<arxiv: string, mag: int64, acl: string, pubmed: string, pubmedcentral: int6"
+  },
+  {
+    "row": 1,
+    "name": "andrebadini/repojus",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 40.71263766288757,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "SetFit/bbc-news",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 5.616511583328247,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "yuweiyin/FinBench",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.0021286010742188,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found FinBench.py)"
+  },
+  {
+    "row": 1,
+    "name": "curaihealth/medical_questions_pairs",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 2
+    },
+    "seconds": 5.754812479019165,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "jayzou3773/CloudAnoBench",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 17.565454959869385,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "ricdomolm/lawma-tasks",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 7.358861207962036,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "data-is-better-together/10k_prompts_ranked",
+    "ok": true,
+    "n_schemas": 6,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 6
+    },
+    "seconds": 7.510535001754761,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Whiteglove44/hacker-news",
+    "ok": true,
+    "n_schemas": 6,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 6
+    },
+    "seconds": 7.9898293018341064,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "mjbommar/opengloss-v1.3-query-examples-flat",
+    "ok": true,
+    "n_schemas": 5,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 5
+    },
+    "seconds": 6.2739410400390625,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "recursal/longbench-v2",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 50,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 3
+    },
+    "seconds": 7.0267744064331055,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "nyuuzyou/ppt4web",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 5.168447732925415,
+    "error": "ValueError: Compression type zstd not supported"
+  },
+  {
+    "row": 1,
+    "name": "kaist-ai/CoT-Collection",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9041228294372559,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found CoT-Collection.py)"
+  },
+  {
+    "row": 1,
+    "name": "shibing624/nli_zh",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9823455810546875,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found nli_zh.py)"
+  },
+  {
+    "row": 1,
+    "name": "ade-benchmark-corpus/ade_corpus_v2",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 5.953371524810791,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "open-index/open-arxiv",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 8.93770956993103,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "zstanjj/ClawTrojan",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 46.72140288352966,
+    "error": "TypeError: Couldn't cast array of type\nstruct<validation_status: string, gpt54_output: string, glm51_output: string, gpt5"
+  },
+  {
+    "row": 1,
+    "name": "Yusuf5/OpenCaselist",
+    "ok": true,
+    "n_schemas": 7,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 7
+    },
+    "seconds": 10.39232873916626,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "kejian/codeparrot-train-more-filter-3.3b-cleaned",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 16.659029245376587,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "tasksource/esci",
+    "ok": true,
+    "n_schemas": 5,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 5
+    },
+    "seconds": 7.146008253097534,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "masakhane/masakhanews",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.415929317474365,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "golfplan18/msi-corpus",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.757469892501831,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "opendatalab/WebMainBench",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 16.167173385620117,
+    "error": "TypeError: Couldn't cast array of type string to null"
+  },
+  {
+    "row": 1,
+    "name": "nilc-nlp/assin2",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 2
+    },
+    "seconds": 5.395165205001831,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "ctoraman/sozcu-news-2014",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 57.445241928100586,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "tasksource/defeasible-nli",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 6.340473175048828,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "ibm-research/argument_quality_ranking_30k",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 3
+    },
+    "seconds": 4.767443418502808,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "shunk031/JGLUE",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.0290491580963135,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found JGLUE.py)"
+  },
+  {
+    "row": 1,
+    "name": "LEXam-Benchmark/LEXam",
+    "ok": true,
+    "n_schemas": 9,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 9
+    },
+    "seconds": 5.6970460414886475,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "TheBlueScrubs/TheBlueScrubs-v2",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.2056772708892822,
+    "error": "RuntimeError: no loadable config/split (DatasetNotFoundError: Dataset 'TheBlueScrubs/TheBlueScrubs-v2' is a gated dataset on"
+  },
+  {
+    "row": 1,
+    "name": "OpenSafetyLab/Salad-Data",
+    "ok": true,
+    "n_schemas": 4,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 4
+    },
+    "seconds": 5.017505884170532,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Hello-SimpleAI/HC3-Chinese",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.973015308380127,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found HC3-Chinese.py)"
+  },
+  {
+    "row": 1,
+    "name": "b3x0m/Chinese-H-Novels",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 8.820810556411743,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "facebook/lama",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9278442859649658,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found lama.py)"
+  },
+  {
+    "row": 1,
+    "name": "Rapidata/text-2-image-Rich-Human-Feedback",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 79.66382360458374,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "israel/AfriGuard",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.1868371963500977,
+    "error": "RuntimeError: no loadable config/split (DatasetNotFoundError: Dataset 'israel/AfriGuard' is a gated dataset on the Hub. Visi"
+  },
+  {
+    "row": 1,
+    "name": "youngfish42/PaperVault",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 6.623199939727783,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "laurievb/open-lid-dataset",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 8.53083872795105,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "agentlans/high-quality-english-sentences",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 6.1630165576934814,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "coastalcph/multi_eurlex",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9011120796203613,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found multi_eurlex.py)"
+  },
+  {
+    "row": 1,
+    "name": "laion/Wikipedia-Abstract",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 8.216365098953247,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "mteb/LegalBenchPC",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.775121450424194,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "jhu-cogsci/hans",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9395895004272461,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found hans.py)"
+  },
+  {
+    "row": 1,
+    "name": "ucsbai/liar",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9822287559509277,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found liar.py)"
+  },
+  {
+    "row": 1,
+    "name": "iamollas/ethos",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9468390941619873,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found ethos.py)"
+  },
+  {
+    "row": 1,
+    "name": "Ujjwal-Tyagi/ai-ml-foundations-book-collection",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 4.753309011459351,
+    "error": "ImportError: To support decoding pdfs, please install 'pdfplumber'."
+  },
+  {
+    "row": 1,
+    "name": "AI4Sec/cti-bench",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 4.987671852111816,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "ucberkeley-dlab/measuring-hate-speech",
+    "ok": true,
+    "n_schemas": 116,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 116
+    },
+    "seconds": 6.497399806976318,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "evaluate/glue-ci",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 5.893033742904663,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "kareenamehta/ccnews",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 3
+    },
+    "seconds": 52.749277114868164,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "BTF-2/BTF-2",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 6.635631084442139,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "jazzypajamas/mytown-local-gov-meetings",
+    "ok": true,
+    "n_schemas": 4,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 4
+    },
+    "seconds": 8.031421899795532,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "mtec-TUB/GPT-4o-evaluation-biases",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 4.806690216064453,
+    "error": "ParserError: Error tokenizing data. C error: Expected 3 fields in line 4, saw 7\n"
+  },
+  {
+    "row": 1,
+    "name": "mteb/amazon_polarity",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 7.8270769119262695,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "sh0416/ag_news",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.689263820648193,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "masakhane/afrisenti",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 4.734088659286499,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "ysn-rfd/text-dataset-tiny-code-script-py-format",
+    "ok": true,
+    "n_schemas": 4,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 4
+    },
+    "seconds": 5.504642486572266,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "beta3/ASCII_Alphabet_Dataset_571_Fonts",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 72.77316570281982,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "gretelai/gretel-pii-masking-en-v1",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 6.943389892578125,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Bose345/sp500_earnings_transcripts",
+    "ok": true,
+    "n_schemas": 5,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 5
+    },
+    "seconds": 73.181072473526,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "tensorshield/reddit_dataset_30",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 8.567330121994019,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "moganai/turkishfineweb2-cleaned",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 15.287169218063354,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "tensorshield/reddit_dataset_226",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 14.314518213272095,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "malhajar/mmlu_tr-v0.2",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 5,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 7.094712734222412,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "cw1521/ember2018-malware",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 11.532241582870483,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "leolee99/NotInject",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 113,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 4.94094705581665,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "VibrantVista/TTCW-Based-Review",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 3
+    },
+    "seconds": 81.04627084732056,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "nyuuzyou/OpenGameArt-CC0",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 4.5511579513549805,
+    "error": "ValueError: Compression type zstd not supported"
+  },
+  {
+    "row": 1,
+    "name": "declare-lab/HarmfulQA",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 7.318419933319092,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "AyoubChLin/northwind_invocies",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 13.136648416519165,
+    "error": "ImportError: To support decoding pdfs, please install 'pdfplumber'."
+  },
+  {
+    "row": 1,
+    "name": "Hate-speech-CNERG/hatexplain",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.979816198348999,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found hatexplain.py)"
+  },
+  {
+    "row": 1,
+    "name": "baridhi/SEC-EDGAR",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 47.201950788497925,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "SherlockRamos/jurisdb-legal-documents",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 19.281492710113525,
+    "error": "ImportError: To support decoding pdfs, please install 'pdfplumber'."
+  },
+  {
+    "row": 1,
+    "name": "Ken4962/processed_fake_job_postings",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 5.535907506942749,
+    "error": "RuntimeError: no string column"
+  },
+  {
+    "row": 1,
+    "name": "BGPT-OFFICIAL/refute",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 80,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 4.749675512313843,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "rdpahalavan/CIC-IDS2017",
+    "ok": true,
+    "n_schemas": 54,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 54
+    },
+    "seconds": 23.904823541641235,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Rapidata/text-2-video-human-preferences-seedance-1-pro",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 3
+    },
+    "seconds": 6.971798658370972,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Francisco-Cruz/InvoicesReceiptsPT",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 11.95466923713684,
+    "error": "CastError: Couldn't cast\ntext: string\nimage: null\nto\n{'image': Image(mode=None, decode=True)}\nbecause column names don't "
+  },
+  {
+    "row": 1,
+    "name": "duarteocarmo/bagaco3",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 12.088469505310059,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "GSMA/leaderboard",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 90,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.416447877883911,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Sunsincer97/trellm-audit-corpora",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 10.57788372039795,
+    "error": "CastError: Couldn't cast\ncondition: string\ndefects: list<item: struct<detail: struct<approved: double, cap: double, inten"
+  },
+  {
+    "row": 1,
+    "name": "osunlp/AttributionBench",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 6.908966064453125,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "argilla/tripadvisor-hotel-reviews",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 6.657247066497803,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "ParsiAI/FarsInstruct",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 8.728115320205688,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "coldmind/x_dataset_94",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 10.672239542007446,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "AgentAlphaAGI/Paper-Review-Dataset",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 10.174115419387817,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "THU-KEG/RM-Bench",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.567392110824585,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "shibing624/nli-zh-all",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9071018695831299,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found nli-zh-all.py)"
+  },
+  {
+    "row": 1,
+    "name": "Multilingual-NLP/M-ABSA",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 7.113757371902466,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "tdiggelm/climate_fever",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 5.766251087188721,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "chungimungi/pubmed",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 9.509799003601074,
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '<datasets.utils.file_utils.FilesIterable object at 0x70d4306d9f40>'"
+  },
+  {
+    "row": 1,
+    "name": "nyu-dice-lab/wavepulse-radio-summarized-transcripts",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 7.55837607383728,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "gretelai/symptom_to_diagnosis",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.094812393188477,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "ccdv/arxiv-classification",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 9.934095621109009,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "facebook/imppres",
+    "ok": true,
+    "n_schemas": 4,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 2,
+      "relaxed": 4
+    },
+    "seconds": 6.051012277603149,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "open-index/hacker-news-rss",
+    "ok": true,
+    "n_schemas": 9,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 9
+    },
+    "seconds": 7.402167558670044,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "jiahuizhang/PepBenchData",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 6.237864971160889,
+    "error": "CastError: Couldn't cast\nseed_0: struct<detailed_results: struct<completeness: struct<total_samples: int64, assigned_samp"
+  },
+  {
+    "row": 1,
+    "name": "BTF-2/BTF-3",
+    "ok": true,
+    "n_schemas": 5,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 5
+    },
+    "seconds": 5.789660692214966,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "cambridgeltl/vsr_random",
+    "ok": true,
+    "n_schemas": 4,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 4
+    },
+    "seconds": 5.142280340194702,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "sileod/mindgames",
+    "ok": true,
+    "n_schemas": 7,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 7
+    },
+    "seconds": 5.600005149841309,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "cardiffnlp/super_tweeteval",
+    "ok": true,
+    "n_schemas": 4,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 4
+    },
+    "seconds": 5.293229579925537,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "aisingapore/Linguistic-Diagnostics-Pragmatics",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.1761939525604248,
+    "error": "RuntimeError: no loadable config/split (DatasetNotFoundError: Dataset 'aisingapore/Linguistic-Diagnostics-Pragmatics' is a g"
+  },
+  {
+    "row": 1,
+    "name": "tasksource/tasksource-instruct-v0",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 7.028458595275879,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "StormKing99/x_dataset_8191",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 17.602317333221436,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "mteb/big-patent",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 6.41199803352356,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "torchsight/cybersecurity-classification-benchmark",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 18.69021248817444,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "mjbommar/SHELF",
+    "ok": true,
+    "n_schemas": 13,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 13
+    },
+    "seconds": 9.278843641281128,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "yatin-superintelligence/White-Hat-Security-Agent-Prompts-600K",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 8.734848022460938,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "nala-cub/americas_nli",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 5.657846689224243,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "sled-umich/SDN",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 7.665053844451904,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "wassname/mmlu_preferences",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 100,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.348880290985107,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "sarthak20024/sih26099-cpse-material-codes",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 13.454511404037476,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "scikit-fingerprints/MoleculeNet_BACE",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.173334360122681,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "nhop/OpenReview",
+    "ok": true,
+    "n_schemas": 12,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 12
+    },
+    "seconds": 9.670236349105835,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "kendx/NLP-ADBench",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 6.3594090938568115,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "aisingapore/Linguistic-Diagnostics-Syntax",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.159073829650879,
+    "error": "RuntimeError: no loadable config/split (DatasetNotFoundError: Dataset 'aisingapore/Linguistic-Diagnostics-Syntax' is a gated"
+  },
+  {
+    "row": 1,
+    "name": "rdpahalavan/UNSW-NB15",
+    "ok": true,
+    "n_schemas": 42,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 42
+    },
+    "seconds": 15.660954236984253,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Amylyx/x_dataset_232",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 8.00542426109314,
+    "error": "TypeError: Couldn't cast array of type string to null"
+  },
+  {
+    "row": 1,
+    "name": "google-research-datasets/poem_sentiment",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 6.057523965835571,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "mteb/xnli",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 7.652126789093018,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "janavivekariya/aya_collection",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 8.220420122146606,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "NuralNexus/NBX",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.0,
+    "error": "Timeout"
+  },
+  {
+    "row": 1,
+    "name": "BatsResearch/sib200-LexC-Gen",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 6.015537261962891,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "LakshC/bench-af-activations",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 11.453974962234497,
+    "error": "CastError: Couldn't cast\nllama-3-70b: struct<auroc_matrix: struct<insider_trading -> insider_trading: double, insider_tra"
+  },
+  {
+    "row": 1,
+    "name": "AyoubChLin/northwind_PurchaseOrders",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 9.385305881500244,
+    "error": "ImportError: To support decoding pdfs, please install 'pdfplumber'."
+  },
+  {
+    "row": 1,
+    "name": "muset-ai/DeepResearch-Bench-II-Dataset",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 7.4832892417907715,
+    "error": "ImportError: To support decoding pdfs, please install 'pdfplumber'."
+  },
+  {
+    "row": 1,
+    "name": "ai4privacy/pii-masking-400k",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 7.364821910858154,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "cardiffnlp/tweet_topic_multilingual",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 7.797342777252197,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "AgamiAI/Indian-Bank-Statements",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 31.249027013778687,
+    "error": "TypeError: Couldn't cast array of type\nstruct<transaction_id: string, date: string, value_date: string, txn_posted_date: "
+  },
+  {
+    "row": 1,
+    "name": "cambridgeltl/vsr_zeroshot",
+    "ok": true,
+    "n_schemas": 5,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 5
+    },
+    "seconds": 5.420541048049927,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "iwasjohnlennon/JayAraeEssexArchive",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 10.68608808517456,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "dlab-spp/safety-classifications",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 10.229575395584106,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Aramente/eu-tech-jobs",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 7.8083226680755615,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "sbx/superlim-2",
+    "ok": true,
+    "n_schemas": 9,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 9
+    },
+    "seconds": 5.746868848800659,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "AI-Sweden/SuperLim",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9900832176208496,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found SuperLim.py)"
+  },
+  {
+    "row": 1,
+    "name": "Divyanshu/indicxnli",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9617834091186523,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found indicxnli.py)"
+  },
+  {
+    "row": 1,
+    "name": "ReySajju742/shaistagi_clean",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 6.2816221714019775,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "barilan/blog_authorship_corpus",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.958155632019043,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found blog_authorship_cor"
+  },
+  {
+    "row": 1,
+    "name": "Nicolas-BZRD/DILA_OPENDATA_FR_2023",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 9.170892477035522,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "Haxxsh/SHROOMCAP2025_DataSet",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 8.387867450714111,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "sealuzh/app_reviews",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 7.610466957092285,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "THUIR/T2Ranking",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9909622669219971,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found T2Ranking.py)"
+  },
+  {
+    "row": 1,
+    "name": "mteb/eurlex-multilingual",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 6.929865837097168,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Shopify/product-catalogue",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 30.045809030532837,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "vcmt794/mocheg-train",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 87.10589241981506,
+    "error": "RuntimeError: no string column"
+  },
+  {
+    "row": 1,
+    "name": "scikit-fingerprints/MoleculeNet_PCBA",
+    "ok": true,
+    "n_schemas": 58,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 58
+    },
+    "seconds": 7.4324400424957275,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "moganai/mogan-turkish-web",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 8.335349798202515,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "nicchio816/reddit_dataset_111",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 3
+    },
+    "seconds": 19.270660877227783,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "thebeautyapi/beautyproducts",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 86.23620223999023,
+    "error": "RuntimeError: no string column"
+  },
+  {
+    "row": 1,
+    "name": "google-research-datasets/circa",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 2,
+      "relaxed": 3
+    },
+    "seconds": 5.49708890914917,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "scbirlab/thomas-2018-spark-wt",
+    "ok": true,
+    "n_schemas": 30,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 30
+    },
+    "seconds": 5.7068727016448975,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "almanach/Biomed-Enriched",
+    "ok": true,
+    "n_schemas": 5,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 5
+    },
+    "seconds": 10.133058071136475,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "mrinaldi/UsenetArchiveIT",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 33.562166690826416,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "mjbommar/opengloss-v1.3-definitions",
+    "ok": true,
+    "n_schemas": 15,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 15
+    },
+    "seconds": 8.763197898864746,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "DWKPartners/trading-data",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.0,
+    "error": "Timeout"
+  },
+  {
+    "row": 1,
+    "name": "jash-ai/agentic-redteam-benchmark",
+    "ok": true,
+    "n_schemas": 7,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 7
+    },
+    "seconds": 5.6063008308410645,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "scikit-fingerprints/MoleculeNet_Lipophilicity",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 4.886427164077759,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "Digital-Divide-Data/khm-asr-cultural",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 13.487399101257324,
+    "error": "ImportError: To support decoding audio data, please install 'torchcodec'."
+  },
+  {
+    "row": 1,
+    "name": "yufan/arxiv-metadata-2020-2026",
+    "ok": true,
+    "n_schemas": 7,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 7
+    },
+    "seconds": 6.7031872272491455,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "zephyr-1111/x_dataset_07096",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 13.792346715927124,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "mjbommar/opengloss-v1.3-dictionary",
+    "ok": true,
+    "n_schemas": 5,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 5
+    },
+    "seconds": 6.5172131061553955,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "nishan-chatterjee/llm-bias-detection",
+    "ok": true,
+    "n_schemas": 5,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 5
+    },
+    "seconds": 6.447982549667358,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "ScalerLab/JudgeBench",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 4.976581811904907,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "pfb30/multi_woz_v22",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9856233596801758,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found multi_woz_v22.py)"
+  },
+  {
+    "row": 1,
+    "name": "masakhane/afrixnli",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 4.712208271026611,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "KBLab/overlim",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.0089659690856934,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found overlim.py)"
+  },
+  {
+    "row": 1,
+    "name": "ryanjosephkamp/english-openlist",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 5.241293668746948,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "mteb/mtop_domain",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9446549415588379,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found mtop_domain.py)"
+  },
+  {
+    "row": 1,
+    "name": "tmquan/phapdien-moj-gov-vn",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 6.365006685256958,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Rapidata/text-2-video-human-preferences-wan2.1",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 3
+    },
+    "seconds": 5.7513415813446045,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Cooolder/SCOPE-OOD-set",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 6.039177417755127,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "sonos-nlu-benchmark/snips_built_in_intents",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 5.160051107406616,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "duarteocarmo/fineweb2-bagaco",
+    "ok": true,
+    "n_schemas": 4,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 4
+    },
+    "seconds": 9.069594144821167,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "d0rj/ru-fandom-wiki",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 6.662317752838135,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "marry-1111/x_dataset_0507238",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 12.245099782943726,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "tensorshield/reddit_dataset_217",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 12.441921949386597,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "icedwind/x_dataset_53985",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 13.09257173538208,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "NeurIPS-1899-ED-2026/EpiBench-NeurIPS2026",
+    "ok": true,
+    "n_schemas": 23,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 23
+    },
+    "seconds": 6.0224854946136475,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "gplsi/fake_job_postings_balanced_en",
+    "ok": true,
+    "n_schemas": 9,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 9
+    },
+    "seconds": 5.715893030166626,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "RussianNLP/coat",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 7.200795412063599,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "ltg/slide",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 5.938811540603638,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "tblard/allocine",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 7.664561986923218,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "andstor/the_pile_github",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 17.82526469230652,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "nyuuzyou/nntp-text-387m",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 9.294757604598999,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "vnahata/AfriMCQA-category-classification",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 7.375527620315552,
+    "error": "ImportError: To support decoding audio data, please install 'torchcodec'."
+  },
+  {
+    "row": 1,
+    "name": "uoe-nlp/multi3-nlu",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 8.479674339294434,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "james-1111/x_dataset_030237",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 15.186886072158813,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "icedwind/x_dataset_34576",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 13.33529019355774,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "SnehaDeshmukh/IndianBailJudgments-1200",
+    "ok": true,
+    "n_schemas": 11,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 11
+    },
+    "seconds": 5.589168310165405,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "ImperialCollegeLondon/health_fact",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 1.1131219863891602,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found health_fact.py)"
+  },
+  {
+    "row": 1,
+    "name": "tomekkorbak/pile-detoxify",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 9.002665519714355,
+    "error": "RuntimeError: no string column"
+  },
+  {
+    "row": 1,
+    "name": "ai4privacy/open-pii-masking-500k-ai4privacy",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 3
+    },
+    "seconds": 5.792781829833984,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "mteb/biorxiv-clustering-s2s",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 6.320919513702393,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "scikit-fingerprints/MoleculeNet_Tox21",
+    "ok": true,
+    "n_schemas": 12,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 12
+    },
+    "seconds": 4.915700197219849,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "wenknow/reddit_dataset_232",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 21.2288818359375,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "facebook/asset",
+    "ok": true,
+    "n_schemas": 4,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 4
+    },
+    "seconds": 4.896495819091797,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "scikit-fingerprints/LRGB_Peptides-func",
+    "ok": true,
+    "n_schemas": 10,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 10
+    },
+    "seconds": 4.9549877643585205,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "tasksource/arct2",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 3
+    },
+    "seconds": 5.237679719924927,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "PierreLepagnol/WRENCH",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.9684345722198486,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found WRENCH.py)"
+  },
+  {
+    "row": 1,
+    "name": "wenknow/reddit_dataset_214",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 30.061731338500977,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "scikit-fingerprints/MoleculeNet_BBBP",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 4.628459453582764,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "odegiber/hate_speech18",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 0,
+    "shapes": {},
+    "seconds": 0.986724853515625,
+    "error": "RuntimeError: no loadable config/split (RuntimeError: Dataset scripts are no longer supported, but found hate_speech18.py)"
+  },
+  {
+    "row": 1,
+    "name": "Dk587/arctic",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 3
+    },
+    "seconds": 8.450987577438354,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "youssef101/artelingo-dummy",
+    "ok": true,
+    "n_schemas": 2,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 2
+    },
+    "seconds": 15.773337125778198,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "MTEB-BR/factckbr",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 1
+    },
+    "seconds": 6.480818033218384,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "milistu/AMAZON-Products-2023",
+    "ok": true,
+    "n_schemas": 4,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 4
+    },
+    "seconds": 6.944428205490112,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "robert-1111/x_dataset_041134",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 16.834606170654297,
+    "error": "no label column under either reading"
+  },
+  {
+    "row": 1,
+    "name": "pythainlp/wisesight_sentiment",
+    "ok": true,
+    "n_schemas": 1,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 1,
+      "relaxed": 1
+    },
+    "seconds": 5.745517253875732,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Lakera/b3-agent-security-benchmark-weak",
+    "ok": true,
+    "n_schemas": 3,
+    "n_rows": 200,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 3
+    },
+    "seconds": 4.927433729171753,
+    "error": ""
+  },
+  {
+    "row": 1,
+    "name": "Nicholastempleman/govbench",
+    "ok": false,
+    "n_schemas": 0,
+    "n_rows": 1,
+    "shapes": {
+      "strict": 0,
+      "relaxed": 0
+    },
+    "seconds": 5.617706298828125,
+    "error": "no label column under either reading"
+  }
+]

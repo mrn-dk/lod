@@ -1,0 +1,32 @@
+{
+  "d20.lookup": {
+    "template": "Start at {noun} {rid} and take all {h} steps. What {mark} is on the record you finish on?",
+    "state_kind": "a register of linked records in five typed groups (e.g. purchase orders -> suppliers -> certification bodies -> registry offices -> standards councils), rendered as JSON, tables or prose; every record carries a reference to one record in the next group and two categorical 'mark' fields",
+    "answer_meaning": "the value of the named mark field ({mark}) on the ONE record reached after following exactly {h} references, one per step, starting from the {noun} whose id is {rid}; not the mark of the start record or of any record passed through on the way. {h} is a literal count of steps and must stay in the text as '{h} steps' (the generator rewrites 'all 1 steps' to 'the single step')"
+  },
+  "d20.bridge": {
+    "template": "Start at {noun} {rid} and take all {h} steps. Which record do you finish on?",
+    "state_kind": "same linked-record register as d20.lookup",
+    "answer_meaning": "the record id of the ONE record reached after following exactly {h} references from the {noun} whose id is {rid}; never the start record, never an intermediate record. '{h} steps' must stay in the text"
+  },
+  "d20.sameend": {
+    "template": "After all {h} steps, do {noun} {a} and {noun} {b} finish on records with the same {mark}?",
+    "state_kind": "same linked-record register as d20.lookup",
+    "answer_meaning": "yes/no: whether the record reached after exactly {h} references from {noun} {a} and the record reached after exactly {h} references from {noun} {b} carry the SAME value of the mark field {mark}; compares only the two end records. '{h} steps' must stay in the text"
+  },
+  "d20.rank_pairwise": {
+    "template": "Of {a} and {b}, which one ranks higher under the rule?",
+    "state_kind": "a list of 3-8 named entities (depots, vendors or routes) each with ~10 numeric and categorical fields; the ranking rule (a field, a ratio of two fields, a unit-converted field, closeness to a target, or a field with a tiebreaker) is given separately in the criteria",
+    "answer_meaning": "which ONE of the two named entities {a} and {b} is placed ahead of the other (nearer the top) when all are ranked by the rule in the criteria; 'ranks higher' means earlier in the ranking, not a larger raw number. No direction word (highest/lowest/first/last) may be added: the direction lives in the criteria"
+  },
+  "d20.rank_extremum": {
+    "template": "Which of these comes {ord} once the rule is applied to them?",
+    "state_kind": "a list of 3-16 named entities as in d20.rank_pairwise",
+    "answer_meaning": "the ONE entity at the ranking position {ord} (one of: 'first in the ranking', 'second in the ranking', 'last in the ranking', 'second from last in the ranking') when all listed entities are ranked by the rule in the criteria; the position counts along the ranking, never along the raw field value. {ord} must be kept verbatim"
+  },
+  "d20.rank_ordering": {
+    "template": "Which of these orderings puts them in the right order under the rule?",
+    "state_kind": "a list of 3-5 named entities as in d20.rank_pairwise; each option is one complete ordering of all of them",
+    "answer_meaning": "the ONE option that lists every entity in exactly the order the rule in the criteria ranks them, first to last; a partial or approximately right ordering is wrong"
+  }
+}

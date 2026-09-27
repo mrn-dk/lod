@@ -1,0 +1,32 @@
+{
+  "d21.massive_intent": {
+    "template": "Which intent does this request to a voice assistant express?",
+    "state_kind": "one short spoken-style request to a virtual assistant from MASSIVE, as plain lower-case text in the source language (any of 19 languages, never English), e.g. German 'weck mich am freitag um neun uhr auf'",
+    "answer_meaning": "the MASSIVE/SLURP intent the request was written for, one of 60 scenario_action labels (alarm_set, play_music, qa_factoid, general_quirky ...): what the user wants the assistant to do. Not the language, not the topic in general, and not the slot values (a time, a song name)"
+  },
+  "d21.massive_scenario": {
+    "template": "Which scenario does this request to a voice assistant belong to?",
+    "state_kind": "one short spoken-style request to a virtual assistant from MASSIVE, as plain lower-case text in the source language (any of 19 languages, never English)",
+    "answer_meaning": "the MASSIVE/SLURP scenario of the request, one of 18 domains (alarm, audio, calendar, cooking, datetime, email, general, iot, lists, music, news, play, qa, recommendation, social, takeaway, transport, weather): the area of the assistant the request is for. 'play' is starting any media, 'music' is preferences and settings about music; not the finer intent"
+  },
+  "d21.sib200_topic": {
+    "template": "What topic is this sentence about?",
+    "state_kind": "one sentence from SIB-200 (Flores-200: Wikinews, Wikijunior and Wikivoyage sentences, professionally translated), as plain text in the source language (any of 25 languages, never English)",
+    "answer_meaning": "the SIB-200 topic label of the sentence, one of science/technology, travel, politics, sports, health, entertainment, geography. The label was annotated on the English source sentence and holds for every translation. The topic of this sentence, not of the article it came from"
+  },
+  "d21.sentiment": {
+    "template": "What sentiment does the author of this tweet express?",
+    "state_kind": "one tweet as plain text in the source language (UMSAB tweet sets for Arabic, French, German, Portuguese, Spanish; AfriSenti for Amharic, Hausa, Igbo, Kinyarwanda, Mozambican Portuguese, Swahili, Yoruba), user handles replaced by @user; code-mixing with English occurs",
+    "answer_meaning": "the published sentiment label (negative, neutral, positive) given by the dataset's human annotators, by majority: the opinion, emotion or attitude the author expresses. Not whether the topic is good or bad news, and not the sentiment of someone the tweet quotes"
+  },
+  "d21.pawsx_paraphrase": {
+    "template": "Do sentence1 and sentence2 mean the same thing?",
+    "state_kind": "a JSON object with two keys, sentence1 and sentence2: a PAWS-X pair (Wikipedia sentences, human-translated into German, Spanish, French, Japanese, Korean or Chinese); the two sentences usually share almost every word",
+    "answer_meaning": "yes if the pair is labelled a paraphrase (the two sentences have the same meaning), no if not -- typically because two words, names, places or roles were swapped. Not whether the sentences are similar in wording, and not whether either sentence is true"
+  },
+  "d21.xnli": {
+    "template": "What is the relationship between the premise and the hypothesis?",
+    "state_kind": "a JSON object with two keys, premise and hypothesis: an XNLI pair (MultiNLI-style English pair, human-translated into one of 12 languages)",
+    "answer_meaning": "the XNLI gold label: entailment if the hypothesis is definitely true given the premise, contradiction if it is definitely false, neutral if it might be either. About the two sentences shown, not about the real world"
+  }
+}

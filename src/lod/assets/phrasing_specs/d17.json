@@ -1,0 +1,107 @@
+{
+  "d17.pair_0": {
+    "template": "Do these two records describe one {noun} or two?",
+    "state_kind": "two records of one type (person, company or publication) from two systems, as JSON or as prose 'Record from system A. field: value; ...'; the matching policy is in the criteria",
+    "answer_meaning": "one_entity iff the matching policy in the criteria, applied in order to THESE TWO records, says they are one {noun}: the identifier when both carry it, else the date both carry and then the names under clause 3's allowances; two_entities otherwise. When neither the identifier nor the date appears in both records the target is soft [0.5, 0.5]. {noun} is the record type. A rewording must keep the question about whether the two records are the same entity under the stated policy, not about similarity"
+  },
+  "d17.pair_1": {
+    "template": "Applying the policy below, how many distinct {noun}s appear in these two records?",
+    "state_kind": "two records of one type (person, company or publication) from two systems, as JSON or as prose 'Record from system A. field: value; ...'; the matching policy is in the criteria",
+    "answer_meaning": "one_entity iff the matching policy in the criteria, applied in order to THESE TWO records, says they are one {noun}: the identifier when both carry it, else the date both carry and then the names under clause 3's allowances; two_entities otherwise. When neither the identifier nor the date appears in both records the target is soft [0.5, 0.5]. {noun} is the record type. A rewording must keep the question about whether the two records are the same entity under the stated policy, not about similarity"
+  },
+  "d17.pair_2": {
+    "template": "Two systems supplied the records above. Are they a single {noun} recorded twice?",
+    "state_kind": "two records of one type (person, company or publication) from two systems, as JSON or as prose 'Record from system A. field: value; ...'; the matching policy is in the criteria",
+    "answer_meaning": "one_entity iff the matching policy in the criteria, applied in order to THESE TWO records, says they are one {noun}: the identifier when both carry it, else the date both carry and then the names under clause 3's allowances; two_entities otherwise. When neither the identifier nor the date appears in both records the target is soft [0.5, 0.5]. {noun} is the record type. A rewording must keep the question about whether the two records are the same entity under the stated policy, not about similarity"
+  },
+  "d17.pair_3": {
+    "template": "Under the stated policy, should these two records be merged into one {noun}?",
+    "state_kind": "two records of one type (person, company or publication) from two systems, as JSON or as prose 'Record from system A. field: value; ...'; the matching policy is in the criteria",
+    "answer_meaning": "one_entity iff the matching policy in the criteria, applied in order to THESE TWO records, says they are one {noun}: the identifier when both carry it, else the date both carry and then the names under clause 3's allowances; two_entities otherwise. When neither the identifier nor the date appears in both records the target is soft [0.5, 0.5]. {noun} is the record type. A rewording must keep the question about whether the two records are the same entity under the stated policy, not about similarity"
+  },
+  "d17.pair_4": {
+    "template": "A deduplication pass has to decide about the pair above. What is the verdict?",
+    "state_kind": "two records of one type (person, company or publication) from two systems, as JSON or as prose 'Record from system A. field: value; ...'; the matching policy is in the criteria",
+    "answer_meaning": "one_entity iff the matching policy in the criteria, applied in order to THESE TWO records, says they are one {noun}: the identifier when both carry it, else the date both carry and then the names under clause 3's allowances; two_entities otherwise. When neither the identifier nor the date appears in both records the target is soft [0.5, 0.5]. {noun} is the record type. A rewording must keep the question about whether the two records are the same entity under the stated policy, not about similarity"
+  },
+  "d17.pair_5": {
+    "template": "Read both records against the policy. One {noun}, or two?",
+    "state_kind": "two records of one type (person, company or publication) from two systems, as JSON or as prose 'Record from system A. field: value; ...'; the matching policy is in the criteria",
+    "answer_meaning": "one_entity iff the matching policy in the criteria, applied in order to THESE TWO records, says they are one {noun}: the identifier when both carry it, else the date both carry and then the names under clause 3's allowances; two_entities otherwise. When neither the identifier nor the date appears in both records the target is soft [0.5, 0.5]. {noun} is the record type. A rewording must keep the question about whether the two records are the same entity under the stated policy, not about similarity"
+  },
+  "d17.pair_6": {
+    "template": "The records above arrived from separate registries. Do they refer to the same {noun}?",
+    "state_kind": "two records of one type (person, company or publication) from two systems, as JSON or as prose 'Record from system A. field: value; ...'; the matching policy is in the criteria",
+    "answer_meaning": "one_entity iff the matching policy in the criteria, applied in order to THESE TWO records, says they are one {noun}: the identifier when both carry it, else the date both carry and then the names under clause 3's allowances; two_entities otherwise. When neither the identifier nor the date appears in both records the target is soft [0.5, 0.5]. {noun} is the record type. A rewording must keep the question about whether the two records are the same entity under the stated policy, not about similarity"
+  },
+  "d17.pair_7": {
+    "template": "Decide, using the policy given, whether the pair above is a duplicate.",
+    "state_kind": "two records of one type (person, company or publication) from two systems, as JSON or as prose 'Record from system A. field: value; ...'; the matching policy is in the criteria",
+    "answer_meaning": "one_entity iff the matching policy in the criteria, applied in order to THESE TWO records, says they are one {noun}: the identifier when both carry it, else the date both carry and then the names under clause 3's allowances; two_entities otherwise. When neither the identifier nor the date appears in both records the target is soft [0.5, 0.5]. {noun} is the record type. A rewording must keep the question about whether the two records are the same entity under the stated policy, not about similarity"
+  },
+  "d17.roster_0": {
+    "template": "Which entry in the roster is the same {noun} as the query record?",
+    "state_kind": "a query record and a roster of 6-40 entries keyed e01/r01/c01/x01..., as JSON or as a pipe table (wide rosters show only name, date, identifier and city/first author)",
+    "answer_meaning": "the key of the ONE roster entry the policy in the criteria resolves to the same {noun} as the query record; the 'none of these' option (last, when offered) when no entry does. Exactly one entry at most matches, by construction"
+  },
+  "d17.roster_1": {
+    "template": "The query record has to be checked against the roster. Which entry, if any, does it match under the policy?",
+    "state_kind": "a query record and a roster of 6-40 entries keyed e01/r01/c01/x01..., as JSON or as a pipe table (wide rosters show only name, date, identifier and city/first author)",
+    "answer_meaning": "the key of the ONE roster entry the policy in the criteria resolves to the same {noun} as the query record; the 'none of these' option (last, when offered) when no entry does. Exactly one entry at most matches, by construction"
+  },
+  "d17.roster_2": {
+    "template": "Applying the policy, which roster entry and the query record describe one {noun}?",
+    "state_kind": "a query record and a roster of 6-40 entries keyed e01/r01/c01/x01..., as JSON or as a pipe table (wide rosters show only name, date, identifier and city/first author)",
+    "answer_meaning": "the key of the ONE roster entry the policy in the criteria resolves to the same {noun} as the query record; the 'none of these' option (last, when offered) when no entry does. Exactly one entry at most matches, by construction"
+  },
+  "d17.roster_3": {
+    "template": "One entry of the roster may be the query record filed a second time. Which?",
+    "state_kind": "a query record and a roster of 6-40 entries keyed e01/r01/c01/x01..., as JSON or as a pipe table (wide rosters show only name, date, identifier and city/first author)",
+    "answer_meaning": "the key of the ONE roster entry the policy in the criteria resolves to the same {noun} as the query record; the 'none of these' option (last, when offered) when no entry does. Exactly one entry at most matches, by construction"
+  },
+  "d17.roster_4": {
+    "template": "Point at the roster entry that resolves to the same {noun} as the query.",
+    "state_kind": "a query record and a roster of 6-40 entries keyed e01/r01/c01/x01..., as JSON or as a pipe table (wide rosters show only name, date, identifier and city/first author)",
+    "answer_meaning": "the key of the ONE roster entry the policy in the criteria resolves to the same {noun} as the query record; the 'none of these' option (last, when offered) when no entry does. Exactly one entry at most matches, by construction"
+  },
+  "d17.roster_5": {
+    "template": "Which roster entry, if any, should the query record be merged with under the policy?",
+    "state_kind": "a query record and a roster of 6-40 entries keyed e01/r01/c01/x01..., as JSON or as a pipe table (wide rosters show only name, date, identifier and city/first author)",
+    "answer_meaning": "the key of the ONE roster entry the policy in the criteria resolves to the same {noun} as the query record; the 'none of these' option (last, when offered) when no entry does. Exactly one entry at most matches, by construction"
+  },
+  "d17.decisive_0": {
+    "template": "Which clause of the policy decides this pair?",
+    "state_kind": "two records of one type (person, company or publication) from two systems, as JSON or as prose 'Record from system A. field: value; ...'; the matching policy is in the criteria",
+    "answer_meaning": "which clause of the policy decides the pair: strong_identifier iff both records carry the identifier; else fallback_date iff both carry the date; else names_alone (clause 5, unresolved). postal_address, contact_number and record_key are never correct -- the policy says they never decide. About which clause fires, not what the verdict is"
+  },
+  "d17.decisive_1": {
+    "template": "Under the policy, what carries the decision for the two records above?",
+    "state_kind": "two records of one type (person, company or publication) from two systems, as JSON or as prose 'Record from system A. field: value; ...'; the matching policy is in the criteria",
+    "answer_meaning": "which clause of the policy decides the pair: strong_identifier iff both records carry the identifier; else fallback_date iff both carry the date; else names_alone (clause 5, unresolved). postal_address, contact_number and record_key are never correct -- the policy says they never decide. About which clause fires, not what the verdict is"
+  },
+  "d17.decisive_2": {
+    "template": "Which part of these records settles the policy's decision for this pair?",
+    "state_kind": "two records of one type (person, company or publication) from two systems, as JSON or as prose 'Record from system A. field: value; ...'; the matching policy is in the criteria",
+    "answer_meaning": "which clause of the policy decides the pair: strong_identifier iff both records carry the identifier; else fallback_date iff both carry the date; else names_alone (clause 5, unresolved). postal_address, contact_number and record_key are never correct -- the policy says they never decide. About which clause fires, not what the verdict is"
+  },
+  "d17.decisive_3": {
+    "template": "The policy is applied in order. Where does it stop for this pair?",
+    "state_kind": "two records of one type (person, company or publication) from two systems, as JSON or as prose 'Record from system A. field: value; ...'; the matching policy is in the criteria",
+    "answer_meaning": "which clause of the policy decides the pair: strong_identifier iff both records carry the identifier; else fallback_date iff both carry the date; else names_alone (clause 5, unresolved). postal_address, contact_number and record_key are never correct -- the policy says they never decide. About which clause fires, not what the verdict is"
+  },
+  "d17.pairwise_0": {
+    "template": "And entry {key} on its own: is it the query record again, or a different {noun}?",
+    "state_kind": "a query record and a roster of 6-40 entries keyed e01/r01/c01/x01..., as JSON or as a pipe table (wide rosters show only name, date, identifier and city/first author); asked as a follow-up after the roster question",
+    "answer_meaning": "one_entity iff the policy applied to the query record and roster entry {key} ALONE says one {noun}; two_entities otherwise. {key} is an entry key visible in the state. About that one entry, not about the roster as a whole"
+  },
+  "d17.pairwise_1": {
+    "template": "Take entry {key} by itself. Same {noun} as the query, or not?",
+    "state_kind": "a query record and a roster of 6-40 entries keyed e01/r01/c01/x01..., as JSON or as a pipe table (wide rosters show only name, date, identifier and city/first author); asked as a follow-up after the roster question",
+    "answer_meaning": "one_entity iff the policy applied to the query record and roster entry {key} ALONE says one {noun}; two_entities otherwise. {key} is an entry key visible in the state. About that one entry, not about the roster as a whole"
+  },
+  "d17.pairwise_2": {
+    "template": "Considering only entry {key} and the query record: one {noun}, or two?",
+    "state_kind": "a query record and a roster of 6-40 entries keyed e01/r01/c01/x01..., as JSON or as a pipe table (wide rosters show only name, date, identifier and city/first author); asked as a follow-up after the roster question",
+    "answer_meaning": "one_entity iff the policy applied to the query record and roster entry {key} ALONE says one {noun}; two_entities otherwise. {key} is an entry key visible in the state. About that one entry, not about the roster as a whole"
+  }
+}

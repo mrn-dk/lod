@@ -1,0 +1,12 @@
+{
+  "d08.gh_label": {
+    "template": "Which one of this repository's labels did its maintainers apply to this issue?",
+    "state_kind": "one GitHub issue from a single repository: its title, then its body (markdown; the title's leading [tag]/prefix and the issue template's headings, checklist lines and HTML comments removed), as written by the issue's author",
+    "answer_meaning": "options: vary per repository, they are that repository's own label names verbatim (any language, case or emoji), e.g. bug / documentation / enhancement / future feature / question, or backend / deployment / documentation / enhancement / frontend / testing, or 类型:bug / 类型:需求 / ...; the one label, out of the repository's own topical labels (its workflow labels such as triage/status/priority/stale/good first issue removed, spelling variants merged), that the repository had applied to this issue when GH Archive first recorded it with exactly one label. Asks which label WAS APPLIED, not which labels could apply, not the issue's type in general; the options mix type, area and other dimensions exactly as the repository defines them"
+  },
+  "d08.gh_is_bug": {
+    "template": "Did the maintainers label this issue a bug report, rather than a feature request, enhancement or documentation issue?",
+    "state_kind": "one GitHub issue (title, then body, template scaffolding removed) from a repository whose label set has both a bug label and a feature/enhancement/documentation label",
+    "answer_meaning": "options: no / yes; yes means the maintainers' label on the issue is a bug label, no that it is a feature/enhancement/documentation label; yes iff the repository labelled the issue with a bug/defect/regression/crash label (whole word, not negated, not scoped to a module/area); no iff it labelled it with a feature/enhancement/improvement/proposal/idea/suggestion/documentation label. Issues with any other label are not asked. It is the maintainers' classification, not whether the issue text describes a malfunction"
+  }
+}

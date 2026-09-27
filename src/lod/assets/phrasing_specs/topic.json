@@ -1,0 +1,42 @@
+{
+ "v14_topic.dbpedia14": {
+  "template": "Which DBpedia ontology class does the entity this Wikipedia abstract describes belong to?",
+  "state_kind": "the abstract (lead paragraph) of one English Wikipedia article, as DBpedia extracted it; the article title is not shown",
+  "answer_meaning": "the DBpedia ontology class of the entity the article is about, one of 14 (Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork), as assigned by DBpedia from the article's infobox. Asks what KIND of thing the entity is, not what topics the abstract mentions"
+ },
+ "v14_topic.mtop_domain": {
+  "template": "Which domain of a virtual assistant does this request belong to?",
+  "state_kind": "one short English request spoken or typed to a virtual assistant (MTOP)",
+  "answer_meaning": "the MTOP domain the utterance was written for, one of 11 (alarm, calling, event, messaging, music, news, people, recipes, reminder, timer, weather): which assistant capability the request is addressed to, as MTOP's annotators labelled it"
+ },
+ "v14_topic.mtop_intent": {
+  "template": "What is the top-level intent of this request to a virtual assistant?",
+  "state_kind": "one short English request spoken or typed to a virtual assistant (MTOP)",
+  "answer_meaning": "the top-level intent of the utterance in MTOP's semantic parse (e.g. CREATE_REMINDER, GET_WEATHER, SEND_MESSAGE), as annotated; a request nested inside another (a call inside a reminder) takes the OUTER intent. Asks what the user wants the assistant to do, not which domain it is"
+ },
+ "v14_topic.cfpb_product": {
+  "template": "Which financial product did the consumer file this complaint about?",
+  "state_kind": "the narrative a consumer wrote when filing a complaint with the US Consumer Financial Protection Bureau, 2018-2022, with personal details redacted as XXXX",
+  "answer_meaning": "the product category the consumer selected when filing the complaint, one of CFPB's 9 product categories of 2018-2022 (e.g. Mortgage, Debt collection, Student loan, Credit reporting ...). Asks which financial product the complaint was filed about, not which company or which issue"
+ },
+ "v14_topic.agnews": {
+  "template": "Which news section does this article belong to?",
+  "state_kind": "the headline and first sentence(s) of one English news article from 2004-2005 (AG's corpus), with wire-service attributions removed",
+  "answer_meaning": "the news section the article was published under in AG's corpus, one of World, Sports, Business or Sci/Tech"
+ },
+ "v14_topic.yahoo": {
+  "template": "Which Yahoo! Answers category was this question posted in?",
+  "state_kind": "a JSON object with a question posted on Yahoo! Answers (question, optional details) and the answer voted best",
+  "answer_meaning": "the top-level Yahoo! Answers category the asker posted the question in, one of 10 (Society & Culture, Science & Mathematics, Health, Education & Reference, Computers & Internet, Sports, Business & Finance, Entertainment & Music, Family & Relationships, Politics & Government)"
+ },
+ "v14_topic.trec_coarse": {
+  "template": "What type of answer is this question asking for?",
+  "state_kind": "one English factoid question from the TREC question-classification set (tokenised, with a space before the final '?')",
+  "answer_meaning": "the coarse answer type of Li & Roth (2002): what kind of thing a correct answer to the question would be -- ABBR (abbreviation), ENTY (entity), DESC (description or abstract concept), HUM (human), LOC (location) or NUM (numeric value). Asks about the expected ANSWER, not the question's topic"
+ },
+ "v14_topic.trec_fine": {
+  "template": "What specific type of answer is this question asking for?",
+  "state_kind": "one English factoid question from the TREC question-classification set (tokenised, with a space before the final '?')",
+  "answer_meaning": "the fine answer type of Li & Roth (2002), one of 50 written COARSE:fine (e.g. NUM:date, HUM:ind, LOC:city, DESC:def, ENTY:animal): what kind of thing a correct answer to the question would be. Asks about the expected ANSWER, not the question's topic"
+ }
+}

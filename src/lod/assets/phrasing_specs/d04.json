@@ -1,0 +1,332 @@
+{
+  "d04.chessfact_attacked": {
+    "template": "Is the piece on {square} attacked by any {side} piece?",
+    "state_kind": "one chess position as JSON: side_to_move, castling_rights, en_passant_target, plus the board as a FEN, a square->piece map ('white knight'), an ASCII board, or FEN+map",
+    "answer_meaning": "options: no / yes; yes means at least one piece of colour {side} (the colour opposite the piece on {square}) attacks {square} by capture geometry (pseudo-legal; pins and whose turn it is ignored; the king counts as an attacker), no means none does. {square} is a lowercase square name like 'e4' holding a non-king piece of either colour; {side} is a lowercase colour word ('white'/'black') and is always the enemy of the piece asked about",
+    "slot_examples": [
+      {
+        "square": "h3",
+        "side": "black"
+      },
+      {
+        "square": "b8",
+        "side": "white"
+      },
+      {
+        "square": "f1",
+        "side": "black"
+      }
+    ],
+    "filled_example": "Is the piece on h3 attacked by any black piece?"
+  },
+  "d04.chessfact_defended": {
+    "template": "How many pieces defend the piece standing on {square}?",
+    "state_kind": "one chess position as JSON: side_to_move, castling_rights, en_passant_target, plus the board as a FEN, a square->piece map ('white knight'), an ASCII board, or FEN+map",
+    "answer_meaning": "options: defended_by_none / defended_by_exactly_one / defended_by_exactly_two / defended_by_three_or_more (4 ordinal options); the answer is the number of pieces of the SAME colour as the piece on {square} that attack {square} (the piece itself excluded; its own king counts), capped at 3. {square} is a lowercase square name like 'g2' holding a non-king piece of either colour",
+    "slot_examples": [
+      {
+        "square": "g2"
+      },
+      {
+        "square": "h6"
+      },
+      {
+        "square": "f2"
+      }
+    ],
+    "filled_example": "How many pieces defend the piece standing on g2?"
+  },
+  "d04.chessfact_pinned": {
+    "template": "Is the piece on {square} pinned against its own king?",
+    "state_kind": "one chess position as JSON: side_to_move, castling_rights, en_passant_target, plus the board as a FEN, a square->piece map ('white knight'), an ASCII board, or FEN+map",
+    "answer_meaning": "options: no / yes; yes means the piece on {square} stands between its own king and an enemy queen/rook/bishop on one line with nothing else between (absolute pin), no means it does not; kings are never asked. {square} is a lowercase square name like 'd7' holding a non-king piece of either colour",
+    "slot_examples": [
+      {
+        "square": "d7"
+      },
+      {
+        "square": "e5"
+      },
+      {
+        "square": "a7"
+      }
+    ],
+    "filled_example": "Is the piece on d7 pinned against its own king?"
+  },
+  "d04.chessfact_legal_move": {
+    "template": "It is {mover} to move. Is {move} a legal move in this position?",
+    "state_kind": "one chess position as JSON: side_to_move, castling_rights, en_passant_target, plus the board as a FEN, a square->piece map ('white knight'), an ASCII board, or FEN+map",
+    "answer_meaning": "options: no / yes; yes means the UCI move {move} is among the legal moves of {mover}, who is the side to move, no means it is not (illegal moves asked are mostly pseudo-legal moves that would leave the mover's own king attacked, otherwise an arbitrary origin-destination pair for one of the mover's pieces). {mover} is 'White' or 'Black' (capitalised); {move} is long algebraic/UCI like 'e2e4' or 'e7e8q' (origin square, destination square, promotion letter), never SAN",
+    "slot_examples": [
+      {
+        "mover": "Black",
+        "move": "e8e7"
+      },
+      {
+        "mover": "White",
+        "move": "a6d3"
+      },
+      {
+        "mover": "Black",
+        "move": "d7d6"
+      }
+    ],
+    "filled_example": "It is Black to move. Is e8e7 a legal move in this position?"
+  },
+  "d04.chessfact_mobility": {
+    "template": "How many legal moves does the side to move have?",
+    "state_kind": "one chess position as JSON: side_to_move, castling_rights, en_passant_target, plus the board as a FEN, a square->piece map ('white knight'), an ASCII board, or FEN+map",
+    "answer_meaning": "options: fewer_than_15 / from_15_to_24 / from_25_to_34 / 35_or_more (4 ordinal bands); the answer is the band holding the exact count of legal moves of the side to move: <15, 15-24, 25-34, >=35 (castling one move, each promotion piece separate)"
+  },
+  "d04.chessfact_material": {
+    "template": "Counting only the pieces on the board, how do the two material totals compare?",
+    "state_kind": "one chess position as JSON: side_to_move, castling_rights, en_passant_target, plus the board as a FEN, a square->piece map ('white knight'), an ASCII board, or FEN+map",
+    "answer_meaning": "options: black_ahead_by_three_or_more / black_ahead_by_one_or_two / level / white_ahead_by_one_or_two / white_ahead_by_three_or_more (5 ordinal bands); the answer is the band of white total minus black total (P1 N3 B3 R5 Q9, kings 0): black ahead by >=3, black ahead by 1-2, level, white ahead by 1-2, white ahead by >=3"
+  },
+  "d04.chessfact_gives_check": {
+    "template": "{mover} plays {move}. Is the {other} king in check in the position that follows?",
+    "state_kind": "one chess position as JSON: side_to_move, castling_rights, en_passant_target, plus the board as a FEN, a square->piece map ('white knight'), an ASCII board, or FEN+map",
+    "answer_meaning": "options: no / yes; yes means after {mover} plays the legal move {move}, the {other} king is attacked by at least one {mover} piece, no means it is not. {mover} is the side to move, 'White' or 'Black' (capitalised); {other} is the opposite colour in lowercase ('white'/'black'); {move} is UCI like 'd8f6'",
+    "slot_examples": [
+      {
+        "mover": "Black",
+        "move": "d8f6",
+        "other": "white"
+      },
+      {
+        "mover": "White",
+        "move": "c4d6",
+        "other": "black"
+      },
+      {
+        "mover": "Black",
+        "move": "f7f5",
+        "other": "white"
+      }
+    ],
+    "filled_example": "Black plays d8f6. Is the white king in check in the position that follows?"
+  },
+  "d04.chessfact_defended_by_pinned": {
+    "template": "Is the piece on {square} defended by at least one piece that is itself pinned?",
+    "state_kind": "one chess position as JSON: side_to_move, castling_rights, en_passant_target, plus the board as a FEN, a square->piece map ('white knight'), an ASCII board, or FEN+map",
+    "answer_meaning": "options: no / yes; the piece on {square} always has at least one same-colour defender; yes means at least one of those defenders is itself absolutely pinned, no means it is defended and none of its defenders is pinned (never 'nothing defends it'). {square} is a lowercase square name like 'f4' holding a non-king piece of either colour",
+    "slot_examples": [
+      {
+        "square": "f4"
+      },
+      {
+        "square": "h7"
+      },
+      {
+        "square": "e7"
+      }
+    ],
+    "filled_example": "Is the piece on f4 defended by at least one piece that is itself pinned?"
+  },
+  "d04.chessfact_hanging_square": {
+    "template": "Which of these {side} pieces is attacked by the other side and defended by no piece of its own colour?",
+    "state_kind": "one chess position as JSON: side_to_move, castling_rights, en_passant_target, plus the board as a FEN, a square->piece map ('white knight'), an ASCII board, or FEN+map",
+    "answer_meaning": "options: 4-7 lowercase square names like 'h6' / 'd8' / 'a4', each holding a {side} non-king piece, plus one 'none of these' sentinel option whose key varies per record (snake_case, e.g. 'appropriate_option_absent', 'no_label_fits', 'other_choice', 'correct_option_absent'); gold is the unique listed square whose piece is attacked by the other colour AND attacked by no piece of its own colour, or the sentinel when no listed piece is. {side} is a lowercase colour word ('white'/'black')",
+    "slot_examples": [
+      {
+        "side": "black"
+      },
+      {
+        "side": "white"
+      }
+    ],
+    "filled_example": "Which of these black pieces is attacked by the other side and defended by no piece of its own colour?"
+  },
+  "d04.chessfact_most_attacked": {
+    "template": "Which of these {side} pieces is attacked by the greatest number of {other} pieces?",
+    "state_kind": "one chess position as JSON: side_to_move, castling_rights, en_passant_target, plus the board as a FEN, a square->piece map ('white knight'), an ASCII board, or FEN+map",
+    "answer_meaning": "options: 4-6 lowercase square names like 'd4' / 'e5' / 'f7' / 'b8', each holding a {side} non-king piece; gold is the unique square whose piece is attacked by the greatest number of {other} pieces (at least one; ties are never asked). {side} and {other} are opposite lowercase colour words ('white'/'black')",
+    "slot_examples": [
+      {
+        "side": "black",
+        "other": "white"
+      },
+      {
+        "side": "white",
+        "other": "black"
+      }
+    ],
+    "filled_example": "Which of these black pieces is attacked by the greatest number of white pieces?"
+  },
+  "d04.chessfact_most_mobile": {
+    "template": "In which of these positions does the side to move have the greatest number of legal moves?",
+    "state_kind": "four chess positions as JSON keyed position_a..position_d, each rendered as in the single-position families",
+    "answer_meaning": "options: position_a / position_b / position_c / position_d; gold is the position whose side to move has strictly the most legal moves, by a margin of at least 2"
+  },
+  "d04.chessfact_material_edge": {
+    "template": "In which of these positions is the gap between the two material totals the largest, whichever side is ahead?",
+    "state_kind": "four chess positions as JSON keyed position_a..position_d, each rendered as in the single-position families",
+    "answer_meaning": "options: position_a / position_b / position_c / position_d; gold is the position with the largest absolute difference between the two material totals (either side ahead), by a margin of at least 2"
+  },
+  "d04.chessfact_after_move_attacked": {
+    "template": "{mover} plays {move}. In the position that follows, is the piece standing on {square} attacked by any {side} piece? Squares are named as they are after the move.",
+    "state_kind": "one chess position as JSON: side_to_move, castling_rights, en_passant_target, plus the board as a FEN, a square->piece map ('white knight'), an ASCII board, or FEN+map",
+    "answer_meaning": "options: no / yes; after {mover} plays the legal move {move}, yes means the piece now on {square} (a non-king piece of the side that did not move, not on the move's origin or destination) is attacked by at least one {side} piece, no means it is not; it asks the attack state after the move, not whether the move created the attack. {side} is the mover's colour, in lowercase ('white'/'black') while {mover} is capitalised ('White'/'Black'); {move} is UCI like 'b8c6'; {square} is a lowercase square name like 'c2'",
+    "slot_examples": [
+      {
+        "mover": "Black",
+        "move": "b8c6",
+        "square": "c2",
+        "side": "black"
+      },
+      {
+        "mover": "White",
+        "move": "a6d3",
+        "square": "a5",
+        "side": "white"
+      },
+      {
+        "mover": "Black",
+        "move": "d4e3",
+        "square": "b1",
+        "side": "black"
+      }
+    ],
+    "filled_example": "Black plays b8c6. In the position that follows, is the piece standing on c2 attacked by any black piece? Squares are named as they are after the move."
+  },
+  "d04.chessfact_discovered_check": {
+    "template": "{mover} plays {move}. In the position that follows, is the {other} king in check, and if so which piece is giving it?",
+    "state_kind": "one chess position as JSON: side_to_move, castling_rights, en_passant_target, plus the board as a FEN, a square->piece map ('white knight'), an ASCII board, or FEN+map",
+    "answer_meaning": "options: no_check / check_by_the_piece_that_moved / check_by_a_piece_that_did_not_move; no_check means after {move} the {other} king is not attacked, check_by_the_piece_that_moved means the ONLY attacker of the {other} king is the piece on {move}'s destination, check_by_a_piece_that_did_not_move means at least one attacker is another piece (discovered or double check). Castling checks are never asked. {mover} is the side to move, capitalised ('White'/'Black'); {other} is the opposite colour in lowercase; {move} is UCI like 'f6e5'",
+    "slot_examples": [
+      {
+        "mover": "Black",
+        "move": "f6e5",
+        "other": "white"
+      },
+      {
+        "mover": "White",
+        "move": "h5f7",
+        "other": "black"
+      },
+      {
+        "mover": "Black",
+        "move": "g4f3",
+        "other": "white"
+      }
+    ],
+    "filled_example": "Black plays f6e5. In the position that follows, is the white king in check, and if so which piece is giving it?"
+  },
+  "d04.chessfact_hanging_defender": {
+    "template": "Is the piece on {square} defended by at least one piece that is itself attacked by the other side and defended by nobody?",
+    "state_kind": "one chess position as JSON: side_to_move, castling_rights, en_passant_target, plus the board as a FEN, a square->piece map ('white knight'), an ASCII board, or FEN+map",
+    "answer_meaning": "options: no / yes; the piece on {square} always has at least one same-colour non-king defender; yes means at least one such defender is attacked by the other colour and defended by none of its own colour, no means every such defender is unattacked or defended. {square} is a lowercase square name like 'c4' holding a non-king piece of either colour",
+    "slot_examples": [
+      {
+        "square": "c4"
+      },
+      {
+        "square": "b8"
+      },
+      {
+        "square": "c8"
+      }
+    ],
+    "filled_example": "Is the piece on c4 defended by at least one piece that is itself attacked by the other side and defended by nobody?"
+  },
+  "d04.chessfact_most_pinned": {
+    "template": "In which of these positions is the greatest number of pieces pinned against their own king, counting both colours?",
+    "state_kind": "four chess positions as JSON keyed position_a..position_d, each rendered as in the single-position families",
+    "answer_meaning": "options: position_a / position_b / position_c / position_d; gold is the position with strictly the most absolutely pinned pieces counting both colours, margin >= 1"
+  },
+  "d04.chessfact_most_hanging": {
+    "template": "In which of these positions are the most pieces attacked by the other side while having no defender of their own colour, counting both colours?",
+    "state_kind": "four chess positions as JSON keyed position_a..position_d, each rendered as in the single-position families",
+    "answer_meaning": "options: position_a / position_b / position_c / position_d; gold is the position with strictly the most non-king pieces (both colours) that are attacked by the other colour and defended by none of their own, margin >= 2"
+  },
+  "d04.chessfact_after_move_hanging": {
+    "template": "{mover} plays {move}. In the position that follows, which of these {side} pieces is attacked and has no defender of its own colour? Squares are named as they are after the move.",
+    "state_kind": "one chess position as JSON: side_to_move, castling_rights, en_passant_target, plus the board as a FEN, a square->piece map ('white knight'), an ASCII board, or FEN+map",
+    "answer_meaning": "options: 4-7 lowercase square names like 'a4' / 'f1' / 'f4', each holding a {side} non-king piece as it stands after the move, plus one 'none of these' sentinel option whose key varies per record (snake_case, e.g. 'appropriate_option_absent', 'no_label_fits', 'other_choice', 'correct_option_absent'); after {mover} plays the legal move {move}, gold is the unique listed piece that is attacked and has no defender of its own colour in the position after the move, or the sentinel when no listed piece is. {side} is the side that did not move, in lowercase ('white'/'black'), while {mover} is capitalised ('White'/'Black'); {move} is UCI like 'h3g4'",
+    "slot_examples": [
+      {
+        "mover": "White",
+        "move": "h3g4",
+        "side": "black"
+      },
+      {
+        "mover": "Black",
+        "move": "a6c8",
+        "side": "white"
+      },
+      {
+        "mover": "White",
+        "move": "b3b4",
+        "side": "black"
+      }
+    ],
+    "filled_example": "White plays h3g4. In the position that follows, which of these black pieces is attacked and has no defender of its own colour? Squares are named as they are after the move."
+  },
+  "d04.chessfact_after_move_pinned": {
+    "template": "{mover} plays {move}. In the position that follows, is the piece standing on {square} pinned against its own king? Squares are named as they are after the move.",
+    "state_kind": "one chess position as JSON: side_to_move, castling_rights, en_passant_target, plus the board as a FEN, a square->piece map ('white knight'), an ASCII board, or FEN+map",
+    "answer_meaning": "options: no / yes; after {mover} plays the legal move {move}, yes means the piece now on {square} (a non-king piece of either colour, not on the move's origin or destination) is pinned: an enemy queen, rook or bishop attacks it along a rank, file or diagonal that continues through it to its own king with nothing in between; no means it is not. It asks the pin state after the move, not whether the move created the pin. {mover} is 'White' or 'Black'; {move} is UCI like 'e2e4'; {square} is a lowercase square name like 'd7'",
+    "slot_examples": [
+      {
+        "mover": "White",
+        "move": "f1b5",
+        "square": "c6"
+      },
+      {
+        "mover": "Black",
+        "move": "c8g4",
+        "square": "f3"
+      },
+      {
+        "mover": "White",
+        "move": "e1g1",
+        "square": "e7"
+      }
+    ],
+    "filled_example": "White plays f1b5. In the position that follows, is the piece standing on c6 pinned against its own king? Squares are named as they are after the move."
+  },
+  "d04.chessfact_attacker_hanging": {
+    "template": "Is the piece on {square} attacked by at least one enemy piece that is itself attacked and defended by nobody?",
+    "state_kind": "one chess position as JSON: side_to_move, castling_rights, en_passant_target, plus the board as a FEN, a square->piece map ('white knight'), an ASCII board, or FEN+map",
+    "answer_meaning": "options: no / yes; the piece on {square} is always attacked by at least one enemy piece, and never by a king; yes means at least one of those attackers is itself attacked by the colour of the piece on {square} and defended by none of its own colour, no means every attacker is unattacked or defended. {square} is a lowercase square name like 'e5' holding a non-king piece of either colour",
+    "slot_examples": [
+      {
+        "square": "e5"
+      },
+      {
+        "square": "b7"
+      },
+      {
+        "square": "g2"
+      }
+    ],
+    "filled_example": "Is the piece on e5 attacked by at least one enemy piece that is itself attacked and defended by nobody?"
+  },
+  "d04.chessfact_most_checks": {
+    "template": "In which of these positions does the side to move have the greatest number of legal moves that give check?",
+    "state_kind": "four chess positions as JSON keyed position_a..position_d, each rendered as in the single-position families",
+    "answer_meaning": "options: position_a / position_b / position_c / position_d; gold is the position whose side to move has strictly the most legal moves that leave the other king attacked (a unique maximum)"
+  },
+  "d04.lichess_theme": {
+    "template": "Does this chess puzzle have the '{theme}' theme?",
+    "state_kind": "one lichess puzzle as JSON: fen (the position BEFORE the opponent's setup move), solution_moves (UCI, setup move first, then solver/opponent alternating), opening tag or null; instructions say who the solver is",
+    "answer_meaning": "options: no / yes; yes means lichess's published puzzle theme {theme} is among the puzzle's tagged themes, no means it is not; the yes/no criteria carry lichess's definition of {theme}. Balanced 50/50 per theme. {theme} is the raw lichess theme key, camelCase and untranslated (e.g. 'mateIn1', 'fork', 'rookEndgame', 'advancedPawn', 'kingsideAttack'), and it stays inside quotes",
+    "slot_examples": [
+      {
+        "theme": "mateIn1"
+      },
+      {
+        "theme": "fork"
+      },
+      {
+        "theme": "rookEndgame"
+      }
+    ],
+    "filled_example": "Does this chess puzzle have the 'mateIn1' theme?"
+  },
+  "d04.lichess_rating": {
+    "template": "How hard is this chess puzzle for the players who have attempted it?",
+    "state_kind": "one lichess puzzle as JSON: fen, solution_moves, opening (as for d04.lichess_theme)",
+    "answer_meaning": "options: under_1200 / 1200_to_1599 / 1600_to_1999 / 2000_to_2399 / 2400_plus (5 ordinal bands); the answer is the band of the puzzle's lichess Glicko rating (the solving population's difficulty estimate): <1200, 1200-1599, 1600-1999, 2000-2399, >=2400"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "d02.escalate": {
+    "template": "Does this {noun} meet the escalation rule?",
+    "state_kind": "one operational record (shipment, sensor reading, incident ticket, build job, purchase order or vehicle telemetry record; 12-14 fields) rendered as JSON or as one prose paragraph; for cross-record families and contrast_state, 2-4 such records keyed record_a.. / 'Record A.' .. and the question is prefixed 'For record X: '",
+    "answer_meaning": "two options no/yes whose descriptions ARE the rule: yes iff the record (the named record X when prefixed) satisfies the rule written in the 'yes' description, no iff it satisfies the 'no' description, which is its exact complement. 'The escalation rule' names no rule of its own -- it means the rule in the descriptions, nothing else. If the record lacks a field the rule needs and the rest of the rule does not settle it, 'not in context' (no score target). Soft target within ~3 % of a numeric threshold. Also the question text of rule_contrast_criteria and rule_contrast_state."
+  },
+  "d02.review": {
+    "template": "Does this {noun} need review?",
+    "state_kind": "same as d02.escalate",
+    "answer_meaning": "identical to d02.escalate: yes iff the record satisfies the rule in the 'yes' description. 'Need review' carries no meaning of its own and must not be reworded into a judgement about the record (e.g. 'is anything wrong with it')."
+  },
+  "d02.exempt": {
+    "template": "Does this {noun} qualify for the exemption?",
+    "state_kind": "same as d02.escalate",
+    "answer_meaning": "identical to d02.escalate: yes iff the record satisfies the rule in the 'yes' description. 'The exemption' is defined only by that description; a phrasing must not invert it (e.g. 'is it excluded from the exemption')."
+  },
+  "d02.flag": {
+    "template": "Should this {noun} be flagged?",
+    "state_kind": "same as d02.escalate",
+    "answer_meaning": "identical to d02.escalate: yes iff the record satisfies the rule in the 'yes' description; the word 'flagged' carries no rule of its own."
+  },
+  "d02.band": {
+    "template": "Which band does this {noun} fall into?",
+    "state_kind": "one record as in d02.escalate",
+    "answer_meaning": "options tier_a..tier_e (3-5), each described 'X is from A up to B' over ONE numeric field, contiguous and covering the field's whole range, the last marked '(the top band)'; the target is the tier whose interval contains the record's value of that field (soft across a shared edge). Not the tier of any other field, not a ranking."
+  },
+  "d02.route": {
+    "template": "Which action does the rule select for this {noun}?",
+    "state_kind": "one record as in d02.escalate",
+    "answer_meaning": "options escalate / hold / route_standard (shuffled), each description a self-contained condition: escalate 'when R1'; hold 'when R2, unless this also holds: R1'; route_standard 'when neither of these holds: R1; R2'. Exactly one holds; the target is that option (soft near a numeric threshold). 'The rule' is the set of option descriptions, applied to this one record."
+  },
+  "d02.select": {
+    "template": "Which record satisfies the rule: {rule}?",
+    "state_kind": "3-4 records of one domain keyed record_a..record_d (JSON) or 'Record A.'..'Record D.' (prose)",
+    "answer_meaning": "the ONE record for which {rule} holds; by construction exactly one record satisfies it and every other record clearly does not. Options are the record keys. Held out (testreal / rule_transfer shape control). {rule} must be reproduced verbatim: rewording it changes the question."
+  }
+}

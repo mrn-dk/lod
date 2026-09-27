@@ -1,0 +1,17 @@
+{
+  "d13.level": {
+    "template": "A log line from a production system, with the severity the logger printed blanked out as [LEVEL]. What severity did it have?",
+    "state_kind": "one real log line from one of the LogHub 2k samples (HDFS, Hadoop, Zookeeper, OpenStack, Android; BGL held out), in that system's own format, with the level field replaced by the literal token [LEVEL] (padding collapsed to one space) and, for BGL, the LogHub alert-annotation first field removed",
+    "answer_meaning": "the severity the logger itself wrote in that line's level field, mapped onto the shared ordered scale DEBUG < INFO < NOTICE < WARN < ERROR < FATAL (Android V/D -> DEBUG, WARNING -> WARN). Exactly one level for this one line, as printed by the program, not a judgement of how serious the event is in hindsight and not the level of any other line"
+  },
+  "d13.component": {
+    "template": "A log line with the name of the emitting component blanked out as [COMPONENT]. Which component of this system wrote it?",
+    "state_kind": "one real log line from one LogHub system, in that system's own format, with the component/program field and every whole-token repeat of that name replaced by the literal token [COMPONENT]; the options are that system's own most frequent component names",
+    "answer_meaning": "the name printed in that line's component (logger class / program / subsystem) field, i.e. which one of this system's listed components emitted this single line"
+  },
+  "d13.burst": {
+    "template": "A run of consecutive log lines from one system. Taking the first line that carries a severity as the baseline, is the run steady, with no later line above that baseline, or does it escalate, with some later line reporting a higher severity?",
+    "state_kind": "six consecutive real lines from one LogHub system, unredacted (each line keeps its own printed level), one per line, in log order",
+    "answer_meaning": "escalates iff at least one line AFTER the first leveled line prints a level strictly higher than the FIRST leveled line's level on DEBUG < INFO < NOTICE < WARN < ERROR < FATAL; steady otherwise (all later lines equal to or below the first). The comparison is always against the first line, NOT between adjacent lines, so a dip and recovery back to the first level is steady"
+  }
+}

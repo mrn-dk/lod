@@ -1,0 +1,75 @@
+{
+  "d12.section": {
+    "template": "Which section of this document does the passage above come from?",
+    "state_kind": "one page of an arXiv paper (CC-BY/CC-BY-SA/CC0) converted to text by pymupdf4llm (markdown) or pdftotext -layout (fixed-width); an interior page no outline entry starts on, section numbering never on it as an answer",
+    "answer_meaning": "options: vary per record, 6 section headings of the same paper with numbering stripped, e.g. Introduction / Related work / Overcasts / Pliable structures admit a PTAS: proof of Theorem 1.1 / ...; the single most specific outline (bookmark) entry of this PDF whose pages contain this page, i.e. the last outline entry starting before it; options are other headings of the same paper with numbering stripped, never the gold's enclosing sections"
+  },
+  "d12.next_section": {
+    "template": "Which heading comes immediately after \"{t}\" in this document's section map?",
+    "state_kind": "one page of an arXiv paper (CC-BY/CC-BY-SA/CC0) converted to text by pymupdf4llm (markdown) or pdftotext -layout (fixed-width); an interior page no outline entry starts on, section numbering never on it as an answer; the page belongs to the section named {t}",
+    "answer_meaning": "options: vary per record, 4 to 6 headings of the same paper with numbering stripped (never {t} itself), e.g. Beyond-QKD Applications / Non-Terrestrial Networks / Quantum Computing / ...; {t} is a heading title of the paper, numbering stripped, e.g. 'Quantum over NTN Links'. Target: the heading that immediately follows {t} in the PDF outline's reading order, at any nesting level (a section's first subsection counts); exactly one heading, the very next one, not any later one",
+    "slot_examples": [
+      {
+        "t": "Quantum over NTN Links"
+      },
+      {
+        "t": "Adversarially Generated Manipulations"
+      },
+      {
+        "t": "The Fredholm equation of the first kind"
+      }
+    ],
+    "filled_example": "Which heading comes immediately after \"Quantum over NTN Links\" in this document's section map?"
+  },
+  "d12.prev_section": {
+    "template": "Which heading comes immediately before \"{t}\" in this document's section map?",
+    "state_kind": "one page of an arXiv paper (CC-BY/CC-BY-SA/CC0) converted to text by pymupdf4llm (markdown) or pdftotext -layout (fixed-width); an interior page no outline entry starts on, section numbering never on it as an answer; the page belongs to the section named {t}",
+    "answer_meaning": "options: vary per record, 4 to 6 headings of the same paper with numbering stripped (never {t} itself), e.g. Introduction / Prior Approaches / Sampling Error Bounds / ...; {t} is a heading title of the paper, numbering stripped, e.g. 'Our Contributions'. Target: the heading that immediately precedes {t} in the PDF outline's reading order, at any nesting level (a section's parent counts when {t} is its first subsection); exactly one heading, the very previous one",
+    "slot_examples": [
+      {
+        "t": "Our Contributions"
+      },
+      {
+        "t": "Experimental Results"
+      },
+      {
+        "t": "Implementation Details of R-MAE"
+      }
+    ],
+    "filled_example": "Which heading comes immediately before \"Our Contributions\" in this document's section map?"
+  },
+  "d12.parent": {
+    "template": "The passage above is where the subsection \"{t}\" begins. Which top-level section of this document contains it?",
+    "state_kind": "the page of an arXiv paper, converted to text, on which the subsection {t} starts (the page shows {t} itself)",
+    "answer_meaning": "options: vary per record, 4 to 6 top-level section headings of the same paper with numbering stripped, e.g. Background / Introduction / Synthetic Example / Conclusion / ...; {t} is a subsection title (outline level 2 or deeper), numbering stripped, e.g. 'Smooth Interpretation'. Target: the top-level (outline level 1) section that encloses subsection {t}; options are only top-level sections of the same paper",
+    "slot_examples": [
+      {
+        "t": "Smooth Interpretation"
+      },
+      {
+        "t": "Few-step Diffusion Models"
+      },
+      {
+        "t": "8bit Quantization"
+      }
+    ],
+    "filled_example": "The passage above is where the subsection \"Smooth Interpretation\" begins. Which top-level section of this document contains it?"
+  },
+  "d12.depth": {
+    "template": "The passage above comes from the section headed \"{t}\". How deep does that heading sit in this document's section map?",
+    "state_kind": "one page of an arXiv paper (CC-BY/CC-BY-SA/CC0) converted to text by pymupdf4llm (markdown) or pdftotext -layout (fixed-width); an interior page no outline entry starts on, section numbering never on it as an answer; the page belongs to the section named {t}",
+    "answer_meaning": "options: a top-level section / a second-level subsection / a third-level subsection / a fourth-level subsection (fixed, ordered); {t} is a heading title of the paper, numbering stripped, e.g. 'Metrics', so the numbering cannot give the depth away. Target: the nesting level of heading {t} in the PDF outline, one of top-level section (1), second-level (2), third-level (3), fourth-level (4)",
+    "slot_examples": [
+      {
+        "t": "Conclusions and Future Work"
+      },
+      {
+        "t": "Metrics"
+      },
+      {
+        "t": "Trace estimates and regularity results for the state equation"
+      }
+    ],
+    "filled_example": "The passage above comes from the section headed \"Conclusions and Future Work\". How deep does that heading sit in this document's section map?"
+  }
+}

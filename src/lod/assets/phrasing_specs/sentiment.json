@@ -1,0 +1,82 @@
+{
+  "v14s.imdb": {
+    "template": "Did the writer of this IMDb movie review rate the film positively or negatively?",
+    "state_kind": "one full English user review of a film from IMDb, HTML line breaks restored as newlines; reviews over 4,000 characters are not used",
+    "answer_meaning": "options negative / positive: the class of the rating the writer gave (<= 4/10 negative, >= 7/10 positive; neutral ratings are not in the dataset)"
+  },
+  "v14s.fpb": {
+    "template": "From an investor's point of view, is this sentence from financial news likely to have a negative, neutral or positive influence on the stock price of the company it concerns?",
+    "state_kind": "one English sentence from financial news about a (mostly Finnish, OMX Helsinki listed) company",
+    "answer_meaning": "a soft distribution over negative / neutral / positive: the annotators' (5-8 finance-trained) majority label, weighted by the published agreement bracket, the remainder on the adjacent class"
+  },
+  "v14s.tweeteval_irony": {
+    "template": "Is this tweet ironic?",
+    "state_kind": "one English tweet from the TweetEval benchmark, user mentions anonymised as @user",
+    "answer_meaning": "options non_irony / irony: the SemEval-2018 Task 3 subtask A label (Van Hee et al.), manually annotated; the #irony/#sarcasm/#not query hashtags were removed by the task organisers"
+  },
+  "v14s.stance_hillary": {
+    "template": "What stance does the author of this tweet take toward Hillary Clinton?",
+    "state_kind": "one English tweet from the TweetEval benchmark, user mentions anonymised as @user; the target need not be named in the tweet",
+    "answer_meaning": "options none / against / favor: the SemEval-2016 Task 6 stance label toward the target 'Hillary Clinton' -- favor = the author supports it, against = the author opposes it, none = neutral or no clue. Stance toward the target, not the tweet's sentiment"
+  },
+  "v14s.poem_sentiment": {
+    "template": "What sentiment does this line of poetry convey?",
+    "state_kind": "one verse (a single line) of an English poem from Project Gutenberg",
+    "answer_meaning": "options negative / positive / no_impact / mixed: the Gutenberg Poem Dataset label (Sheng & Uthus 2020), expert-annotated per verse"
+  },
+  "v14s.tfns": {
+    "template": "Is this finance-related tweet bearish, neutral or bullish about the company, asset or market it discusses?",
+    "state_kind": "one English finance-news tweet, often with a $TICKER and a t.co link",
+    "answer_meaning": "options Bearish / Neutral / Bullish: the dataset's annotated sentiment label (LABEL_0 Bearish, LABEL_1 Bullish, LABEL_2 Neutral)"
+  },
+  "v14s.stance_feminist": {
+    "template": "What stance does the author of this tweet take toward the feminist movement?",
+    "state_kind": "one English tweet from the TweetEval benchmark, user mentions anonymised as @user; the target need not be named in the tweet",
+    "answer_meaning": "options none / against / favor: the SemEval-2016 Task 6 stance label toward the target 'Feminist Movement' -- favor = the author supports it, against = the author opposes it, none = neutral or no clue. Stance toward the target, not the tweet's sentiment"
+  },
+  "v14s.sst5": {
+    "template": "How negative or positive is the sentiment of this sentence from a movie review?",
+    "state_kind": "one sentence from a Rotten Tomatoes movie review snippet (Stanford Sentiment Treebank train split), detokenised",
+    "answer_meaning": "a soft distribution over the five SST classes: the share of the sentence's annotators (usually 3) whose own 25-point slider value falls in each class under SST's published cut-offs"
+  },
+  "v14s.amazon_polarity": {
+    "template": "Did the writer of this Amazon review rate the product positively or negatively?",
+    "state_kind": "the body of one English Amazon product review (the title is removed)",
+    "answer_meaning": "options negative / positive: the class of the writer's star rating (1-2 negative, 4-5 positive; 3-star reviews are not in the dataset)"
+  },
+  "v14s.tweeteval_sentiment": {
+    "template": "What is the overall sentiment of this tweet?",
+    "state_kind": "one English tweet from the TweetEval benchmark, user mentions anonymised as @user",
+    "answer_meaning": "options negative / neutral / positive: the SemEval-2017 Task 4A message-level sentiment label (Rosenthal et al.), crowd-annotated"
+  },
+  "v14s.tweeteval_offensive": {
+    "template": "Does this tweet contain offensive language or a targeted offense?",
+    "state_kind": "one English tweet from the TweetEval benchmark, user mentions anonymised as @user; URLs written as URL",
+    "answer_meaning": "options non-offensive / offensive: the OLID level-A label (OffensEval 2019, Zampieri et al.)"
+  },
+  "v14s.tweeteval_emotion": {
+    "template": "Which emotion best represents the mental state of the author of this tweet?",
+    "state_kind": "one English tweet from the TweetEval benchmark, user mentions anonymised as @user",
+    "answer_meaning": "options anger / joy / optimism / sadness: the SemEval-2018 Task 1 (Affect in Tweets) E-c emotion for tweets carrying one of these four, as TweetEval selects them"
+  },
+  "v14s.stance_abortion": {
+    "template": "What stance does the author of this tweet take toward the legalization of abortion?",
+    "state_kind": "one English tweet from the TweetEval benchmark, user mentions anonymised as @user; the target need not be named in the tweet",
+    "answer_meaning": "options none / against / favor: the SemEval-2016 Task 6 stance label toward the target 'Legalization of Abortion' -- favor = the author supports it, against = the author opposes it, none = neutral or no clue. Stance toward the target, not the tweet's sentiment"
+  },
+  "v14s.stance_atheism": {
+    "template": "What stance does the author of this tweet take toward atheism?",
+    "state_kind": "one English tweet from the TweetEval benchmark, user mentions anonymised as @user; the target need not be named in the tweet",
+    "answer_meaning": "options none / against / favor: the SemEval-2016 Task 6 stance label toward the target 'Atheism' -- favor = the author supports it, against = the author opposes it, none = neutral or no clue. Stance toward the target, not the tweet's sentiment"
+  },
+  "v14s.stance_climate": {
+    "template": "What stance does the author of this tweet take toward the position that climate change is a real concern?",
+    "state_kind": "one English tweet from the TweetEval benchmark, user mentions anonymised as @user; the target need not be named in the tweet",
+    "answer_meaning": "options none / against / favor: the SemEval-2016 Task 6 stance label toward the target 'Climate Change is a Real Concern' -- favor = the author supports it, against = the author opposes it, none = neutral or no clue. Stance toward the target, not the tweet's sentiment"
+  },
+  "v14s.claim_stance": {
+    "template": "Does this claim support or contest the debate motion?",
+    "state_kind": "a JSON object: a debate motion ('This house ...') and one claim about it, a sentence taken from Wikipedia",
+    "answer_meaning": "options PRO / CON: the IBM Debater Claim Stance label (Bar-Haim et al. 2017), expert-annotated stance of the claim toward the motion"
+  }
+}

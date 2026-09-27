@@ -1,0 +1,53 @@
+[project]
+name = "lod"
+version = "1.0.0"
+description = "Lod: prefill-only option scorers with calibrated, typed decisions"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.12"
+dependencies = [
+  "torch>=2.6",
+  "transformers>=4.53",
+  "peft>=0.15",
+  "datasets>=3.0",
+  "numpy",
+  "tqdm",
+  "rich",
+  "safetensors",
+]
+
+[project.optional-dependencies]
+# serving the reference API (scripts/serve.py)
+serve = ["fastapi", "uvicorn"]
+# building the corpus: LLM enrichment, PDF reading (domain 12), chess labels (row 43)
+data = [
+  "httpx",
+  "python-dotenv>=1.0",
+  "pandas",
+  "pymupdf",
+  "pymupdf4llm<1",
+  "chess>=1.10",
+]
+# row 27 (GEFS forecasts) opens GRIB2 files
+gefs = ["xarray", "cfgrib", "eccodes", "eccodeslib"]
+
+[dependency-groups]
+dev = ["pytest", "fastapi", "httpx"]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lod"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

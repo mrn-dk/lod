@@ -1,0 +1,2457 @@
+{
+ "measured": "2026-09-22",
+ "sources": {
+  "12ml_e_care": {
+   "config": "default",
+   "path": "12ml/e-CARE",
+   "splits": [
+    "train",
+    "validation"
+   ]
+  },
+  "2a2i_arabic_aya": {
+   "config": "CohereForAI-aya_collection-aya_dataset",
+   "path": "2A2I/Arabic_Aya",
+   "splits": [
+    "train"
+   ]
+  },
+  "66aaa_cloudanobench": {
+   "config": "default",
+   "path": "66aaa/CloudAnoBench",
+   "splits": [
+    "train"
+   ]
+  },
+  "ade_benchmark_corpus_ade_corpus_v2": {
+   "config": "Ade_corpus_v2_classification",
+   "path": "ade-benchmark-corpus/ade_corpus_v2",
+   "splits": [
+    "train"
+   ]
+  },
+  "adugeen_personal_facts_msc": {
+   "config": "default",
+   "path": "adugeen/personal-facts-msc",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "agentalphaagi_paper_review_dataset": {
+   "config": "default",
+   "path": "AgentAlphaAGI/Paper-Review-Dataset",
+   "splits": [
+    "train"
+   ]
+  },
+  "ai4bharat_indic_glue": {
+   "config": "actsa-sc.te",
+   "path": "ai4bharat/indic_glue",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "ai4math_ineqmath": {
+   "config": "default",
+   "path": "AI4Math/IneqMath",
+   "splits": [
+    "dev",
+    "test",
+    "train",
+    "train_expanded"
+   ]
+  },
+  "ai4math_mathvista": {
+   "config": "default",
+   "path": "AI4Math/MathVista",
+   "splits": [
+    "testmini",
+    "test"
+   ]
+  },
+  "ai4privacy_open_pii_masking_500k_ai4privacy": {
+   "config": "default",
+   "path": "ai4privacy/open-pii-masking-500k-ai4privacy",
+   "splits": [
+    "train",
+    "validation"
+   ]
+  },
+  "ai4privacy_pii_masking_400k": {
+   "config": "default",
+   "path": "ai4privacy/pii-masking-400k",
+   "splits": [
+    "train",
+    "validation"
+   ]
+  },
+  "ai4sec_cti_bench": {
+   "config": "cti-mcq",
+   "path": "AI4Sec/cti-bench",
+   "splits": [
+    "test"
+   ]
+  },
+  "aisbergpublicorganization_telegram_news_ua_dataset": {
+   "config": "monthly",
+   "path": "aisbergpublicorganization/telegram-news-ua-dataset",
+   "splits": [
+    "2025_08",
+    "2025_09",
+    "2025_11",
+    "2025_12",
+    "2026_01",
+    "2026_02",
+    "2026_03",
+    "2026_04",
+    "2026_05",
+    "2026_06",
+    "2026_07",
+    "2026_08"
+   ]
+  },
+  "algorithmicresearchgroup_s2orc_cs_enriched": {
+   "config": "default",
+   "path": "AlgorithmicResearchGroup/s2orc-cs-enriched",
+   "splits": [
+    "train"
+   ]
+  },
+  "alisawuffles_wanli": {
+   "config": "default",
+   "path": "alisawuffles/WANLI",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "allenai_art": {
+   "config": "anli",
+   "path": "allenai/art",
+   "splits": [
+    "validation",
+    "train"
+   ]
+  },
+  "allenai_swag": {
+   "config": "full",
+   "path": "allenai/swag",
+   "splits": [
+    "train",
+    "validation"
+   ]
+  },
+  "almanach_biomed_enriched": {
+   "config": "default",
+   "path": "almanach/Biomed-Enriched",
+   "splits": [
+    "commercial",
+    "noncommercial"
+   ]
+  },
+  "andrebadini_repojus": {
+   "config": "default",
+   "path": "andrebadini/repojus",
+   "splits": [
+    "train"
+   ]
+  },
+  "annahbanannah_synthetic_math_toolcall_deception": {
+   "config": "default",
+   "path": "annahbanannah/synthetic-math-toolcall-deception",
+   "splits": [
+    "train"
+   ]
+  },
+  "aps_super_glue": {
+   "config": "axb",
+   "path": "aps/super_glue",
+   "splits": [
+    "test"
+   ]
+  },
+  "artefactory_bertjudge_dataset": {
+   "config": "arc_challenge_train",
+   "path": "artefactory/BERTJudge-Dataset",
+   "splits": [
+    "Llama_3.2_1B_Instruct",
+    "Llama_3.2_3B_Instruct",
+    "Llama_3.1_8B_Instruct",
+    "Llama_3.3_70B_Instruct",
+    "Qwen3_0.6B",
+    "Qwen3_4B",
+    "Qwen3_8B",
+    "Qwen3_14B",
+    "Qwen3_32B",
+    "gemma_3_1b_it",
+    "gemma_3_4b_it",
+    "gemma_3_12b_it",
+    "gemma_3_27b_it",
+    "Falcon3_1B_Instruct",
+    "Falcon3_3B_Instruct",
+    "Falcon3_7B_Instruct",
+    "Phi_4_mini_instruct",
+    "phi_4",
+    "SmolLM2_135M_Instruct",
+    "SmolLM2_360M_Instruct",
+    "SmolLM2_1.7B_Instruct",
+    "SmolLM3_3B",
+    "Olmo_3_7B_Instruct",
+    "Olmo_3.1_32B_Instruct",
+    "LFM2_350M",
+    "LFM2_700M",
+    "LFM2_1.2B",
+    "LFM2_2.6B",
+    "EuroLLM_1.7B_Instruct",
+    "EuroLLM_9B_Instruct_2512",
+    "EuroLLM_22B_Instruct_2512",
+    "Apertus_8B_Instruct_2509",
+    "Apertus_70B_Instruct_2509",
+    "Ministral_3_3B_Instruct_2512",
+    "Ministral_3_8B_Instruct_2512",
+    "Ministral_3_14B_Instruct_2512"
+   ]
+  },
+  "bastao_veracruz_pt_br": {
+   "config": "Portugal (PT)",
+   "path": "bastao/VeraCruz_PT-BR",
+   "splits": [
+    "train"
+   ]
+  },
+  "batsresearch_sib200_lexc_gen": {
+   "config": "ak_100k",
+   "path": "BatsResearch/sib200-LexC-Gen",
+   "splits": [
+    "train",
+    "validation"
+   ]
+  },
+  "benayas_snips": {
+   "config": "default",
+   "path": "benayas/snips",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "benjaminvdb_dbrd": {
+   "config": "plain_text",
+   "path": "benjaminvdb/dbrd",
+   "splits": [
+    "train",
+    "test",
+    "unsupervised"
+   ]
+  },
+  "bgpt_official_refute": {
+   "config": "refute_knowledge",
+   "path": "BGPT-OFFICIAL/refute",
+   "splits": [
+    "train"
+   ]
+  },
+  "biglam_americanstories_parquet": {
+   "config": "1774",
+   "path": "biglam/AmericanStories-parquet",
+   "splits": [
+    "train"
+   ]
+  },
+  "bolu61_loghub_2": {
+   "config": "default",
+   "path": "bolu61/loghub_2",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "bose345_sp500_earnings_transcripts": {
+   "config": "default",
+   "path": "Bose345/sp500_earnings_transcripts",
+   "splits": [
+    "train"
+   ]
+  },
+  "btf_2_btf_2": {
+   "config": "default",
+   "path": "BTF-2/BTF-2",
+   "splits": [
+    "test"
+   ]
+  },
+  "btf_2_btf_3": {
+   "config": "binary",
+   "path": "BTF-2/BTF-3",
+   "splits": [
+    "test"
+   ]
+  },
+  "cambridgeltl_vsr_random": {
+   "config": "default",
+   "path": "cambridgeltl/vsr_random",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "cambridgeltl_vsr_zeroshot": {
+   "config": "default",
+   "path": "cambridgeltl/vsr_zeroshot",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "cardiffnlp_super_tweeteval": {
+   "config": "tempo_wic",
+   "path": "cardiffnlp/super_tweeteval",
+   "splits": [
+    "train",
+    "test",
+    "validation"
+   ]
+  },
+  "cardiffnlp_tweet_eval": {
+   "config": "emoji",
+   "path": "cardiffnlp/tweet_eval",
+   "splits": [
+    "train",
+    "test",
+    "validation"
+   ]
+  },
+  "cardiffnlp_tweet_topic_multilingual": {
+   "config": "default",
+   "path": "cardiffnlp/tweet_topic_multilingual",
+   "splits": [
+    "validation"
+   ]
+  },
+  "caskcsg_longbench_pro": {
+   "config": "default",
+   "path": "caskcsg/LongBench-Pro",
+   "splits": [
+    "test"
+   ]
+  },
+  "ccdv_arxiv_classification": {
+   "config": "default",
+   "path": "ccdv/arxiv-classification",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "ceval_ceval_exam": {
+   "config": "accountant",
+   "path": "ceval/ceval-exam",
+   "splits": [
+    "test",
+    "val",
+    "dev"
+   ]
+  },
+  "claritystorm_cfpb_consumer_complaints": {
+   "config": "default",
+   "path": "claritystorm/cfpb-consumer-complaints",
+   "splits": [
+    "train"
+   ]
+  },
+  "clinc_clinc_oos_plus": {
+   "config": "plus",
+   "path": "clinc/clinc_oos",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "clue_clue": {
+   "config": "afqmc",
+   "path": "clue/clue",
+   "splits": [
+    "test",
+    "train",
+    "validation"
+   ]
+  },
+  "coastalcph_lex_glue_ledgar": {
+   "config": "ledgar",
+   "path": "coastalcph/lex_glue",
+   "splits": [
+    "train",
+    "test",
+    "validation"
+   ]
+  },
+  "coastalcph_lex_glue_scotus": {
+   "config": "scotus",
+   "path": "coastalcph/lex_glue",
+   "splits": [
+    "train",
+    "test",
+    "validation"
+   ]
+  },
+  "coastalcph_lex_glue_unfair_tos": {
+   "config": "unfair_tos",
+   "path": "coastalcph/lex_glue",
+   "splits": [
+    "train",
+    "test",
+    "validation"
+   ]
+  },
+  "codefuse_ai_f2llm_v2": {
+   "config": "default",
+   "path": "codefuse-ai/F2LLM-v2",
+   "splits": [
+    "train"
+   ]
+  },
+  "cogcomp_trec": {
+   "config": "default",
+   "path": "CogComp/trec",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "coherelabs_aya_collection": {
+   "config": "aya_dataset",
+   "path": "CohereLabs/aya_collection",
+   "splits": [
+    "train"
+   ]
+  },
+  "coldmind_reddit_dataset_94": {
+   "config": "default",
+   "path": "coldmind/reddit_dataset_94",
+   "splits": [
+    "train"
+   ]
+  },
+  "coldmind_x_dataset_94": {
+   "config": "default",
+   "path": "coldmind/x_dataset_94",
+   "splits": [
+    "train"
+   ]
+  },
+  "coldog2333_jmedbench": {
+   "config": "medmcqa_jp",
+   "path": "Coldog2333/JMedBench",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "community_datasets_tapaco": {
+   "config": "af",
+   "path": "community-datasets/tapaco",
+   "splits": [
+    "train"
+   ]
+  },
+  "community_datasets_yahoo_answers_topics": {
+   "config": "yahoo_answers_topics",
+   "path": "community-datasets/yahoo_answers_topics",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "composoai_primebench": {
+   "config": "default",
+   "path": "ComposoAI/PrimeBench",
+   "splits": [
+    "train"
+   ]
+  },
+  "conceptnet5_conceptnet5": {
+   "config": "conceptnet5",
+   "path": "conceptnet5/conceptnet5",
+   "splits": [
+    "train"
+   ]
+  },
+  "cooolder_scope_ood_set": {
+   "config": "default",
+   "path": "Cooolder/SCOPE-OOD-set",
+   "splits": [
+    "test",
+    "anchor"
+   ]
+  },
+  "cornell_movie_review_data_rotten_tomatoes": {
+   "config": "default",
+   "path": "cornell-movie-review-data/rotten_tomatoes",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "craneailabs_uccb": {
+   "config": "default",
+   "path": "CraneAILabs/UCCB",
+   "splits": [
+    "test"
+   ]
+  },
+  "criteo_criteoclicklogs": {
+   "config": "default",
+   "path": "criteo/CriteoClickLogs",
+   "splits": [
+    "train"
+   ]
+  },
+  "curaihealth_medical_questions_pairs": {
+   "config": "default",
+   "path": "curaihealth/medical_questions_pairs",
+   "splits": [
+    "train"
+   ]
+  },
+  "cw1521_ember2018_malware": {
+   "config": "default",
+   "path": "cw1521/ember2018-malware",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "cy0307_awesome_loop_engineering": {
+   "config": "resources",
+   "path": "cy0307/awesome-loop-engineering",
+   "splits": [
+    "train"
+   ]
+  },
+  "dair_ai_emotion": {
+   "config": "split",
+   "path": "dair-ai/emotion",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "data_is_better_together_10k_prompts_ranked": {
+   "config": "default",
+   "path": "data-is-better-together/10k_prompts_ranked",
+   "splits": [
+    "train"
+   ]
+  },
+  "data_is_better_together_fineweb_c": {
+   "config": "aeb_Arab",
+   "path": "data-is-better-together/fineweb-c",
+   "splits": [
+    "train"
+   ]
+  },
+  "davlan_sib200": {
+   "config": "ace_Arab",
+   "path": "Davlan/sib200",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "ddsc_angry_tweets": {
+   "config": "default",
+   "path": "DDSC/angry-tweets",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "ddsc_lcc": {
+   "config": "default",
+   "path": "DDSC/lcc",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "declare_lab_harmfulqa": {
+   "config": "default",
+   "path": "declare-lab/HarmfulQA",
+   "splits": [
+    "train"
+   ]
+  },
+  "deepghs_site_tags": {
+   "config": "default",
+   "path": "deepghs/site_tags",
+   "splits": [
+    "train"
+   ]
+  },
+  "dell_research_harvard_newswire": {
+   "config": "default",
+   "path": "dell-research-harvard/newswire",
+   "splits": [
+    "train"
+   ]
+  },
+  "derek_thomas_scienceqa": {
+   "config": "default",
+   "path": "derek-thomas/ScienceQA",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "dk587_arctic": {
+   "config": "comments",
+   "path": "Dk587/arctic",
+   "splits": [
+    "train"
+   ]
+  },
+  "dlab_spp_safety_classifications": {
+   "config": "default",
+   "path": "dlab-spp/safety-classifications",
+   "splits": [
+    "train"
+   ]
+  },
+  "dr3dre_genius_song_lyrics_cleaned": {
+   "config": "default",
+   "path": "Dr3dre/Genius-song-lyrics-cleaned",
+   "splits": [
+    "train"
+   ]
+  },
+  "duarteocarmo_bagaco3": {
+   "config": "default",
+   "path": "duarteocarmo/bagaco3",
+   "splits": [
+    "train"
+   ]
+  },
+  "duarteocarmo_fineweb2_bagaco": {
+   "config": "sample",
+   "path": "duarteocarmo/fineweb2-bagaco",
+   "splits": [
+    "train"
+   ]
+  },
+  "edwarddgao_open_apply_jobs": {
+   "config": "default",
+   "path": "edwarddgao/open-apply-jobs",
+   "splits": [
+    "train"
+   ]
+  },
+  "einrafh_hnm_fashion_recommendations_data": {
+   "config": "articles",
+   "path": "einrafh/hnm-fashion-recommendations-data",
+   "splits": [
+    "train"
+   ]
+  },
+  "emrecan_stsb_mt_turkish": {
+   "config": "default",
+   "path": "emrecan/stsb-mt-turkish",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "evaluate_glue_ci": {
+   "config": "ax",
+   "path": "evaluate/glue-ci",
+   "splits": [
+    "test"
+   ]
+  },
+  "exorde_exorde_social_media_one_month_2024": {
+   "config": "default",
+   "path": "Exorde/exorde-social-media-one-month-2024",
+   "splits": [
+    "train"
+   ]
+  },
+  "facebook_anli": {
+   "config": "plain_text",
+   "path": "facebook/anli",
+   "splits": [
+    "train_r1",
+    "dev_r1",
+    "test_r1",
+    "train_r2",
+    "dev_r2",
+    "test_r2",
+    "train_r3",
+    "dev_r3",
+    "test_r3"
+   ]
+  },
+  "facebook_asset": {
+   "config": "ratings",
+   "path": "facebook/asset",
+   "splits": [
+    "full"
+   ]
+  },
+  "facebook_belebele": {
+   "config": "acm_Arab",
+   "path": "facebook/belebele",
+   "splits": [
+    "test"
+   ]
+  },
+  "facebook_imppres": {
+   "config": "implicature_connectives",
+   "path": "facebook/imppres",
+   "splits": [
+    "connectives"
+   ]
+  },
+  "fahadhafeezofficial_cissp_llmbench": {
+   "config": "default",
+   "path": "fahadhafeezofficial/cissp-llmbench",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "fancyzhx_ag_news": {
+   "config": "default",
+   "path": "fancyzhx/ag_news",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "fancyzhx_amazon_polarity": {
+   "config": "amazon_polarity",
+   "path": "fancyzhx/amazon_polarity",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "fancyzhx_dbpedia_14": {
+   "config": "dbpedia_14",
+   "path": "fancyzhx/dbpedia_14",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "fancyzhx_yelp_polarity": {
+   "config": "plain_text",
+   "path": "fancyzhx/yelp_polarity",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "finnmok_congressional_bills": {
+   "config": "default",
+   "path": "finnmok/congressional_bills",
+   "splits": [
+    "train"
+   ]
+  },
+  "futuremoon_x_dataset_39": {
+   "config": "default",
+   "path": "futuremoon/x_dataset_39",
+   "splits": [
+    "train"
+   ]
+  },
+  "gneubig_aime_1983_2024": {
+   "config": "default",
+   "path": "gneubig/aime-1983-2024",
+   "splits": [
+    "train"
+   ]
+  },
+  "golfplan18_msi_corpus": {
+   "config": "default",
+   "path": "golfplan18/msi-corpus",
+   "splits": [
+    "news",
+    "opinion"
+   ]
+  },
+  "google_boolq": {
+   "config": "default",
+   "path": "google/boolq",
+   "splits": [
+    "train",
+    "validation"
+   ]
+  },
+  "google_civil_comments": {
+   "config": "default",
+   "path": "google/civil_comments",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "google_code_x_glue_cc_defect_detection": {
+   "config": "default",
+   "path": "google/code_x_glue_cc_defect_detection",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "google_research_datasets_circa": {
+   "config": "default",
+   "path": "google-research-datasets/circa",
+   "splits": [
+    "train"
+   ]
+  },
+  "google_research_datasets_mbpp_full": {
+   "config": "full",
+   "path": "google-research-datasets/mbpp",
+   "splits": [
+    "train",
+    "test",
+    "validation",
+    "prompt"
+   ]
+  },
+  "google_research_datasets_paws": {
+   "config": "labeled_final",
+   "path": "google-research-datasets/paws",
+   "splits": [
+    "train",
+    "test",
+    "validation"
+   ]
+  },
+  "google_research_datasets_paws_x": {
+   "config": "de",
+   "path": "google-research-datasets/paws-x",
+   "splits": [
+    "train",
+    "test",
+    "validation"
+   ]
+  },
+  "google_research_datasets_poem_sentiment": {
+   "config": "default",
+   "path": "google-research-datasets/poem_sentiment",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "google_xtreme": {
+   "config": "MLQA.ar.ar",
+   "path": "google/xtreme",
+   "splits": [
+    "test",
+    "validation"
+   ]
+  },
+  "gplsi_fake_job_postings_balanced_en": {
+   "config": "default",
+   "path": "gplsi/fake_job_postings_balanced_en",
+   "splits": [
+    "train"
+   ]
+  },
+  "gretelai_gretel_pii_masking_en_v1": {
+   "config": "default",
+   "path": "gretelai/gretel-pii-masking-en-v1",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "gretelai_symptom_to_diagnosis": {
+   "config": "default",
+   "path": "gretelai/symptom_to_diagnosis",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "gretelai_synthetic_pii_finance_multilingual": {
+   "config": "default",
+   "path": "gretelai/synthetic_pii_finance_multilingual",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "gsma_leaderboard": {
+   "config": "default",
+   "path": "GSMA/leaderboard",
+   "splits": [
+    "train"
+   ]
+  },
+  "gsma_ot_lite": {
+   "config": "teleqna",
+   "path": "GSMA/ot-lite",
+   "splits": [
+    "test"
+   ]
+  },
+  "gtfintechlab_ipo_text": {
+   "config": "default",
+   "path": "gtfintechlab/ipo-text",
+   "splits": [
+    "train"
+   ]
+  },
+  "haxxsh_shroomcap2025_dataset": {
+   "config": "default",
+   "path": "Haxxsh/SHROOMCAP2025_DataSet",
+   "splits": [
+    "test"
+   ]
+  },
+  "helloworld2307_dynasent": {
+   "config": "default",
+   "path": "HelloWorld2307/dynasent",
+   "splits": [
+    "train",
+    "val",
+    "test"
+   ]
+  },
+  "hezarai_sentiment_dksf": {
+   "config": "default",
+   "path": "hezarai/sentiment-dksf",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "hicai_zju_sciknoweval": {
+   "config": "v2",
+   "path": "hicai-zju/SciKnowEval",
+   "splits": [
+    "test"
+   ]
+  },
+  "ibm_research_argument_quality_ranking_30k": {
+   "config": "argument_quality_ranking",
+   "path": "ibm-research/argument_quality_ranking_30k",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "j0nasw_science_datalake": {
+   "config": "unified_papers",
+   "path": "J0nasW/science-datalake",
+   "splits": [
+    "train"
+   ]
+  },
+  "jackhhao_jailbreak_classification": {
+   "config": "default",
+   "path": "jackhhao/jailbreak-classification",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "james_1111_x_dataset_030237": {
+   "config": "default",
+   "path": "james-1111/x_dataset_030237",
+   "splits": [
+    "train"
+   ]
+  },
+  "janavivekariya_aya_collection": {
+   "config": "aya_dataset",
+   "path": "janavivekariya/aya_collection",
+   "splits": [
+    "train"
+   ]
+  },
+  "jash_ai_agentic_redteam_benchmark": {
+   "config": "default",
+   "path": "jash-ai/agentic-redteam-benchmark",
+   "splits": [
+    "gold",
+    "augmented"
+   ]
+  },
+  "jayzou3773_cloudanobench": {
+   "config": "default",
+   "path": "jayzou3773/CloudAnoBench",
+   "splits": [
+    "train"
+   ]
+  },
+  "jazzypajamas_mytown_local_gov_meetings": {
+   "config": "municipalities",
+   "path": "jazzypajamas/mytown-local-gov-meetings",
+   "splits": [
+    "train"
+   ]
+  },
+  "jingjietan_kaggle_mbti": {
+   "config": "default",
+   "path": "jingjietan/kaggle-mbti",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "jmhessel_newyorker_caption_contest": {
+   "config": "explanation",
+   "path": "jmhessel/newyorker_caption_contest",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "joey234_nan_nli": {
+   "config": "default",
+   "path": "joey234/nan-nli",
+   "splits": [
+    "train"
+   ]
+  },
+  "kareenamehta_ccnews": {
+   "config": "default",
+   "path": "kareenamehta/ccnews",
+   "splits": [
+    "train"
+   ]
+  },
+  "kaysss_leetcode_problem_solutions": {
+   "config": "default",
+   "path": "kaysss/leetcode-problem-solutions",
+   "splits": [
+    "train"
+   ]
+  },
+  "kendx_nlp_adbench": {
+   "config": "default",
+   "path": "kendx/NLP-ADBench",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "labhc_bias_in_bios": {
+   "config": "default",
+   "path": "LabHC/bias_in_bios",
+   "splits": [
+    "train",
+    "test",
+    "dev"
+   ]
+  },
+  "laion_scientific_summaries": {
+   "config": "arxiv",
+   "path": "laion/Scientific-Summaries",
+   "splits": [
+    "train"
+   ]
+  },
+  "lakera_b3_agent_security_benchmark_weak": {
+   "config": "default",
+   "path": "Lakera/b3-agent-security-benchmark-weak",
+   "splits": [
+    "test"
+   ]
+  },
+  "larxel_phaenix_1": {
+   "config": "default",
+   "path": "Larxel/PHAENIX-1",
+   "splits": [
+    "train"
+   ]
+  },
+  "laurievb_open_lid_dataset": {
+   "config": "default",
+   "path": "laurievb/open-lid-dataset",
+   "splits": [
+    "train"
+   ]
+  },
+  "legacy_datasets_banking77": {
+   "config": "default",
+   "path": "legacy-datasets/banking77",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "leolee99_notinject": {
+   "config": "default",
+   "path": "leolee99/NotInject",
+   "splits": [
+    "NotInject_one",
+    "NotInject_two",
+    "NotInject_three"
+   ]
+  },
+  "lexam_benchmark_lexam": {
+   "config": "mcq_16_choices",
+   "path": "LEXam-Benchmark/LEXam",
+   "splits": [
+    "test"
+   ]
+  },
+  "librarian_bots_arxiv_metadata_snapshot": {
+   "config": "default",
+   "path": "librarian-bots/arxiv-metadata-snapshot",
+   "splits": [
+    "train"
+   ]
+  },
+  "lidasafety_fragbench": {
+   "config": "attack_meta",
+   "path": "LidaSafety/fragbench",
+   "splits": [
+    "train"
+   ]
+  },
+  "lmarena_ai_arena_human_preference_55k": {
+   "config": "default",
+   "path": "lmarena-ai/arena-human-preference-55k",
+   "splits": [
+    "train"
+   ]
+  },
+  "lmsys_toxic_chat": {
+   "config": "toxicchat0124",
+   "path": "lmsys/toxic-chat",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "ltg_slide": {
+   "config": "default",
+   "path": "ltg/slide",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "m_a_d_mixed_arabic_datasets_repo": {
+   "config": "Ara--Ali-C137--Hindawi-Books-dataset",
+   "path": "M-A-D/Mixed-Arabic-Datasets-Repo",
+   "splits": [
+    "train"
+   ]
+  },
+  "m_a_p_finefineweb_sample": {
+   "config": "default",
+   "path": "m-a-p/FineFineWeb-sample",
+   "splits": [
+    "train"
+   ]
+  },
+  "maastrichtlawtech_bsard": {
+   "config": "corpus",
+   "path": "maastrichtlawtech/bsard",
+   "splits": [
+    "corpus"
+   ]
+  },
+  "marry_1111_x_dataset_0507238": {
+   "config": "default",
+   "path": "marry-1111/x_dataset_0507238",
+   "splits": [
+    "train"
+   ]
+  },
+  "masakhane_afrixnli": {
+   "config": "amh",
+   "path": "masakhane/afrixnli",
+   "splits": [
+    "validation",
+    "test"
+   ]
+  },
+  "masakhane_masakhanews": {
+   "config": "amh",
+   "path": "masakhane/masakhanews",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "mcgill_nlp_stereoset": {
+   "config": "intersentence",
+   "path": "McGill-NLP/stereoset",
+   "splits": [
+    "validation"
+   ]
+  },
+  "medalpaca_medical_meadow_health_advice": {
+   "config": "default",
+   "path": "medalpaca/medical_meadow_health_advice",
+   "splits": [
+    "train"
+   ]
+  },
+  "memo_ozdincer_jepa_qwen3_32b_pure_baselines_2026_05_25": {
+   "config": "default",
+   "path": "memo-ozdincer/jepa-qwen3-32b-pure-baselines-2026-05-25",
+   "splits": [
+    "train"
+   ]
+  },
+  "milistu_amazon_products_2023": {
+   "config": "default",
+   "path": "milistu/AMAZON-Products-2023",
+   "splits": [
+    "train"
+   ]
+  },
+  "mjbommar_opengloss_v1_3_definitions": {
+   "config": "default",
+   "path": "mjbommar/opengloss-v1.3-definitions",
+   "splits": [
+    "train"
+   ]
+  },
+  "mjbommar_opengloss_v1_3_dictionary": {
+   "config": "default",
+   "path": "mjbommar/opengloss-v1.3-dictionary",
+   "splits": [
+    "train"
+   ]
+  },
+  "mjbommar_opengloss_v1_3_query_examples_flat": {
+   "config": "default",
+   "path": "mjbommar/opengloss-v1.3-query-examples-flat",
+   "splits": [
+    "train"
+   ]
+  },
+  "mjbommar_shelf": {
+   "config": "default",
+   "path": "mjbommar/SHELF",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "ml4pubmed_pubmed_classification_20k": {
+   "config": "default",
+   "path": "ml4pubmed/pubmed-classification-20k",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "mmathys_openai_moderation_api_evaluation": {
+   "config": "default",
+   "path": "mmathys/openai-moderation-api-evaluation",
+   "splits": [
+    "train"
+   ]
+  },
+  "mnemoraorg_usgs_global_earthquake_catalog": {
+   "config": "dataset",
+   "path": "mnemoraorg/usgs-global-earthquake-catalog",
+   "splits": [
+    "train"
+   ]
+  },
+  "moganai_mogan_turkish_web": {
+   "config": "default",
+   "path": "moganai/mogan-turkish-web",
+   "splits": [
+    "train"
+   ]
+  },
+  "moganai_turkishfineweb2_cleaned": {
+   "config": "default",
+   "path": "moganai/turkishfineweb2-cleaned",
+   "splits": [
+    "train"
+   ]
+  },
+  "momererkoc_social_bias_frames": {
+   "config": "default",
+   "path": "momererkoc/social_bias_frames",
+   "splits": [
+    "train"
+   ]
+  },
+  "moritzlaurer_multilingual_nli_26lang_2mil7": {
+   "config": "default",
+   "path": "MoritzLaurer/multilingual-NLI-26lang-2mil7",
+   "splits": [
+    "ar_anli",
+    "ar_fever",
+    "ar_ling",
+    "ar_mnli",
+    "ar_wanli",
+    "bn_anli",
+    "bn_fever",
+    "bn_ling",
+    "bn_mnli",
+    "bn_wanli",
+    "de_anli",
+    "de_fever",
+    "de_ling",
+    "de_mnli",
+    "de_wanli",
+    "es_anli",
+    "es_fever",
+    "es_ling",
+    "es_mnli",
+    "es_wanli",
+    "fa_anli",
+    "fa_fever",
+    "fa_ling",
+    "fa_mnli",
+    "fa_wanli",
+    "fr_anli",
+    "fr_fever",
+    "fr_ling",
+    "fr_mnli",
+    "fr_wanli",
+    "he_anli",
+    "he_fever",
+    "he_ling",
+    "he_mnli",
+    "he_wanli",
+    "hi_anli",
+    "hi_fever",
+    "hi_ling",
+    "hi_mnli",
+    "hi_wanli",
+    "id_anli",
+    "id_fever",
+    "id_ling",
+    "id_mnli",
+    "id_wanli",
+    "it_anli",
+    "it_fever",
+    "it_ling",
+    "it_mnli",
+    "it_wanli",
+    "ja_anli",
+    "ja_fever",
+    "ja_ling",
+    "ja_mnli",
+    "ja_wanli",
+    "ko_anli",
+    "ko_fever",
+    "ko_ling",
+    "ko_mnli",
+    "ko_wanli",
+    "mr_anli",
+    "mr_fever",
+    "mr_ling",
+    "mr_mnli",
+    "mr_wanli",
+    "nl_anli",
+    "nl_fever",
+    "nl_ling",
+    "nl_mnli",
+    "nl_wanli",
+    "pl_anli",
+    "pl_fever",
+    "pl_ling",
+    "pl_mnli",
+    "pl_wanli",
+    "ps_anli",
+    "ps_fever",
+    "ps_ling",
+    "ps_mnli",
+    "ps_wanli",
+    "pt_anli",
+    "pt_fever",
+    "pt_ling",
+    "pt_mnli",
+    "pt_wanli",
+    "ru_anli",
+    "ru_fever",
+    "ru_ling",
+    "ru_mnli",
+    "ru_wanli",
+    "sv_anli",
+    "sv_fever",
+    "sv_ling",
+    "sv_mnli",
+    "sv_wanli",
+    "sw_anli",
+    "sw_fever",
+    "sw_ling",
+    "sw_mnli",
+    "sw_wanli",
+    "ta_anli",
+    "ta_fever",
+    "ta_ling",
+    "ta_mnli",
+    "ta_wanli",
+    "tr_anli",
+    "tr_fever",
+    "tr_ling",
+    "tr_mnli",
+    "tr_wanli",
+    "uk_anli",
+    "uk_fever",
+    "uk_ling",
+    "uk_mnli",
+    "uk_wanli",
+    "ur_anli",
+    "ur_fever",
+    "ur_ling",
+    "ur_mnli",
+    "ur_wanli",
+    "vi_anli",
+    "vi_fever",
+    "vi_ling",
+    "vi_mnli",
+    "vi_wanli",
+    "zh_anli",
+    "zh_fever",
+    "zh_ling",
+    "zh_mnli",
+    "zh_wanli"
+   ]
+  },
+  "mrinaldi_usenetarchiveit": {
+   "config": "default",
+   "path": "mrinaldi/UsenetArchiveIT",
+   "splits": [
+    "train"
+   ]
+  },
+  "mteb_amazon_counterfactual": {
+   "config": "de",
+   "path": "mteb/amazon_counterfactual",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "mteb_amazon_massive_intent_en": {
+   "config": "en",
+   "path": "mteb/amazon_massive_intent",
+   "splits": [
+    "train",
+    "test",
+    "validation"
+   ]
+  },
+  "mteb_amazon_massive_scenario": {
+   "config": "default",
+   "path": "mteb/amazon_massive_scenario",
+   "splits": [
+    "train",
+    "test",
+    "validation"
+   ]
+  },
+  "mteb_amazon_polarity": {
+   "config": "default",
+   "path": "mteb/amazon_polarity",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "mteb_arxivclassification": {
+   "config": "default",
+   "path": "mteb/ArxivClassification",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "mteb_banking77": {
+   "config": "default",
+   "path": "mteb/banking77",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "mteb_belebele": {
+   "config": "acm_Arab",
+   "path": "mteb/belebele",
+   "splits": [
+    "test"
+   ]
+  },
+  "mteb_big_patent": {
+   "config": "default",
+   "path": "mteb/big-patent",
+   "splits": [
+    "test"
+   ]
+  },
+  "mteb_biorxiv_clustering_p2p": {
+   "config": "default",
+   "path": "mteb/biorxiv-clustering-p2p",
+   "splits": [
+    "test"
+   ]
+  },
+  "mteb_biorxiv_clustering_s2s": {
+   "config": "default",
+   "path": "mteb/biorxiv-clustering-s2s",
+   "splits": [
+    "test"
+   ]
+  },
+  "mteb_br_factckbr": {
+   "config": "default",
+   "path": "MTEB-BR/factckbr",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "mteb_emotion": {
+   "config": "default",
+   "path": "mteb/emotion",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "mteb_eurlex_multilingual": {
+   "config": "bg",
+   "path": "mteb/eurlex-multilingual",
+   "splits": [
+    "train",
+    "test",
+    "validation"
+   ]
+  },
+  "mteb_farstail": {
+   "config": "default",
+   "path": "mteb/FarsTail",
+   "splits": [
+    "test"
+   ]
+  },
+  "mteb_indicsentiment": {
+   "config": "default",
+   "path": "mteb/IndicSentiment",
+   "splits": [
+    "test",
+    "train"
+   ]
+  },
+  "mteb_legalbenchpc": {
+   "config": "default",
+   "path": "mteb/LegalBenchPC",
+   "splits": [
+    "test"
+   ]
+  },
+  "mteb_medrxiv_clustering_p2p": {
+   "config": "default",
+   "path": "mteb/medrxiv-clustering-p2p",
+   "splits": [
+    "test"
+   ]
+  },
+  "mteb_medrxiv_clustering_s2s": {
+   "config": "default",
+   "path": "mteb/medrxiv-clustering-s2s",
+   "splits": [
+    "test"
+   ]
+  },
+  "mteb_mtopdomainclassification": {
+   "config": "de",
+   "path": "mteb/MTOPDomainClassification",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "mteb_pawsxpairclassification": {
+   "config": "de",
+   "path": "mteb/PawsXPairClassification",
+   "splits": [
+    "test",
+    "validation"
+   ]
+  },
+  "mteb_sib200": {
+   "config": "ace_Arab",
+   "path": "mteb/sib200",
+   "splits": [
+    "test",
+    "train",
+    "validation"
+   ]
+  },
+  "mteb_toxic_conversations_50k": {
+   "config": "default",
+   "path": "mteb/toxic_conversations_50k",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "mteb_tweet_sentiment_extraction": {
+   "config": "default",
+   "path": "mteb/tweet_sentiment_extraction",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "mteb_xnli": {
+   "config": "default",
+   "path": "mteb/xnli",
+   "splits": [
+    "test",
+    "train",
+    "validation"
+   ]
+  },
+  "muennighoff_natural_instructions": {
+   "config": "default",
+   "path": "Muennighoff/natural-instructions",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "nala_cub_americas_nli": {
+   "config": "all_languages",
+   "path": "nala-cub/americas_nli",
+   "splits": [
+    "validation",
+    "test"
+   ]
+  },
+  "napsternxg_wands": {
+   "config": "default",
+   "path": "napsternxg/wands",
+   "splits": [
+    "train",
+    "dev",
+    "test"
+   ]
+  },
+  "neuralchemy_prompt_injection_dataset": {
+   "config": "core",
+   "path": "neuralchemy/Prompt-injection-dataset",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "neurips_1899_ed_2026_epibench_neurips2026": {
+   "config": "default",
+   "path": "NeurIPS-1899-ED-2026/EpiBench-NeurIPS2026",
+   "splits": [
+    "train"
+   ]
+  },
+  "nhop_openreview": {
+   "config": "default",
+   "path": "nhop/OpenReview",
+   "splits": [
+    "train"
+   ]
+  },
+  "nicchio816_reddit_dataset_111": {
+   "config": "default",
+   "path": "nicchio816/reddit_dataset_111",
+   "splits": [
+    "train"
+   ]
+  },
+  "nickh007_cve_proof_corpus": {
+   "config": "default",
+   "path": "nickh007/cve-proof-corpus",
+   "splits": [
+    "train"
+   ]
+  },
+  "nilc_nlp_assin2": {
+   "config": "default",
+   "path": "nilc-nlp/assin2",
+   "splits": [
+    "train",
+    "test",
+    "validation"
+   ]
+  },
+  "nishan_chatterjee_llm_bias_detection": {
+   "config": "political_compass_mcq",
+   "path": "nishan-chatterjee/llm-bias-detection",
+   "splits": [
+    "train"
+   ]
+  },
+  "noddybear_lies_v2": {
+   "config": "openai-gpt-4o_generalization_map_3_alibi",
+   "path": "Noddybear/lies-v2",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "nvidia_aegis_ai_content_safety_dataset_1_0": {
+   "config": "default",
+   "path": "nvidia/Aegis-AI-Content-Safety-Dataset-1.0",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "nvidia_aegis_ai_content_safety_dataset_2_0": {
+   "config": "default",
+   "path": "nvidia/Aegis-AI-Content-Safety-Dataset-2.0",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "nyu_dice_lab_wavepulse_radio_raw_transcripts": {
+   "config": "default",
+   "path": "nyu-dice-lab/wavepulse-radio-raw-transcripts",
+   "splits": [
+    "train"
+   ]
+  },
+  "nyu_dice_lab_wavepulse_radio_summarized_transcripts": {
+   "config": "default",
+   "path": "nyu-dice-lab/wavepulse-radio-summarized-transcripts",
+   "splits": [
+    "train"
+   ]
+  },
+  "nyu_mll_glue": {
+   "config": "ax",
+   "path": "nyu-mll/glue",
+   "splits": [
+    "test"
+   ]
+  },
+  "nyu_mll_multi_nli": {
+   "config": "default",
+   "path": "nyu-mll/multi_nli",
+   "splits": [
+    "train",
+    "validation_matched",
+    "validation_mismatched"
+   ]
+  },
+  "open_index_hacker_news": {
+   "config": "default",
+   "path": "open-index/hacker-news",
+   "splits": [
+    "train"
+   ]
+  },
+  "open_index_hacker_news_rss": {
+   "config": "default",
+   "path": "open-index/hacker-news-rss",
+   "splits": [
+    "train"
+   ]
+  },
+  "open_index_open_arxiv": {
+   "config": "default",
+   "path": "open-index/open-arxiv",
+   "splits": [
+    "train"
+   ]
+  },
+  "opensafetylab_salad_data": {
+   "config": "base_set",
+   "path": "OpenSafetyLab/Salad-Data",
+   "splits": [
+    "train"
+   ]
+  },
+  "papluca_language_identification": {
+   "config": "default",
+   "path": "papluca/language-identification",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "parsiai_farsinstruct": {
+   "config": "default",
+   "path": "ParsiAI/FarsInstruct",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "philipmay_stsb_multi_mt": {
+   "config": "de",
+   "path": "PhilipMay/stsb_multi_mt",
+   "splits": [
+    "train",
+    "test",
+    "dev"
+   ]
+  },
+  "phreshphish_phreshphish": {
+   "config": "default",
+   "path": "phreshphish/phreshphish",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "pku_alignment_beavertails": {
+   "config": "default",
+   "path": "PKU-Alignment/BeaverTails",
+   "splits": [
+    "330k_train",
+    "330k_test",
+    "30k_train",
+    "30k_test"
+   ]
+  },
+  "pythainlp_wisesight_sentiment": {
+   "config": "wisesight_sentiment",
+   "path": "pythainlp/wisesight_sentiment",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "rapidata_text_2_video_human_preferences_seedance_1_pro": {
+   "config": "default",
+   "path": "Rapidata/text-2-video-human-preferences-seedance-1-pro",
+   "splits": [
+    "train"
+   ]
+  },
+  "rapidata_text_2_video_human_preferences_wan2_1": {
+   "config": "default",
+   "path": "Rapidata/text-2-video-human-preferences-wan2.1",
+   "splits": [
+    "train"
+   ]
+  },
+  "raywithyou_tabfact": {
+   "config": "default",
+   "path": "Raywithyou/TabFact",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "rdpahalavan_cic_ids2017": {
+   "config": "default",
+   "path": "rdpahalavan/CIC-IDS2017",
+   "splits": [
+    "train"
+   ]
+  },
+  "rdpahalavan_unsw_nb15": {
+   "config": "default",
+   "path": "rdpahalavan/UNSW-NB15",
+   "splits": [
+    "train"
+   ]
+  },
+  "recursal_longbench_v2": {
+   "config": "academic_multi",
+   "path": "recursal/longbench-v2",
+   "splits": [
+    "train"
+   ]
+  },
+  "revolutioncrossroads_loc_chronicling_america_1770_1810": {
+   "config": "default",
+   "path": "RevolutionCrossroads/loc_chronicling_america_1770-1810",
+   "splits": [
+    "train"
+   ]
+  },
+  "revolutioncrossroads_loc_chronicling_america_1770_1810_issues": {
+   "config": "default",
+   "path": "RevolutionCrossroads/loc_chronicling_america_1770-1810_issues",
+   "splits": [
+    "train"
+   ]
+  },
+  "revolutioncrossroads_nara_revolutionary_war_pension_files": {
+   "config": "default",
+   "path": "RevolutionCrossroads/nara_revolutionary_war_pension_files",
+   "splits": [
+    "train"
+   ]
+  },
+  "revolutioncrossroads_nara_revolutionary_war_pension_files_pdfs": {
+   "config": "default",
+   "path": "RevolutionCrossroads/nara_revolutionary_war_pension_files_PDFs",
+   "splits": [
+    "train"
+   ]
+  },
+  "russiannlp_coat": {
+   "config": "authorship",
+   "path": "RussianNLP/coat",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "saattrupdan_womens_clothing_ecommerce_reviews": {
+   "config": "default",
+   "path": "saattrupdan/womens-clothing-ecommerce-reviews",
+   "splits": [
+    "train",
+    "val",
+    "test"
+   ]
+  },
+  "sbintuitions_jmteb": {
+   "config": "livedoor_news",
+   "path": "sbintuitions/JMTEB",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "sbx_superlim_2": {
+   "config": "absabank-imm",
+   "path": "sbx/superlim-2",
+   "splits": [
+    "dev",
+    "test",
+    "train"
+   ]
+  },
+  "scaleai_fortress_public": {
+   "config": "default",
+   "path": "ScaleAI/fortress_public",
+   "splits": [
+    "train"
+   ]
+  },
+  "scalerlab_judgebench": {
+   "config": "default",
+   "path": "ScalerLab/JudgeBench",
+   "splits": [
+    "claude",
+    "gpt"
+   ]
+  },
+  "scbirlab_thomas_2018_spark_wt": {
+   "config": "unsplit",
+   "path": "scbirlab/thomas-2018-spark-wt",
+   "splits": [
+    "train"
+   ]
+  },
+  "scikit_fingerprints_lrgb_peptides_func": {
+   "config": "default",
+   "path": "scikit-fingerprints/LRGB_Peptides-func",
+   "splits": [
+    "train"
+   ]
+  },
+  "scikit_fingerprints_moleculenet_bace": {
+   "config": "default",
+   "path": "scikit-fingerprints/MoleculeNet_BACE",
+   "splits": [
+    "train"
+   ]
+  },
+  "scikit_fingerprints_moleculenet_bbbp": {
+   "config": "default",
+   "path": "scikit-fingerprints/MoleculeNet_BBBP",
+   "splits": [
+    "train"
+   ]
+  },
+  "scikit_fingerprints_moleculenet_pcba": {
+   "config": "default",
+   "path": "scikit-fingerprints/MoleculeNet_PCBA",
+   "splits": [
+    "train"
+   ]
+  },
+  "scikit_fingerprints_moleculenet_tox21": {
+   "config": "default",
+   "path": "scikit-fingerprints/MoleculeNet_Tox21",
+   "splits": [
+    "train"
+   ]
+  },
+  "sealuzh_app_reviews": {
+   "config": "default",
+   "path": "sealuzh/app_reviews",
+   "splits": [
+    "train"
+   ]
+  },
+  "servicenow_repliqa": {
+   "config": "default",
+   "path": "ServiceNow/repliqa",
+   "splits": [
+    "repliqa_0",
+    "repliqa_1",
+    "repliqa_2",
+    "repliqa_3",
+    "repliqa_4"
+   ]
+  },
+  "setfit_20_newsgroups": {
+   "config": "default",
+   "path": "SetFit/20_newsgroups",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "setfit_bbc_news": {
+   "config": "default",
+   "path": "SetFit/bbc-news",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "sh0416_ag_news": {
+   "config": "default",
+   "path": "sh0416/ag_news",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "shopify_product_catalogue": {
+   "config": "default",
+   "path": "Shopify/product-catalogue",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "sileod_mindgames": {
+   "config": "default",
+   "path": "sileod/mindgames",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "skyrmion_daad_x": {
+   "config": "default",
+   "path": "Skyrmion/DAAD-X",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "sled_umich_sdn": {
+   "config": "default",
+   "path": "sled-umich/SDN",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "snehadeshmukh_indianbailjudgments_1200": {
+   "config": "indian_bail_judgments.csv",
+   "path": "SnehaDeshmukh/IndianBailJudgments-1200",
+   "splits": [
+    "train"
+   ]
+  },
+  "sonos_nlu_benchmark_snips_built_in_intents": {
+   "config": "default",
+   "path": "sonos-nlu-benchmark/snips_built_in_intents",
+   "splits": [
+    "train"
+   ]
+  },
+  "stanford_oval_ccnews": {
+   "config": "default",
+   "path": "stanford-oval/ccnews",
+   "splits": [
+    "train"
+   ]
+  },
+  "stanfordnlp_imdb": {
+   "config": "plain_text",
+   "path": "stanfordnlp/imdb",
+   "splits": [
+    "train",
+    "test",
+    "unsupervised"
+   ]
+  },
+  "stanfordnlp_snli": {
+   "config": "plain_text",
+   "path": "stanfordnlp/snli",
+   "splits": [
+    "test",
+    "validation",
+    "train"
+   ]
+  },
+  "stanfordnlp_sst2": {
+   "config": "default",
+   "path": "stanfordnlp/sst2",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "strickvl_isafpressreleases": {
+   "config": "default",
+   "path": "strickvl/isafpressreleases",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "takschdube_moltbook_dataset": {
+   "config": "posts",
+   "path": "takschdube/moltbook-dataset",
+   "splits": [
+    "train"
+   ]
+  },
+  "tasksource_arct2": {
+   "config": "default",
+   "path": "tasksource/arct2",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "tasksource_babi_nli": {
+   "config": "agents-motivations",
+   "path": "tasksource/babi_nli",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "tasksource_defeasible_nli": {
+   "config": "atomic",
+   "path": "tasksource/defeasible-nli",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "tasksource_folio": {
+   "config": "default",
+   "path": "tasksource/folio",
+   "splits": [
+    "train",
+    "validation"
+   ]
+  },
+  "tblard_allocine": {
+   "config": "allocine",
+   "path": "tblard/allocine",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "tdavidson_hate_speech_offensive": {
+   "config": "default",
+   "path": "tdavidson/hate_speech_offensive",
+   "splits": [
+    "train"
+   ]
+  },
+  "tdiggelm_climate_fever": {
+   "config": "default",
+   "path": "tdiggelm/climate_fever",
+   "splits": [
+    "test"
+   ]
+  },
+  "tensorfeed_ai_ecosystem_daily": {
+   "config": "news",
+   "path": "tensorfeed/ai-ecosystem-daily",
+   "splits": [
+    "train"
+   ]
+  },
+  "tensorshield_reddit_dataset_171": {
+   "config": "default",
+   "path": "tensorshield/reddit_dataset_171",
+   "splits": [
+    "train"
+   ]
+  },
+  "tensorshield_reddit_dataset_217": {
+   "config": "default",
+   "path": "tensorshield/reddit_dataset_217",
+   "splits": [
+    "train"
+   ]
+  },
+  "tensorshield_reddit_dataset_226": {
+   "config": "default",
+   "path": "tensorshield/reddit_dataset_226",
+   "splits": [
+    "train"
+   ]
+  },
+  "tensorshield_reddit_dataset_30": {
+   "config": "default",
+   "path": "tensorshield/reddit_dataset_30",
+   "splits": [
+    "train"
+   ]
+  },
+  "thegauravgiri_nepali_news_dataset": {
+   "config": "default",
+   "path": "thegauravgiri/nepali-news-dataset",
+   "splits": [
+    "train"
+   ]
+  },
+  "thu_keg_rm_bench": {
+   "config": "default",
+   "path": "THU-KEG/RM-Bench",
+   "splits": [
+    "train"
+   ]
+  },
+  "tmquan_anle_toaan_gov_vn": {
+   "config": "documents",
+   "path": "tmquan/anle-toaan-gov-vn",
+   "splits": [
+    "train"
+   ]
+  },
+  "tmquan_phapdien_moj_gov_vn": {
+   "config": "documents",
+   "path": "tmquan/phapdien-moj-gov-vn",
+   "splits": [
+    "train"
+   ]
+  },
+  "tobi_bueck_customer_support_tickets": {
+   "config": "default",
+   "path": "Tobi-Bueck/customer-support-tickets",
+   "splits": [
+    "train"
+   ]
+  },
+  "toxigen_toxigen_data": {
+   "config": "annotated",
+   "path": "toxigen/toxigen-data",
+   "splits": [
+    "test",
+    "train"
+   ]
+  },
+  "ucirvine_sms_spam": {
+   "config": "plain_text",
+   "path": "ucirvine/sms_spam",
+   "splits": [
+    "train"
+   ]
+  },
+  "vibrantvista_ttcw_based_review": {
+   "config": "default",
+   "path": "VibrantVista/TTCW-Based-Review",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "voilaj_swiss_caselaw": {
+   "config": "default",
+   "path": "voilaj/swiss-caselaw",
+   "splits": [
+    "train"
+   ]
+  },
+  "wassname_genies_preferences": {
+   "config": "alpaca_chat",
+   "path": "wassname/genies_preferences",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "wenknow_reddit_dataset_214": {
+   "config": "default",
+   "path": "wenknow/reddit_dataset_214",
+   "splits": [
+    "train"
+   ]
+  },
+  "wenknow_reddit_dataset_232": {
+   "config": "default",
+   "path": "wenknow/reddit_dataset_232",
+   "splits": [
+    "train"
+   ]
+  },
+  "whiskey1983_hacker_news": {
+   "config": "default",
+   "path": "whiskey1983/hacker-news",
+   "splits": [
+    "train"
+   ]
+  },
+  "whiteglove44_hacker_news": {
+   "config": "default",
+   "path": "Whiteglove44/hacker-news",
+   "splits": [
+    "train"
+   ]
+  },
+  "witfoo_precinct6_cybersecurity_100m": {
+   "config": "signals",
+   "path": "witfoo/precinct6-cybersecurity-100m",
+   "splits": [
+    "train"
+   ]
+  },
+  "xifr_openalex_2005_2025": {
+   "config": "default",
+   "path": "XIfr/Openalex-2005-2025",
+   "splits": [
+    "train"
+   ]
+  },
+  "yangwang825_reuters_21578": {
+   "config": "default",
+   "path": "yangwang825/reuters-21578",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "yatin_superintelligence_white_hat_security_agent_prompts_600k": {
+   "config": "default",
+   "path": "yatin-superintelligence/White-Hat-Security-Agent-Prompts-600K",
+   "splits": [
+    "train"
+   ]
+  },
+  "yelp_yelp_review_full": {
+   "config": "yelp_review_full",
+   "path": "Yelp/yelp_review_full",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "youngfish42_papervault": {
+   "config": "papers",
+   "path": "youngfish42/PaperVault",
+   "splits": [
+    "train"
+   ]
+  },
+  "youssef101_artelingo_dummy": {
+   "config": "default",
+   "path": "youssef101/artelingo-dummy",
+   "splits": [
+    "train",
+    "validation",
+    "test"
+   ]
+  },
+  "ysn_rfd_text_dataset_tiny_code_script_py_format": {
+   "config": "default",
+   "path": "ysn-rfd/text-dataset-tiny-code-script-py-format",
+   "splits": [
+    "train",
+    "test"
+   ]
+  },
+  "yufan_arxiv_metadata_2020_2026": {
+   "config": "Computer_Science",
+   "path": "yufan/arxiv-metadata-2020-2026",
+   "splits": [
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+   ]
+  },
+  "yusuf5_opencaselist": {
+   "config": "default",
+   "path": "Yusuf5/OpenCaselist",
+   "splits": [
+    "train"
+   ]
+  },
+  "zai_org_longbench_v2": {
+   "config": "default",
+   "path": "zai-org/LongBench-v2",
+   "splits": [
+    "train"
+   ]
+  },
+  "zeroshot_twitter_financial_news_sentiment": {
+   "config": "default",
+   "path": "zeroshot/twitter-financial-news-sentiment",
+   "splits": [
+    "train",
+    "validation"
+   ]
+  }
+ }
+}

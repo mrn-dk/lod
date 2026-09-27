@@ -1,0 +1,32 @@
+{
+  "d14.click_question": {
+    "template": "Which control should the agent activate next?",
+    "state_kind": "a web page as an accessibility tree rendered as compact JSON (role/name nodes): 2-32 records, each an opaque link control labelled 'Open <4-digit reference>' beside the record's Site, Owner and Status",
+    "answer_meaning": "the ONE link control that belongs to the record the instructions name (the record whose named attribute equals the quoted value); the options are the page's link labels, and exactly one record on the page carries that value"
+  },
+  "d14.click_instructions": {
+    "template": "Open the record whose {attr} is '{value}'. Pick the control that belongs to that record.",
+    "state_kind": "a web page as an accessibility tree rendered as compact JSON; {attr} is one of Site, Owner, Status and {value} is that attribute's exact value for one record",
+    "answer_meaning": "names the target record by one attribute value; the value must be kept verbatim and in quotes, and the wording must not name or describe any control, reference number or position"
+  },
+  "d14.goal_question": {
+    "template": "Is the goal already satisfied on this page?",
+    "state_kind": "a web page as an accessibility tree rendered as compact JSON; the page is one of several layouts (search results, article, settings form, navigation menu, data table, wizard, modal dialog, paginated table)",
+    "answer_meaning": "yes if the page as it stands already shows what the goal describes, no if another navigation step is needed; a judgement about THIS page's structure, not about whether the goal is reachable or about the page title"
+  },
+  "d14.goal_instructions": {
+    "template": "The goal is to reach a page that shows {want}.",
+    "state_kind": "a web page as an accessibility tree rendered as compact JSON; {want} is a description of a page layout's content (e.g. 'a table of records with column headers')",
+    "answer_meaning": "states the navigation goal; {want} must be kept verbatim and no layout, title or role name may be added"
+  },
+  "d14.field_question": {
+    "template": "Which field should receive this value?",
+    "state_kind": "a settings page as an accessibility tree rendered as compact JSON: a form of 1-8 named sections, each holding the same set of 2-20 textboxes, each textbox declaring the kind of value it expects (date, email address, postcode, amount in GBP, ...)",
+    "answer_meaning": "the ONE textbox, by its accessible name, that is in the section the instructions name AND expects the kind of value given; the options are the textbox names in document order"
+  },
+  "d14.field_instructions": {
+    "template": "The value to enter is '{value}'. It belongs in the {section} section of the form.",
+    "state_kind": "a settings page as an accessibility tree rendered as compact JSON; {value} is a literal value whose kind must be recognised from its shape, {section} is the name of one form section",
+    "answer_meaning": "gives the value to enter and the section it belongs in; both must be kept verbatim, and the wording must NOT name the value's kind (e.g. must not say 'this email address' or 'the date'), since recognising the kind is half the task"
+  }
+}

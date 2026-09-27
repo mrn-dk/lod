@@ -1,0 +1,27 @@
+{
+  "d19.pick": {
+    "template": "Which of these cover plans can the depot actually run?",
+    "state_kind": "one week's shift roster for a site, rendered as tables (roster), day blocks (calendar) or an email thread: numbered shifts in running order with any certification required, each person's certifications, each person's absences by shift number, and any shifts already booked. The roster policy (two coupling rule types) is in the instructions, not the state",
+    "answer_meaning": "the ONLY option that is a complete plan (one person per shift, in shift-number order) breaking none of the policy rules listed in the instructions; every option already respects certifications and absences, so exactly one plan satisfies ALL of the rules and every other option breaks at least one"
+  },
+  "d19.culprit": {
+    "template": "Which of these rules is the one that, lifted on its own with every other rule kept, would let this week be covered?",
+    "state_kind": "one week's shift roster for a site (roster tables, calendar day blocks or email thread): numbered shifts, certifications required and held, absences by shift number; the options ARE the rules agreed for the week",
+    "answer_meaning": "the one rule among the options which, if lifted while every other listed rule is kept, would make a valid roster possible; with all the listed rules together no valid roster exists, and lifting any OTHER single rule still leaves none. Not 'the strictest rule' or 'the rule broken most often' -- exactly the unique rule whose removal alone restores feasibility"
+  },
+  "d19.grant": {
+    "template": "Which one of these requests can still be granted?",
+    "state_kind": "one week's shift roster for a site (roster tables, calendar day blocks or email thread) with one or two shifts already booked; numbered shifts, certifications, absences by shift number. The roster policy is in the instructions",
+    "answer_meaning": "the ONLY request (one named person on one still-open shift) that, if booked on top of the shifts already booked, still leaves the remaining open shifts fillable under ALL of the policy rules; every request is locally allowed (person free and certified), and every other request makes the rest of the week impossible"
+  },
+  "d19.move": {
+    "template": "Which other shift has to change hands?",
+    "state_kind": "one week's shift roster for a site (roster tables, calendar day blocks or email thread); the instructions give a complete current plan, name one person who now has to take one shift instead, and list the policy rules",
+    "answer_meaning": "the ONE shift, other than the one being reassigned, that can no longer stay with the person it is currently down to in ANY valid plan in which the named person takes the named shift -- i.e. it must change hands whatever else is rearranged; every other listed shift can keep its current person in at least one valid plan"
+  },
+  "d19.feasible": {
+    "template": "Can every shift this week be covered without breaking any of the rules?",
+    "state_kind": "one week's shift roster for a site (roster tables, calendar day blocks or email thread): numbered shifts, certifications required and held, absences by shift number, nothing booked. The roster policy is in the instructions",
+    "answer_meaning": "yes if there EXISTS at least one assignment of one available, certified person to EVERY shift that breaks none of the policy rules; no if every such assignment breaks at least one rule. Not 'is the current plan valid' and not 'can most shifts be covered'"
+  }
+}

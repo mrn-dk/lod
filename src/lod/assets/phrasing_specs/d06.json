@@ -1,0 +1,17 @@
+{
+  "d06.claim_supported": {
+    "template": "Is this claim supported by the evidence: {claim}",
+    "state_kind": "one or more Wikipedia evidence sentences, each prefixed by its page title ('Page: sentence', one per line); FEVER gold evidence or a retrieved sentence (fever_claim), or one revision of a Wikipedia sentence (vitaminc_claim)",
+    "answer_meaning": "yes if the evidence shown states or entails the claim, no if the evidence shown contradicts it or shows it false; if the evidence shown does neither, the question has no answer among the options and the claim is 'not in context' (no score target). Judged against the evidence in the state only, never against world knowledge; asks about THIS claim as written, not a paraphrase or a weaker version of it"
+  },
+  "d06.vitaminc_contrast": {
+    "template": "Reading revision {letter} only — Is this claim supported by the evidence: {claim}",
+    "state_kind": "two revisions (A and B) of the same Wikipedia sentence, each prefixed 'Revision A of <page>:' / 'Revision B of <page>:', separated by a blank line; four questions per state (two claims x two revisions)",
+    "answer_meaning": "yes if the named revision ALONE states or entails the claim, no if the named revision alone contradicts it; if the named revision does neither, the claim is 'not in context' (no score target). The other revision must be ignored for this question -- it is not 'supported by either revision' and not 'supported by the later revision'"
+  },
+  "d06.entity_fact": {
+    "template": "According to the record above, is this claim correct: {claim}?",
+    "state_kind": "a record of one fictional organisation (6-7 of: founded_in, headquartered_in, sector, employees, status, parent_organisation, charter_class, registry_number), rendered as JSON or as prose sentences",
+    "answer_meaning": "yes if the record gives the claimed attribute exactly the claimed value (exact match, not approximately), no if the record gives that attribute a different value; if the record does not give that attribute at all, the claim is 'not in context' (no score target) -- absent is never 'no'"
+  }
+}

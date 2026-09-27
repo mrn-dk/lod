@@ -1,0 +1,3604 @@
+{
+ "note": "method and path template only; no descriptions, summaries or schemas",
+ "apis": [
+  {
+   "api": "gambitcomm.local:mimic",
+   "licence": "Apache 2.0",
+   "url": "https://api.apis.guru/v2/specs/gambitcomm.local/mimic/21.00/openapi.json",
+   "operations": 356,
+   "kept": 40
+  },
+  {
+   "api": "maif.local:otoroshi",
+   "licence": "Apache 2.0",
+   "url": "https://api.apis.guru/v2/specs/maif.local/otoroshi/1.5.0-dev/openapi.json",
+   "operations": 102,
+   "kept": 40
+  },
+  {
+   "api": "apache.org",
+   "licence": "Apache 2.0",
+   "url": "https://api.apis.guru/v2/specs/apache.org/2.5.1/openapi.json",
+   "operations": 73,
+   "kept": 40
+  },
+  {
+   "api": "apicurio.local:registry",
+   "licence": "Apache 2.0",
+   "url": "https://api.apis.guru/v2/specs/apicurio.local/registry/2.4.x/openapi.json",
+   "operations": 64,
+   "kept": 40
+  },
+  {
+   "api": "box.com",
+   "licence": "Apache-2.0",
+   "url": "https://api.apis.guru/v2/specs/box.com/2.0.0/openapi.json",
+   "operations": 258,
+   "kept": 40
+  },
+  {
+   "api": "twilio.com:twilio_trunking_v1",
+   "licence": "Apache 2.0",
+   "url": "https://api.apis.guru/v2/specs/twilio.com/twilio_trunking_v1/1.42.0/openapi.json",
+   "operations": 24,
+   "kept": 24
+  },
+  {
+   "api": "twilio.com:twilio_proxy_v1",
+   "licence": "Apache 2.0",
+   "url": "https://api.apis.guru/v2/specs/twilio.com/twilio_proxy_v1/1.42.0/openapi.json",
+   "operations": 30,
+   "kept": 23
+  },
+  {
+   "api": "twilio.com:twilio_ip_messaging_v1",
+   "licence": "Apache 2.0",
+   "url": "https://api.apis.guru/v2/specs/twilio.com/twilio_ip_messaging_v1/1.42.0/openapi.json",
+   "operations": 40,
+   "kept": 32
+  },
+  {
+   "api": "apache.org:airflow",
+   "licence": "Apache 2.0",
+   "url": "https://api.apis.guru/v2/specs/apache.org/airflow/2.5.1/openapi.json",
+   "operations": 73,
+   "kept": 40
+  },
+  {
+   "api": "github.com:ghes-2.20",
+   "licence": "MIT",
+   "url": "https://api.apis.guru/v2/specs/github.com/ghes-2.20/1.1.4/openapi.json",
+   "operations": 521,
+   "kept": 40
+  },
+  {
+   "api": "twilio.com:twilio_taskrouter_v1",
+   "licence": "Apache 2.0",
+   "url": "https://api.apis.guru/v2/specs/twilio.com/twilio_taskrouter_v1/1.42.0/openapi.json",
+   "operations": 60,
+   "kept": 40
+  },
+  {
+   "api": "telnyx.com",
+   "licence": "MIT",
+   "url": "https://api.apis.guru/v2/specs/telnyx.com/2.0.0/openapi.json",
+   "operations": 361,
+   "kept": 40
+  }
+ ],
+ "calls": [
+  {
+   "method": "POST",
+   "path": "/mimic/access/add/{user}/{agents}/{mask}",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "DELETE",
+   "path": "/mimic/access/del/{user}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "PUT",
+   "path": "/mimic/clear/{firstAgentNum}/{lastAgentNum}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "GET",
+   "path": "/mimic/agent/{agentNum}/value/mib/{object}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "POST",
+   "path": "/mimic/agent/{agentNum}/add/{IP}",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "DELETE",
+   "path": "/mimic/agent/{agentNum}/remove",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "PUT",
+   "path": "/mimic/store/lreplace/{var}/{index}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "GET",
+   "path": "/mimic/access/get/admindir",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "PUT",
+   "path": "/mimic/agent/{agentNum}/stop",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "GET",
+   "path": "/mimic/access/get/adminuser",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "PUT",
+   "path": "/mimic/agent/{agentNum}/store/unset/{var}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "GET",
+   "path": "/mimic/agent/{agentNum}/get/protocol",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "PUT",
+   "path": "/mimic/load/{cfgFile}/{firstAgentNum}/{lastAgentNum}/{startAgentNum}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "GET",
+   "path": "/mimic/get/configured_list",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "PUT",
+   "path": "/mimic/agent/{agentNum}/set/oiddir/{oiddir}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "GET",
+   "path": "/mimic/mget/{infoArray}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "PUT",
+   "path": "/mimic/agent/{agentNum}/set/write/{write}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "GET",
+   "path": "/mimic/get/changed_state_list",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "PUT",
+   "path": "/mimic/store/set/{var}/{persist}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "GET",
+   "path": "/mimic/agent/{agentNum}/get/start",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "PUT",
+   "path": "/mimic/agent/{agentNum}/set/owner/{owner}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "GET",
+   "path": "/mimic/protocol/msg/ssh/get/stats_hdr",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "PUT",
+   "path": "/mimic/agent/{agentNum}/start",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "GET",
+   "path": "/mimic/store/persists/{var}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "PUT",
+   "path": "/mimic/agent/{agentNum}/set/interface/{interface}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "GET",
+   "path": "/mimic/agent/{agentNum}/get/read",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "PUT",
+   "path": "/mimic/store/unset/{var}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "GET",
+   "path": "/mimic/get/log",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "PUT",
+   "path": "/mimic/agent/{agentNum}/resume",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "GET",
+   "path": "/mimic/protocol/msg/snmptcp/get/stats_hdr",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "PUT",
+   "path": "/mimic/agent/{agentNum}/set/drops/{drops}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "GET",
+   "path": "/mimic/protocol/msg/proxy/get/stats_hdr",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "PUT",
+   "path": "/mimic/agent/{agentNum}/set/inform_timeout/{inform_timeout}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "GET",
+   "path": "/mimic/get/cfgfile",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "PUT",
+   "path": "/mimic/agent/{agentNum}/value/mset",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "GET",
+   "path": "/mimic/agent/{agentNum}/value/mget/{objInsVarArray}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "PUT",
+   "path": "/mimic/agent/{agentNum}/value/munset",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "GET",
+   "path": "/mimic/agent/{agentNum}/get/changed",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "PUT",
+   "path": "/mimic/access/set/acldb/{databaseName}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "GET",
+   "path": "/mimic/agent/{agentNum}/store/exists/{var}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "gambitcomm.local:mimic"
+  },
+  {
+   "method": "POST",
+   "path": "/api/services/{serviceId}/targets",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "DELETE",
+   "path": "/api/groups/{groupId}/apikeys/{clientId}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "PUT",
+   "path": "/api/services/{serviceId}/template",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "GET",
+   "path": "/new/apikey",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "POST",
+   "path": "/api/services/{serviceId}/template",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "DELETE",
+   "path": "/api/certificates/{id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "PATCH",
+   "path": "/api/groups/{serviceGroupId}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "GET",
+   "path": "/api/services/{serviceId}/apikeys/{clientId}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "POST",
+   "path": "/api/client-validators",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "DELETE",
+   "path": "/api/services/{serviceId}/template",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "PATCH",
+   "path": "/api/services/{serviceId}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "GET",
+   "path": "/api/certificates",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "POST",
+   "path": "/api/scripts/_compile",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "DELETE",
+   "path": "/api/verifiers/{verifierId}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "PUT",
+   "path": "/api/scripts/{scriptId}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "GET",
+   "path": "/api/client-validators",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "POST",
+   "path": "/api/services/{serviceId}/apikeys",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "DELETE",
+   "path": "/api/services/{serviceId}/targets",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "PATCH",
+   "path": "/api/services/{serviceId}/targets",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "GET",
+   "path": "/api/data-exporter-configs/_template",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "POST",
+   "path": "/api/services",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "DELETE",
+   "path": "/api/scripts/{scriptId}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "PUT",
+   "path": "/api/services/{serviceId}/apikeys/{clientId}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "GET",
+   "path": "/api/snowmonkey/config",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "POST",
+   "path": "/api/import",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "DELETE",
+   "path": "/api/services/{serviceId}/apikeys/{clientId}/quotas",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "PUT",
+   "path": "/api/snowmonkey/config",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "GET",
+   "path": "/api/client-validators/{id}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "POST",
+   "path": "/api/groups/{groupId}/apikeys",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "DELETE",
+   "path": "/api/groups/{groupId}/apikeys/{clientId}/quotas",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "PUT",
+   "path": "/api/services/{serviceId}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "GET",
+   "path": "/api/verifiers/{verifierId}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "POST",
+   "path": "/api/data-exporter-configs/_bulk",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "DELETE",
+   "path": "/api/groups/{serviceGroupId}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "PATCH",
+   "path": "/api/groups/{groupId}/apikeys/{clientId}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "GET",
+   "path": "/api/data-exporter-configs/{dataExporterConfigId}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "POST",
+   "path": "/api/groups",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "DELETE",
+   "path": "/api/services/{serviceId}/apikeys/{clientId}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "PUT",
+   "path": "/api/data-exporter-configs/{dataExporterConfigId}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "GET",
+   "path": "/new/service",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "maif.local:otoroshi"
+  },
+  {
+   "method": "POST",
+   "path": "/roles",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "everything",
+   "api": "apache.org"
+  },
+  {
+   "method": "DELETE",
+   "path": "/pools/{pool_name}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org"
+  },
+  {
+   "method": "PATCH",
+   "path": "/pools/{pool_name}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org"
+  },
+  {
+   "method": "GET",
+   "path": "/version",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "everything",
+   "api": "apache.org"
+  },
+  {
+   "method": "POST",
+   "path": "/dags/~/dagRuns/list",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apache.org"
+  },
+  {
+   "method": "DELETE",
+   "path": "/roles/{role_name}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org"
+  },
+  {
+   "method": "PATCH",
+   "path": "/dags/{dag_id}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org"
+  },
+  {
+   "method": "GET",
+   "path": "/plugins",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "everything",
+   "api": "apache.org"
+  },
+  {
+   "method": "POST",
+   "path": "/dags/{dag_id}/dagRuns/{dag_run_id}/clear",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apache.org"
+  },
+  {
+   "method": "DELETE",
+   "path": "/users/{username}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org"
+  },
+  {
+   "method": "PATCH",
+   "path": "/connections/{connection_id}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org"
+  },
+  {
+   "method": "GET",
+   "path": "/dags/{dag_id}/dagRuns",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "apache.org"
+  },
+  {
+   "method": "POST",
+   "path": "/dags/~/dagRuns/~/taskInstances/list",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apache.org"
+  },
+  {
+   "method": "DELETE",
+   "path": "/dags/{dag_id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org"
+  },
+  {
+   "method": "PATCH",
+   "path": "/roles/{role_name}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org"
+  },
+  {
+   "method": "GET",
+   "path": "/importErrors",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "everything",
+   "api": "apache.org"
+  },
+  {
+   "method": "POST",
+   "path": "/dags/{dag_id}/updateTaskInstancesState",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apache.org"
+  },
+  {
+   "method": "DELETE",
+   "path": "/variables/{variable_key}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org"
+  },
+  {
+   "method": "PATCH",
+   "path": "/dags/{dag_id}/dagRuns/{dag_run_id}/setNote",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apache.org"
+  },
+  {
+   "method": "GET",
+   "path": "/dags",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "everything",
+   "api": "apache.org"
+  },
+  {
+   "method": "POST",
+   "path": "/variables",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "everything",
+   "api": "apache.org"
+  },
+  {
+   "method": "DELETE",
+   "path": "/dags/{dag_id}/dagRuns/{dag_run_id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org"
+  },
+  {
+   "method": "PATCH",
+   "path": "/dags/{dag_id}/dagRuns/{dag_run_id}/taskInstances/{task_id}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org"
+  },
+  {
+   "method": "GET",
+   "path": "/users",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "everything",
+   "api": "apache.org"
+  },
+  {
+   "method": "POST",
+   "path": "/connections/test",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apache.org"
+  },
+  {
+   "method": "DELETE",
+   "path": "/connections/{connection_id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org"
+  },
+  {
+   "method": "PATCH",
+   "path": "/dags/{dag_id}/dagRuns/{dag_run_id}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org"
+  },
+  {
+   "method": "GET",
+   "path": "/connections",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "everything",
+   "api": "apache.org"
+  },
+  {
+   "method": "POST",
+   "path": "/users",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "everything",
+   "api": "apache.org"
+  },
+  {
+   "method": "PATCH",
+   "path": "/variables/{variable_key}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org"
+  },
+  {
+   "method": "GET",
+   "path": "/dags/{dag_id}/tasks/{task_id}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "apache.org"
+  },
+  {
+   "method": "POST",
+   "path": "/dags/{dag_id}/clearTaskInstances",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apache.org"
+  },
+  {
+   "method": "PATCH",
+   "path": "/users/{username}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org"
+  },
+  {
+   "method": "GET",
+   "path": "/users/{username}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "apache.org"
+  },
+  {
+   "method": "POST",
+   "path": "/pools",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "everything",
+   "api": "apache.org"
+  },
+  {
+   "method": "PATCH",
+   "path": "/dags",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "everything",
+   "api": "apache.org"
+  },
+  {
+   "method": "GET",
+   "path": "/variables",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "everything",
+   "api": "apache.org"
+  },
+  {
+   "method": "POST",
+   "path": "/dags/{dag_id}/dagRuns",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "apache.org"
+  },
+  {
+   "method": "GET",
+   "path": "/dagWarnings",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "everything",
+   "api": "apache.org"
+  },
+  {
+   "method": "POST",
+   "path": "/connections",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "everything",
+   "api": "apache.org"
+  },
+  {
+   "method": "POST",
+   "path": "/groups/{groupId}/artifacts/{artifactId}/meta",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "DELETE",
+   "path": "/groups/{groupId}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "PUT",
+   "path": "/groups/{groupId}/artifacts/{artifactId}/owner",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "GET",
+   "path": "/groups/{groupId}/artifacts/{artifactId}/rules/{rule}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "POST",
+   "path": "/groups/{groupId}/artifacts/{artifactId}/versions",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "DELETE",
+   "path": "/admin/rules",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "PUT",
+   "path": "/admin/rules/{rule}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "GET",
+   "path": "/ids/contentIds/{contentId}/",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "POST",
+   "path": "/groups/{groupId}/artifacts",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "DELETE",
+   "path": "/groups/{groupId}/artifacts",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "PUT",
+   "path": "/groups/{groupId}/artifacts/{artifactId}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "GET",
+   "path": "/groups/{groupId}/artifacts/{artifactId}/owner",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "POST",
+   "path": "/admin/import",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "DELETE",
+   "path": "/admin/loggers/{logger}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "PUT",
+   "path": "/admin/roleMappings/{principalId}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "GET",
+   "path": "/groups/{groupId}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "POST",
+   "path": "/groups/{groupId}/artifacts/{artifactId}/rules",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "DELETE",
+   "path": "/groups/{groupId}/artifacts/{artifactId}/rules",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "PUT",
+   "path": "/groups/{groupId}/artifacts/{artifactId}/test",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "GET",
+   "path": "/ids/contentHashes/{contentHash}/references",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "POST",
+   "path": "/admin/roleMappings",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "DELETE",
+   "path": "/groups/{groupId}/artifacts/{artifactId}/rules/{rule}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "PUT",
+   "path": "/admin/loggers/{logger}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "GET",
+   "path": "/groups/{groupId}/artifacts/{artifactId}/versions",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "POST",
+   "path": "/groups",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "everything",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "DELETE",
+   "path": "/groups/{groupId}/artifacts/{artifactId}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "PUT",
+   "path": "/admin/config/properties/{propertyName}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "GET",
+   "path": "/groups/{groupId}/artifacts/{artifactId}/meta",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "POST",
+   "path": "/admin/rules",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "DELETE",
+   "path": "/admin/roleMappings/{principalId}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "PUT",
+   "path": "/groups/{groupId}/artifacts/{artifactId}/state",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "GET",
+   "path": "/ids/contentHashes/{contentHash}/",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "POST",
+   "path": "/search/artifacts",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "DELETE",
+   "path": "/admin/config/properties/{propertyName}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "PUT",
+   "path": "/groups/{groupId}/artifacts/{artifactId}/meta",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "GET",
+   "path": "/ids/contentIds/{contentId}/references",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "DELETE",
+   "path": "/admin/rules/{rule}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "PUT",
+   "path": "/groups/{groupId}/artifacts/{artifactId}/rules/{rule}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "GET",
+   "path": "/groups/{groupId}/artifacts/{artifactId}/rules",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "GET",
+   "path": "/admin/roleMappings/{principalId}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "apicurio.local:registry"
+  },
+  {
+   "method": "POST",
+   "path": "/web_links/{web_link_id}",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "box.com"
+  },
+  {
+   "method": "DELETE",
+   "path": "/files/{file_id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "box.com"
+  },
+  {
+   "method": "PUT",
+   "path": "/folders/{folder_id}/metadata/{scope}/{template_key}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "box.com"
+  },
+  {
+   "method": "GET",
+   "path": "/metadata_templates/enterprise/securityClassification-6VMVochwUWo/schema",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "box.com"
+  },
+  {
+   "method": "POST",
+   "path": "/users/{user_id}/avatar",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "box.com"
+  },
+  {
+   "method": "DELETE",
+   "path": "/web_links/{web_link_id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "box.com"
+  },
+  {
+   "method": "PUT",
+   "path": "/group_memberships/{group_membership_id}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "box.com"
+  },
+  {
+   "method": "GET",
+   "path": "/workflows",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "everything",
+   "api": "box.com"
+  },
+  {
+   "method": "POST",
+   "path": "/terms_of_service_user_statuses",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "everything",
+   "api": "box.com"
+  },
+  {
+   "method": "DELETE",
+   "path": "/collaborations/{collaboration_id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "box.com"
+  },
+  {
+   "method": "PUT",
+   "path": "/webhooks/{webhook_id}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "box.com"
+  },
+  {
+   "method": "GET",
+   "path": "/authorize",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "everything",
+   "api": "box.com"
+  },
+  {
+   "method": "POST",
+   "path": "/groups",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "everything",
+   "api": "box.com"
+  },
+  {
+   "method": "DELETE",
+   "path": "/task_assignments/{task_assignment_id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "box.com"
+  },
+  {
+   "method": "PUT",
+   "path": "/task_assignments/{task_assignment_id}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "box.com"
+  },
+  {
+   "method": "GET",
+   "path": "/users/{user_id}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "box.com"
+  },
+  {
+   "method": "POST",
+   "path": "/files/{file_id}/metadata/global/boxSkillsCards",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "box.com"
+  },
+  {
+   "method": "DELETE",
+   "path": "/web_links/{web_link_id}/trash",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "box.com"
+  },
+  {
+   "method": "PUT",
+   "path": "/files/{file_id}#remove_shared_link",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "box.com"
+  },
+  {
+   "method": "GET",
+   "path": "/files/upload_sessions/{upload_session_id}/parts",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "box.com"
+  },
+  {
+   "method": "POST",
+   "path": "/files/{file_id}/versions/current",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "box.com"
+  },
+  {
+   "method": "DELETE",
+   "path": "/metadata_cascade_policies/{metadata_cascade_policy_id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "box.com"
+  },
+  {
+   "method": "PUT",
+   "path": "/storage_policy_assignments/{storage_policy_assignment_id}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "box.com"
+  },
+  {
+   "method": "GET",
+   "path": "/shield_information_barrier_segment_members",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "everything",
+   "api": "box.com"
+  },
+  {
+   "method": "POST",
+   "path": "/shield_information_barriers/change_status",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "box.com"
+  },
+  {
+   "method": "DELETE",
+   "path": "/groups/{group_id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "box.com"
+  },
+  {
+   "method": "PUT",
+   "path": "/metadata_templates/enterprise/securityClassification-6VMVochwUWo/schema#add",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "box.com"
+  },
+  {
+   "method": "GET",
+   "path": "/retention_policies/{retention_policy_id}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "box.com"
+  },
+  {
+   "method": "POST",
+   "path": "/webhooks",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "everything",
+   "api": "box.com"
+  },
+  {
+   "method": "DELETE",
+   "path": "/storage_policy_assignments/{storage_policy_assignment_id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "box.com"
+  },
+  {
+   "method": "PUT",
+   "path": "/users/{user_id}/folders/0",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "box.com"
+  },
+  {
+   "method": "GET",
+   "path": "/users/{user_id}/email_aliases",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "box.com"
+  },
+  {
+   "method": "POST",
+   "path": "/files/{file_id}/metadata/enterprise/securityClassification-6VMVochwUWo",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "box.com"
+  },
+  {
+   "method": "DELETE",
+   "path": "/retention_policies/{retention_policy_id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "box.com"
+  },
+  {
+   "method": "PUT",
+   "path": "/file_requests/{file_request_id}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "box.com"
+  },
+  {
+   "method": "GET",
+   "path": "/users/{user_id}/avatar",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "box.com"
+  },
+  {
+   "method": "POST",
+   "path": "/collaboration_whitelist_entries",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "everything",
+   "api": "box.com"
+  },
+  {
+   "method": "DELETE",
+   "path": "/group_memberships/{group_membership_id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "box.com"
+  },
+  {
+   "method": "PUT",
+   "path": "/files/{file_id}/metadata/enterprise/securityClassification-6VMVochwUWo",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "box.com"
+  },
+  {
+   "method": "GET",
+   "path": "/files/{file_id}/comments",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "box.com"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Trunks",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_trunking_v1"
+  },
+  {
+   "method": "DELETE",
+   "path": "/v1/Trunks/{TrunkSid}/PhoneNumbers/{Sid}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_trunking_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Trunks",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_trunking_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Trunks/{TrunkSid}/PhoneNumbers",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_trunking_v1"
+  },
+  {
+   "method": "DELETE",
+   "path": "/v1/Trunks/{TrunkSid}/CredentialLists/{Sid}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_trunking_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Trunks/{TrunkSid}/PhoneNumbers/{Sid}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_trunking_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Trunks/{TrunkSid}/IpAccessControlLists",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_trunking_v1"
+  },
+  {
+   "method": "DELETE",
+   "path": "/v1/Trunks/{TrunkSid}/OriginationUrls/{Sid}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_trunking_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Trunks/{TrunkSid}/CredentialLists",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_trunking_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Trunks/{TrunkSid}/OriginationUrls",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_trunking_v1"
+  },
+  {
+   "method": "DELETE",
+   "path": "/v1/Trunks/{Sid}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_trunking_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Trunks/{TrunkSid}/Recording",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_trunking_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Trunks/{TrunkSid}/CredentialLists",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_trunking_v1"
+  },
+  {
+   "method": "DELETE",
+   "path": "/v1/Trunks/{TrunkSid}/IpAccessControlLists/{Sid}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_trunking_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Trunks/{TrunkSid}/OriginationUrls/{Sid}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_trunking_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Trunks/{Sid}",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_trunking_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Trunks/{TrunkSid}/CredentialLists/{Sid}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_trunking_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Trunks/{TrunkSid}/Recording",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_trunking_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Trunks/{TrunkSid}/IpAccessControlLists",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_trunking_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Trunks/{TrunkSid}/OriginationUrls/{Sid}",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_trunking_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Trunks/{TrunkSid}/OriginationUrls",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_trunking_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Trunks/{Sid}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_trunking_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Trunks/{TrunkSid}/PhoneNumbers",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_trunking_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Trunks/{TrunkSid}/IpAccessControlLists/{Sid}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_trunking_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Services/{ServiceSid}/PhoneNumbers",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_proxy_v1"
+  },
+  {
+   "method": "DELETE",
+   "path": "/v1/Services/{ServiceSid}/ShortCodes/{Sid}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_proxy_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Services/{ServiceSid}/PhoneNumbers",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_proxy_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Services/{ServiceSid}/Sessions",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_proxy_v1"
+  },
+  {
+   "method": "DELETE",
+   "path": "/v1/Services/{ServiceSid}/Sessions/{Sid}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_proxy_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Services",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_proxy_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Services/{ServiceSid}/PhoneNumbers/{Sid}",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_proxy_v1"
+  },
+  {
+   "method": "DELETE",
+   "path": "/v1/Services/{Sid}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_proxy_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Services/{Sid}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_proxy_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Services/{ServiceSid}/ShortCodes",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_proxy_v1"
+  },
+  {
+   "method": "DELETE",
+   "path": "/v1/Services/{ServiceSid}/PhoneNumbers/{Sid}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_proxy_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Services/{ServiceSid}/Sessions/{Sid}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_proxy_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Services",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_proxy_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Services/{ServiceSid}/Sessions",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_proxy_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Services/{ServiceSid}/Sessions/{Sid}",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_proxy_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Services/{ServiceSid}/Sessions/{SessionSid}/Participants",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_proxy_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Services/{ServiceSid}/ShortCodes/{Sid}",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_proxy_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Services/{ServiceSid}/ShortCodes",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_proxy_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Services/{Sid}",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_proxy_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Services/{ServiceSid}/PhoneNumbers/{Sid}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_proxy_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Services/{ServiceSid}/Sessions/{SessionSid}/Participants",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_proxy_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Services/{ServiceSid}/ShortCodes/{Sid}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_proxy_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Services/{ServiceSid}/Sessions/{SessionSid}/Interactions",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_proxy_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Credentials",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "DELETE",
+   "path": "/v1/Services/{ServiceSid}/Users/{Sid}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Services/{ServiceSid}/Channels/{ChannelSid}/Invites",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Services/{ServiceSid}/Channels/{Sid}",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "DELETE",
+   "path": "/v1/Services/{Sid}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Services/{ServiceSid}/Roles",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Services/{ServiceSid}/Channels",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "DELETE",
+   "path": "/v1/Credentials/{Sid}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Credentials",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Services/{Sid}",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "DELETE",
+   "path": "/v1/Services/{ServiceSid}/Channels/{Sid}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Services",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Credentials/{Sid}",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "DELETE",
+   "path": "/v1/Services/{ServiceSid}/Roles/{Sid}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Services/{ServiceSid}/Channels",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Services/{ServiceSid}/Channels/{ChannelSid}/Members",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Services/{Sid}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Services/{ServiceSid}/Users/{Sid}",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Services/{ServiceSid}/Users/{UserSid}/Channels",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Services/{ServiceSid}/Roles/{Sid}",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Services/{ServiceSid}/Channels/{ChannelSid}/Messages",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Services/{ServiceSid}/Users",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Services/{ServiceSid}/Channels/{ChannelSid}/Members",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Services/{ServiceSid}/Roles",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Services/{ServiceSid}/Users/{Sid}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Services/{ServiceSid}/Channels/{ChannelSid}/Invites",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Services/{ServiceSid}/Users",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Services",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Services/{ServiceSid}/Roles/{Sid}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Services/{ServiceSid}/Channels/{ChannelSid}/Messages",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Services/{ServiceSid}/Channels/{Sid}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Credentials/{Sid}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_ip_messaging_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/dags/{dag_id}/clearTaskInstances",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "DELETE",
+   "path": "/dags/{dag_id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "PATCH",
+   "path": "/users/{username}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "GET",
+   "path": "/providers",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "everything",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "POST",
+   "path": "/dags/{dag_id}/dagRuns/{dag_run_id}/clear",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "DELETE",
+   "path": "/users/{username}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "PATCH",
+   "path": "/dags",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "everything",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "GET",
+   "path": "/datasets/events",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "POST",
+   "path": "/dags/{dag_id}/dagRuns",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "DELETE",
+   "path": "/connections/{connection_id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "PATCH",
+   "path": "/dags/{dag_id}/dagRuns/{dag_run_id}/taskInstances/{task_id}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "GET",
+   "path": "/dags/{dag_id}/dagRuns/{dag_run_id}/taskInstances",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "POST",
+   "path": "/variables",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "everything",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "DELETE",
+   "path": "/dags/{dag_id}/dagRuns/{dag_run_id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "PATCH",
+   "path": "/dags/{dag_id}/dagRuns/{dag_run_id}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "GET",
+   "path": "/pools",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "everything",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "POST",
+   "path": "/roles",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "everything",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "DELETE",
+   "path": "/variables/{variable_key}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "PATCH",
+   "path": "/connections/{connection_id}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "GET",
+   "path": "/pools/{pool_name}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "POST",
+   "path": "/dags/{dag_id}/updateTaskInstancesState",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "DELETE",
+   "path": "/pools/{pool_name}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "PATCH",
+   "path": "/roles/{role_name}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "GET",
+   "path": "/datasets/{uri}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "POST",
+   "path": "/users",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "everything",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "DELETE",
+   "path": "/roles/{role_name}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "PATCH",
+   "path": "/variables/{variable_key}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "GET",
+   "path": "/variables/{variable_key}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "POST",
+   "path": "/pools",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "everything",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "PATCH",
+   "path": "/dags/{dag_id}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "GET",
+   "path": "/plugins",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "everything",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "POST",
+   "path": "/dags/~/dagRuns/~/taskInstances/list",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "PATCH",
+   "path": "/pools/{pool_name}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "GET",
+   "path": "/dags/{dag_id}/dagRuns/{dag_run_id}/taskInstances/{task_id}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "POST",
+   "path": "/connections/test",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "PATCH",
+   "path": "/dags/{dag_id}/dagRuns/{dag_run_id}/setNote",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "GET",
+   "path": "/dags/{dag_id}/tasks",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "POST",
+   "path": "/dags/~/dagRuns/list",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "GET",
+   "path": "/importErrors/{import_error_id}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "POST",
+   "path": "/connections",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "everything",
+   "api": "apache.org:airflow"
+  },
+  {
+   "method": "POST",
+   "path": "/admin/users/{username}/authorizations",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "DELETE",
+   "path": "/repos/{owner}/{repo}/contents/{path}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "PATCH",
+   "path": "/repos/{owner}/{repo}/releases/{release_id}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "GET",
+   "path": "/enterprise/stats/hooks",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "POST",
+   "path": "/teams/{team_id}/discussions/{discussion_number}/comments",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "DELETE",
+   "path": "/teams/{team_id}/memberships/{username}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "PUT",
+   "path": "/repos/{owner}/{repo}/pulls/{pull_number}/merge",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "GET",
+   "path": "/repos/{owner}/{repo}/issues",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "POST",
+   "path": "/admin/pre-receive-hooks",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "DELETE",
+   "path": "/admin/keys/{key_ids}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "PATCH",
+   "path": "/projects/columns/{column_id}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "GET",
+   "path": "/repos/{owner}/{repo}/issues/comments/{comment_id}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "POST",
+   "path": "/authorizations",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "everything",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "DELETE",
+   "path": "/repos/{owner}/{repo}/milestones/{milestone_number}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "PATCH",
+   "path": "/repos/{owner}/{repo}/releases/assets/{asset_id}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "GET",
+   "path": "/user/starred/{owner}/{repo}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "POST",
+   "path": "/orgs/{org}/teams",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "DELETE",
+   "path": "/repos/{owner}/{repo}/hooks/{hook_id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "PATCH",
+   "path": "/gists/{gist_id}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "GET",
+   "path": "/repos/{owner}/{repo}/pulls/comments",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "POST",
+   "path": "/repos/{owner}/{repo}/releases/{release_id}/assets",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "DELETE",
+   "path": "/applications/{client_id}/grants/{access_token}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "PATCH",
+   "path": "/admin/ldap/teams/{team_id}/mapping",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "GET",
+   "path": "/teams/{team_id}/discussions/{discussion_number}/comments/{comment_number}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "POST",
+   "path": "/user/emails",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "DELETE",
+   "path": "/orgs/{org}/memberships/{username}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "PUT",
+   "path": "/repos/{owner}/{repo}/subscription",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "GET",
+   "path": "/repos/{owner}/{repo}/issues/{issue_number}/reactions",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "POST",
+   "path": "/repos/{owner}/{repo}/hooks",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "DELETE",
+   "path": "/teams/{team_id}/projects/{project_id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "PATCH",
+   "path": "/user/memberships/orgs/{org}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "GET",
+   "path": "/events",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "everything",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "POST",
+   "path": "/admin/pre-receive-environments",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "DELETE",
+   "path": "/repos/{owner}/{repo}/issues/comments/{comment_id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "PUT",
+   "path": "/orgs/{org}/memberships/{username}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "GET",
+   "path": "/projects/columns/{column_id}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "POST",
+   "path": "/setup/api/maintenance",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "DELETE",
+   "path": "/repos/{owner}/{repo}/pulls/{pull_number}/requested_reviewers",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "PATCH",
+   "path": "/user",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "everything",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "GET",
+   "path": "/repos/{owner}/{repo}/commits/{ref}/statuses",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "github.com:ghes-2.20"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Workflows",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "DELETE",
+   "path": "/v1/Workspaces/{WorkspaceSid}/TaskQueues/{Sid}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Workers/Statistics",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Workers",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "DELETE",
+   "path": "/v1/Workspaces/{WorkspaceSid}/TaskChannels/{Sid}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Workspaces",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Activities",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "DELETE",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Workers/{Sid}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Workflows/{Sid}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Workspaces/{WorkspaceSid}/TaskQueues/{Sid}",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "DELETE",
+   "path": "/v1/Workspaces/{Sid}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Events",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Workspaces",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "DELETE",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Tasks/{Sid}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Workspaces/{WorkspaceSid}/TaskQueues/{Sid}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Workflows/{Sid}",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "DELETE",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Workflows/{Sid}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Workers/CumulativeStatistics",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Activities/{Sid}",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "DELETE",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Activities/{Sid}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Workspaces/{WorkspaceSid}/TaskChannels",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Workspaces/{WorkspaceSid}/TaskChannels",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Workspaces/{WorkspaceSid}/TaskQueues/{TaskQueueSid}/RealTimeStatistics",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Workspaces/{WorkspaceSid}/TaskChannels/{Sid}",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Workers/{Sid}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Workspaces/{WorkspaceSid}/TaskQueues",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Events/{Sid}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Tasks/{Sid}",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Tasks",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Tasks",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Workspaces/{WorkspaceSid}/TaskQueues/Statistics",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Workspaces/{Sid}",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Workers/RealTimeStatistics",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Workers/{Sid}",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Workers/{WorkerSid}/Statistics",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Activities/{Sid}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Workers/{WorkerSid}/Reservations",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Workers/{WorkerSid}/Channels",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Workflows",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "GET",
+   "path": "/v1/Workspaces/{WorkspaceSid}/Workflows/{WorkflowSid}/CumulativeStatistics",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_collection",
+   "api": "twilio.com:twilio_taskrouter_v1"
+  },
+  {
+   "method": "POST",
+   "path": "/media",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "everything",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "DELETE",
+   "path": "/billing_groups/{id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "PATCH",
+   "path": "/actions/bulk/telephony_credentials",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "GET",
+   "path": "/number_order_documents",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "everything",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "POST",
+   "path": "/sim_card_groups",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "everything",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "DELETE",
+   "path": "/verify_profiles/{verify_profile_id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "PATCH",
+   "path": "/sim_card_groups/{id}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "GET",
+   "path": "/number_block_orders",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "everything",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "POST",
+   "path": "/whatsapp_media",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "everything",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "DELETE",
+   "path": "/call_control_applications/{id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "PATCH",
+   "path": "/comments/{id}/read",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "GET",
+   "path": "/rooms/{room_id}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "POST",
+   "path": "/sim_cards/{id}/actions/set_standby",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "DELETE",
+   "path": "/ip_connections/{id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "PATCH",
+   "path": "/short_codes/{id}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "GET",
+   "path": "/verifications/{verification_id}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "POST",
+   "path": "/conferences/{id}/actions/unhold",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "DELETE",
+   "path": "/messaging_profiles/{id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "PATCH",
+   "path": "/notification_profiles/{id}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "GET",
+   "path": "/phone_numbers",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "everything",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "POST",
+   "path": "/porting_orders",
+   "effect": "append",
+   "restorable": "undo_command",
+   "blast": "everything",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "DELETE",
+   "path": "/whatsapp_media/{whatsapp_user_id}/{media_id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "PUT",
+   "path": "/actions/network_preferences/sim_cards",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "GET",
+   "path": "/texml_applications",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "everything",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "POST",
+   "path": "/calls/{call_control_id}/actions/fork_start",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "DELETE",
+   "path": "/notification_profiles/{id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "PATCH",
+   "path": "/phone_numbers/{id}/voice",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "GET",
+   "path": "/phone_numbers/{id}",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "one_item",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "POST",
+   "path": "/messaging_hosted_number_orders",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "everything",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "DELETE",
+   "path": "/addresses/{id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "PATCH",
+   "path": "/billing_groups/{id}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "GET",
+   "path": "/document_links",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "everything",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "POST",
+   "path": "/telephony_credentials/{id}/actions/{action}",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "DELETE",
+   "path": "/documents/{id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "PATCH",
+   "path": "/number_order_documents/{number_order_document_id}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "GET",
+   "path": "/managed_accounts",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "everything",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "POST",
+   "path": "/rooms/{room_id}/actions/refresh_client_token",
+   "effect": "append",
+   "restorable": "backup",
+   "blast": "one_collection",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "DELETE",
+   "path": "/sim_cards/{id}",
+   "effect": "delete",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "PATCH",
+   "path": "/number_order_phone_numbers/{number_order_phone_number_id}",
+   "effect": "overwrite",
+   "restorable": "backup",
+   "blast": "one_item",
+   "api": "telnyx.com"
+  },
+  {
+   "method": "GET",
+   "path": "/faxes",
+   "effect": "read",
+   "restorable": "none",
+   "blast": "everything",
+   "api": "telnyx.com"
+  }
+ ],
+ "dropped_unshaped": 309
+}
